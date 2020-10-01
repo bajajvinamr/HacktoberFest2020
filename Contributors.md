@@ -77,3 +77,7 @@ Name: [Mitarth Jain](https://github.com/mitarthjain)<br/>
 Place: India<br/>
 About: Competitive Coder<br/>
 <br/>
+Name: [Sagalpreet Singh](https://github.com/sagalpreet)<br/>
+Place: India<br/>
+About: Passionate about Open Source | Competitive Coder<br/>
+<br/>
