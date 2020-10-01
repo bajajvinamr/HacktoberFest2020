@@ -40,7 +40,7 @@ About: Hacktoberfest
 <br/>
 Name: [Tejas Agrawal](https://github.com/cyber-venom003)<br/>
 Place: India<br/>
-About: A developer rookie from Indian Institute of Information Technology, Allahabad. 
+About: A developer rookie from Indian Institute of Information Technology, Allahabad.
 <br/>
 Name: [Muhammad Azhar](https://github.com/muazhar)
 Place: Lahore, Pakistan
@@ -52,5 +52,9 @@ About: Just a normal Kid
 <br/>
 Name: [Niharika Kabra](https://github.com/feyre-2001)<br/>
 Place: India<br/>
-About: A developer rookie and machine learning enthusiast from Indian Institute of Information Technology, Lucknow. 
+About: A developer rookie and machine learning enthusiast from Indian Institute of Information Technology, Lucknow.
+<br/>
+Name: [Prastab Ghimire](https://github.com/Prastab)<br/>
+Place: Nepal<br/>
+About: Student and tech enthusiast<br/>
 <br/>
