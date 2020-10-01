@@ -1,2 +1,2 @@
-// Hello World! programme in JavaScript
+// Hello World! program in JavaScript
 document.write('Hello, World!');
