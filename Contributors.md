@@ -42,3 +42,8 @@ Name: [Tejas Agrawal](https://github.com/cyber-venom003)<br/>
 Place: India<br/>
 About: A developer rookie from Indian Institute of Information Technology, Allahabad. 
 <br/>
+
+Name: [Tejas Nikhar](https://github.com/tejastn10)</br>
+Place: India</br>
+About: Learner and loves open source</br>
+<br/>
