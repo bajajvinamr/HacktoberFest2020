@@ -34,3 +34,8 @@ Name: [Shubham Maurya](https://github.com/codeShaurya)<br/>
 Place: India<br/>
 About: Hacktoberfest
 <br/>
+
+Name: [Maniteja Pratha](https://github.com/Manitej66)<br/>
+Place: India<br/>
+About: Hacktoberfest
+<br/>
