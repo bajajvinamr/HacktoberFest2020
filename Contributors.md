@@ -26,3 +26,16 @@ Name: [Mansha Kaur](https://github.com/error400-del)<br/>
 Place: Canada<br/>
 About: I love open source <3 <br/>
 <br/>
+Name: [Venkata Raman](https://github.com/venkataraman123)<br/>
+Place: India<br/>
+About: Web developer and aspiring Machine learning engineer<br/>
+<br/>
+Name: [Shubham Maurya](https://github.com/codeShaurya)<br/>
+Place: India<br/>
+About: Hacktoberfest
+<br/>
+
+Name: [Maniteja Pratha](https://github.com/Manitej66)<br/>
+Place: India<br/>
+About: Hacktoberfest
+<br/>
