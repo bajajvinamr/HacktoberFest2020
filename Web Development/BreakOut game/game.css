@@ -1,0 +1,25 @@
+* { padding: 0; margin: 0; }
+
+canvas {
+	position: absolute;
+	width: 600px;
+	height: 400px;
+	left: 50%;
+	top: 50%;
+	margin-left: -300px; /* This is half the width */
+	margin-top: -200px; /* This is half the height */
+	border: 10px solid black;
+	z-index: 100;
+}
+
+.large-header{
+	display: inline-block;
+	position: absolute;
+	width: 600px;
+	height: 100px;
+	left: 50%;
+	top: 20%;
+	margin-left: -300px; /* This is half the width */
+	margin-top: -50px; /* This is half the height */
+	z-index: 100;
+}
