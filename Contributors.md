@@ -87,3 +87,8 @@ Name: [Sagalpreet Singh](https://github.com/sagalpreet)<br/>
 Place: India<br/>
 About: Passionate about open-source | Competitive Coder<br/>
 <br/>
+Name: [Mayank Grover](https://github.com/MayankG514)<br/>
+Place: India<br/>
+About: Student | Passionate about Data structures and algorithms<br/>
+<br/>
+
