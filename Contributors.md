@@ -9,3 +9,7 @@ About: MERN Stack Developer<br/>
 Name: [Priyanshu Bajaj](https://github.com/Priyanshuuuu)<br/>
 Place: India<br/>
 About: 11th grade student at BBPS Noida<br/>
+Name: [Anshul Garg](https://github.com/anshul0771)<br/>
+Place: India<br/>
+About: Sophomore at IIITL<br/>
+<br/>
