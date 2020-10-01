@@ -1,48 +1,35 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define int long long
+#define rep(i,a,b) for(int i = a; i < b; i++)
+#define lb(v, a) lower_bound(v.begin(), v.end(), a)
 
 
-#define ll long long int
-#define ull unsigned long long int
-#define po2(z) 1<<(ll)z
-#define fr(i,x,n) for(ll i=(ll)(x);i<(ll)(n);++i)
-#define rf(i,x,n) for(ll i=(ll)(x);i>=(ll)(n);--i)
-#define modinv(x) powah(x,mod-2)
-#define ncr(n,r) (((fact[n]*modinv(fact[n-r]))%mod*modinv(fact[r]))%mod)
-#define factorial fact.pb(1);sidha(i,1,MAX)fact.pb((fact[i-1]*i)%mod)
-#define TC ll test;cin>>test;while(test--)
-#define tej ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
-#define mod (ll)1000000007
-#define MAX 100005
-#define Vii  vector<ll>
-#define pb  push_back
-#define pii pair<ll,ll>
-#define ff  first
-#define ss second
-#define vpii vector<pii >
-#define endl '\n'
-
-
-//--------------------------------------------------//
-
-
-
-//--------------------------------------------------//
-
-
-int main(){
-  tej;
-  TC{
-  ll n;
-  cin>>n;
-  ll arr[n];
-  ll ans=0;
-  cin>>arr[0];
-  for(ll i=1;i<n;i++){
-  	cin>>arr[i];
-  	ans+=abs(arr[i]-arr[i-1])-1;
-  }
-  cout<<ans<<endl;
-  }
-
+void solve(){
+int n, ans, c=0; cin>>n;
+int arr[n]; rep(i,0,n) cin>>arr[i];
+if(arr[0]==1) ans=1;
+else ans=0;
+rep(i,1,n){
+        if(arr[i]==1)c++;
+        else{
+            if(c >=3){
+                while(c){
+                    c-=2;
+                    if(c>0) ans++, c--;
+                }
+            }
+            c=0;
+        }
+    }
+if(c>=3)while(c){
+    c-=2;
+if(c>0) ans++, c--;
+}
+    cout<<ans<<endl;
+}
+ 
+signed main(){
+    int t=1; cin>>t;
+    while(t--) solve();
 }
