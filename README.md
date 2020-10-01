@@ -6,7 +6,7 @@ Submit your pull request here for Hacktoberfest-2020 in any language you prefer,
 
 Hacktoberfest is a month long virtual festival event to celebrate open source contributions presented by DigitalOcean and DEV. It is the easiest way to get into open source!
 
-![image here](https://github.com/Shreyans13/Hacktoberfest-2019/blob/master/hacktober%20fest.png)
+![image here](https://github.com/bajajvinamr/HacktoberFest2020/blob/master/0.png)
 
 # Event details
 Hacktoberfest® is open to everyone in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.
