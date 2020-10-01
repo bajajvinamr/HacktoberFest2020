@@ -1,3 +1,7 @@
+Name: [Amrita Singha Roy](https://github.com/uzumakinaruto96)<br/>
+Place: India<br/>
+About: SDET in Infosys and I love learning new things<br/>
+<br/>
 Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
