@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteDetailActivity">
+
+    <EditText
+        android:id="@+id/title_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_the_title"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_weight="2"
+        />
+    <EditText
+        android:id="@+id/tag_edit"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="@string/edit_the_tag"
+        android:layout_below="@id/title_edit"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:layout_weight="2"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/content_edit"
+        android:layout_below="@id/tag_edit"
+        android:hint="@string/edit_the_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_weight="20"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="25dp"
+        android:onClick="SaveNoteDetailsClick"
+        android:layout_below="@id/content_edit"
+        android:text="@string/save"
+        android:layout_weight="2"
+        />
+</LinearLayout>

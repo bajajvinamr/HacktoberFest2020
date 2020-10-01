@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Simple Note Application</string>
+    <string name="save">Save</string>
+    <string name="edit_the_content">Edit the content</string>
+    <string name="edit_the_tag">Edit the tag</string>
+    <string name="edit_the_title">Edit the Title</string>
+</resources>

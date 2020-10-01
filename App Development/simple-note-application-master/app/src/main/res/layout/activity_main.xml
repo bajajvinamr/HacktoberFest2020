@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/day_theme1"
+    >
+
+    <EditText
+        android:hint="Search something..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/searchBar"
+
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:cacheColorHint="#00000000"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/listView"
+        android:layout_marginTop="@android:dimen/app_icon_size">
+    </ListView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@android:color/darker_gray"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@android:drawable/ic_input_add"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
