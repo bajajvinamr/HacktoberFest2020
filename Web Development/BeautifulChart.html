@@ -1,0 +1,163 @@
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+
+<div class="graph-cont">
+  <h1>Responsive CSS Only Animated Bar Graph</h1>
+  <div class="bar bar1">60%</div>
+  <div class="bar bar2">72%</div>
+  <div class="bar bar3">47%</div>
+  <div class="bar bar4">20%</div>
+</div>
+<div class="how-cont">
+  <h2>How do I do it?</h2>
+  <h3>HTML</h3>
+  <p>1. Container Element</p>
+  <code><pre>
+&lt;div class=&quot;graph-cont&quot;&gt;&lt;/div&gt;
+  </pre></code>
+  <p>2. Add as many bars as you need inside the container element. Number the second class.</p>
+  <code><pre>
+&lt;div class=&quot;bar bar1&quot;&gt;60%&lt;/div&gt;
+  </pre></code>
+  <h3>CSS</h3>
+  <p>1. The CSS for styling the bars collectively.</p>
+  <code><pre>
+.bar{
+  height: 30px;
+  max-width: 800px;
+  margin: 0 auto 10px auto;
+  line-height: 30px;
+  font-size: 16px;
+  color: white;
+  padding: 0 0 0 10px;
+  position: relative;
+}
+.bar::before{
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 30px;
+  top: 0;
+  z-index: -2;
+  background: #ecf0f1;
+}
+.bar::after{
+  content: '';
+  background: #2ecc71;
+  height: 30px;
+  transition: 0.7s;
+  display: block;
+  width: 100%;
+  -webkit-animation: bar-before 1 1.8s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+  </pre></code>
+  <p>2. The Animation.</p>
+  <code><pre>
+@-webkit-keyframes bar-before{
+  0%{
+    width: 0px;
+  }
+  100%{
+    width: 100%;
+  }
+}
+  </pre></code>
+  <p>3. Size the bars.</p>
+  <code><pre>
+.bar1::after{
+  max-width: 60%;
+}
+  </pre></code>
+</div>
+
+
+<style>
+html,body{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.graph-cont{
+  width: calc(100% - 40px);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+h1,h2,h3{
+  text-align: center;
+  color: #34495e;
+}
+.bar{
+  height: 30px;
+  max-width: 800px;
+  margin: 0 auto 10px auto;
+  line-height: 30px;
+  font-size: 16px;
+  color: white;
+  padding: 0 0 0 10px;
+  position: relative;
+}
+.bar::before{
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 30px;
+  top: 0;
+  z-index: -2;
+  background: #ecf0f1;
+}
+.bar::after{
+  content: '';
+  background: #2ecc71;
+  height: 30px;
+  transition: 0.7s;
+  display: block;
+  width: 100%;
+  -webkit-animation: bar-before 1 1.8s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.bar1::after{
+  max-width: 60%;
+}
+.bar2::after{
+  max-width: 72%;
+}
+.bar3::after{
+  max-width: 47%;
+}
+.bar4::after{
+  max-width: 20%;
+}
+@-webkit-keyframes bar-before{
+  0%{
+    width: 0px;
+  }
+  100%{
+    width: 100%;
+  }
+}
+
+.how-cont{
+  width: calc(100% - 40px);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+code {
+  padding: 5px;
+  background: #ecf0f1;
+  display: block;
+}
+pre{
+  padding: 0;
+  margin: 0;
+}
+</style>
