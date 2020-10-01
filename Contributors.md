@@ -34,8 +34,11 @@ Name: [Shubham Maurya](https://github.com/codeShaurya)<br/>
 Place: India<br/>
 About: Hacktoberfest
 <br/>
-
 Name: [Maniteja Pratha](https://github.com/Manitej66)<br/>
 Place: India<br/>
 About: Hacktoberfest
+<br/>
+Name: [Tejas Agrawal](https://github.com/cyber-venom003)<br/>
+Place: India<br/>
+About: A developer rookie from Indian Institute of Information Technology, Allahabad. 
 <br/>
