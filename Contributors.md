@@ -92,3 +92,19 @@ Name: [Aliza Hussain](https://github.com/error404-afk)<br/>
 Place: India<br/>
 About: Student at Delhi University<br/>
 <br/>
+Name: [Harshil Panwar](https://github.com/HarshilP03)<br/>
+Place: India</br>
+About: Experianced in Web Development and ML enthusiast</br>
+<br/>
+Name: [Emmanuel Ezenwigbo](https://github.com/SkyC0der)<br/>
+Place: Nigeria<br/>
+About: Software Developer<br/>
+<br/>
+Name: [Aviral Yadav](https://github.com/aviralx10)<br/>
+Place: India<br/>
+About: Passionate about iOS Development and Open Source<br/>
+<br/>
+Name: [Smriti Rout](https://github.com/smriti2311)
+Place: Uttar Pradesh<br/>
+About: Data science enthusiast<br/>
+<br/>
