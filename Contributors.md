@@ -26,3 +26,7 @@ Name: [Mansha Kaur](https://github.com/error400-del)<br/>
 Place: Canada<br/>
 About: I love open source <3 <br/>
 <br/>
+Name: [Shubham Maurya](https://github.com/codeShaurya)<br/>
+Place: India<br/>
+About: Hacktoberfest
+<br/>
