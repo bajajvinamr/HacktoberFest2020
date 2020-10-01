@@ -92,6 +92,10 @@ Name: [Sagalpreet Singh](https://github.com/sagalpreet)<br/>
 Place: India<br/>
 About: Passionate about open-source | Competitive Coder<br/>
 <br/>
+Name: [Adittya Dey](https://github.com/adiXcodr)</br>
+Place: India</br>
+About: Full Stack Developer and Freelancer</br>
+<br/>
 Name: [Kunal Rustagi](https://github.com/kunalrustagi08)<br/>
 Place: India<br/>
 About: E&TC engineer <br/>
