@@ -42,3 +42,7 @@ Name: [Tejas Agrawal](https://github.com/cyber-venom003)<br/>
 Place: India<br/>
 About: A developer rookie from Indian Institute of Information Technology, Allahabad. 
 <br/>
+Name: [Satya Srikanth Ankam](https://github.com/mindfreakersatya)<br/>
+Place: India<br/>
+About: Hacktoberfest<br/>
+<br/>
