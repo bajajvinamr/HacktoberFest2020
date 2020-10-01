@@ -88,6 +88,6 @@ Place: India<br/>
 About: Passionate about open-source | Competitive Coder<br/>
 <br/>
 Name: [Harshil Panwar](https://github.com/HarshilP03)<br/>
-Place: India
-About: Experianced in Web Development and ML enthusiast
+Place: India</br>
+About: Experianced in Web Development and ML enthusiast</br>
 <br/>
