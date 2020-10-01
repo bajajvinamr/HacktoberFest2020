@@ -1,0 +1,85 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define int long long
+#define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+#define pb push_back
+#define ff first
+#define mp make_pair
+#define ss second
+#define rep(i,a,b) for(int i = a; i < b; i++)
+#define repp(i,a,b) for(int i = a; i <= b; i++)
+#define endl '\n'
+#define mod 1000000007
+#define mod_in(a) bin(a, mod - 2)
+#define fact(n) rep(i, 1, n+1) ft.pb((ft[i-1] * i) % mod)
+#define ncr(n, r) (n >= r ? ((ft[n] * mod_in((ft[r] * ft[(n)-(r)]) % mod)) % mod) : 0LL)
+#define pi 3.14159265358979323
+#define INF 1e15
+#define lb(v, a) lower_bound(v.begin(), v.end(), a)
+#define ub(v, a) upper_bound(v.begin(), v.end(), a)
+
+void solve(){
+    int n, c=1, ans=0; cin>>n;
+    string s; cin>>s;
+    if(n==1){
+        cout<<1<<endl;
+        cout<<1<<endl;
+        return;
+    }
+    int arr[n];
+    set<int> one, zer;
+    arr[0]=1;
+    if(s[0]=='0') zer.insert(1);
+    else one.insert(1);
+    int b=1;
+    rep(i,1,n){
+        if(s[i]!=s[i-1]){
+            arr[i]=arr[i-1];
+            if(s[i]=='0'){
+                zer.insert(arr[i-1]);
+                one.erase(arr[i-1]);
+            }
+            else{
+                one.insert(arr[i-1]);
+                zer.erase(arr[i-1]);
+            }
+            ans=max(ans, arr[i]);
+            continue;
+        }
+        if(s[i]=='0'){
+            if(one.size()){
+                arr[i]=*one.begin();
+                one.erase(*one.begin());
+                zer.insert(arr[i]);
+            }
+            else{
+                b++;
+                zer.insert(b);
+                arr[i]=b;
+            }
+        }
+        else if(s[i]=='1'){
+            if(zer.size()){
+                arr[i]=*zer.begin();
+                zer.erase(*zer.begin());
+                one.insert(arr[i]);
+            }
+            else{
+                b++;
+                one.insert(b);
+                arr[i]=b;
+            }
+        }
+        ans=max(ans, arr[i]);
+    }
+    cout<<ans<<endl;
+    rep(i,0,n) cout<<arr[i]<<" ";
+    cout<<endl;
+}
+
+signed main(){
+    fast
+    int t=1;
+    cin>>t;
+    while(t--) solve();
+}
