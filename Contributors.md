@@ -42,7 +42,8 @@ Name: [Tejas Agrawal](https://github.com/cyber-venom003)<br/>
 Place: India<br/>
 About: A developer rookie from Indian Institute of Information Technology, Allahabad. 
 <br/>
+<br/>
 Name: [Mukul Mohmare](https://github.com/Mu-C00L)<br/>
 Place: India<br/>
-About: Rookie developer from IIITA.
+About: Rookie developer from IIITA.<br/>
 <br/>
