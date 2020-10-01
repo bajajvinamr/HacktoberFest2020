@@ -65,3 +65,7 @@ Name: [Satya Srikanth Ankam](https://github.com/mindfreakersatya)<br/>
 Place: India<br/>
 About: Hacktoberfest<br/>
 </br>
+Name: [Yogesh Kumar](https://github.com/yk1ax)<br/>
+Place: India<br/>
+About: Sophomore at IIITL | Competitive Programmer | App Development Enthusiast <br/>
+<br/>
