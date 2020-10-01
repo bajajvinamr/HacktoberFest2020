@@ -129,3 +129,7 @@ Name: [Mukul Mohmare](https://github.com/Mu-C00L)<br/>
 Place: India<br/>
 About: Rookie developer from IIITA.<br/>
 <br/>
+
+Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
+Place: Pink City, India
+About: ML Developer
