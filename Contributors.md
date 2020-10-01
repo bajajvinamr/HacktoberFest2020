@@ -54,3 +54,5 @@ Name: [Niharika Kabra](https://github.com/feyre-2001)<br/>
 Place: India<br/>
 About: A developer rookie and machine learning enthusiast from Indian Institute of Information Technology, Lucknow. 
 <br/>
+Name: [Vatsal Narwal](https://github.com/VatsalNarwal)<br/>
+Place: India<br/>
