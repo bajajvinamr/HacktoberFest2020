@@ -58,3 +58,10 @@ Name: [Prastab Ghimire](https://github.com/Prastab)<br/>
 Place: Nepal<br/>
 About: Student and tech enthusiast<br/>
 <br/>
+Name: [Vatsal Narwal](https://github.com/VatsalNarwal)<br/>
+Place: India<br/>
+</br>
+Name: [Satya Srikanth Ankam](https://github.com/mindfreakersatya)<br/>
+Place: India<br/>
+About: Hacktoberfest<br/>
+</br>
