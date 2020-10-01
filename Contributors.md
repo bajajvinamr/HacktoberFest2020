@@ -88,6 +88,10 @@ Name: [Sagalpreet Singh](https://github.com/sagalpreet)<br/>
 Place: India<br/>
 About: Passionate about open-source | Competitive Coder<br/>
 <br/>
+Name: [Emmanuel Ezenwigbo](https://github.com/SkyC0der)<br/>
+Place: Nigeria<br/>
+About: Software Developer<br/>
+<br/>
 Name: [Aviral Yadav](https://github.com/aviralx10)<br/>
 Place: India<br/>
 About: Passionate about iOS Development and Open Source<br/>
