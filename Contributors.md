@@ -61,3 +61,7 @@ Name: [Satya Srikanth Ankam](https://github.com/mindfreakersatya)<br/>
 Place: India<br/>
 About: Hacktoberfest<br/>
 </br>
+Name: [Samarth Agarwal](https://github.com/Thecapable)<br/>
+Place: Gwalior<br/>
+About: A future computer science engineer<br/>
+<br/>
