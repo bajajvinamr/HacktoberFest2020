@@ -139,3 +139,8 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+
+Name: [Somesh Bachani](https://github.com/Someshb0512)<br/>
+Place: Greater Noida, India<br/>
+About: ML Developer,Google assistant Developer,Alexa Developer.<br/>
+<br/>
