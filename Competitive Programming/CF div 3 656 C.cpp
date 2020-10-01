@@ -14,7 +14,6 @@ int main() {
 	        cin>>a[i];
 	        while(j>0&&a[j]<=a[j-1]) j--;
 	        while(j>0&&a[j]>=a[j-1]) j--;
-	        
 	    std::cout <<j<< std::endl;
 	}
 	return 0;
