@@ -69,7 +69,7 @@ int main()
   
     if (solution(mat, 0) == false) 
     { 
-        printf("Solution does not exist"); 
+        cout<<"Solution does not exist"; 
         return 0;
     } 
     print(mat); 
