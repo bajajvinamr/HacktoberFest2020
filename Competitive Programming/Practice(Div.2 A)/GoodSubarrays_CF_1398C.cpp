@@ -23,19 +23,6 @@ using namespace std;
 #define pi 3.141592653589
 #define fact(n) rep(i, 1, n+1)ft.pb((ft[i-1]*i)%mod) ;
 
-// #include <ext/pb_ds/assoc_container.hpp>
-// #include <ext/pb_ds/tree_policy.hpp>
-// using namespace __gnu_pbds;
-// template<typename T>
-// using ordered_set = tree<T,null_type,less<T>,rb_tree_tag,tree_order_statistics_node_update>;
-// template<typename T>
-// using ordered_multiset = tree<T,null_type,less_equal<T>,rb_tree_tag,tree_order_statistics_node_update>;
-//(*****FOR USING ORDERED SET CHANGE INT*******)
-
-int power(int x, int y) ;
-int gcd(int a, int b) ;
-
-
 signed main() {
     quickie
     test
@@ -61,19 +48,3 @@ signed main() {
     }
 }
 
-int power(int x, int y) {
-    int res = 1; x %= mod;
-    while (y > 0) {
-        if (y & 1)
-            res = (res*x) % mod;
-        y = y>>1;
-        x = (x*x) % mod;
-    }
-    return res%mod;
-}
-
-int gcd(int a,int b){
-    if(a==0) return b;
-    return gcd(b%a,a);
-}
- 
