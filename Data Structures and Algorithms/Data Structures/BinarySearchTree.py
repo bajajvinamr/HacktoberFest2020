@@ -1,3 +1,7 @@
+# AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghghghghg
+# BST in PYTHON
+# C++ is much easier
+# C++ rocks
 class BSTNode:
     def __init__(self, key):
         self.key = key
@@ -73,8 +77,7 @@ class BSTNode:
             else:
                 return None
         return self
- 
- 
+# kuch samajh nahi aa rha
 class BSTree:
     def __init__(self):
         self.root = None
@@ -112,7 +115,7 @@ print('inorder')
 print('quit')
  
 while True:
-    do = input('What would you like to do? ').split()
+    do = input('What do you want to do chika? ').split()
  
     operation = do[0].strip().lower()
     if operation == 'add':
@@ -122,7 +125,7 @@ while True:
         key = int(do[1])
         bstree.remove(key)
     elif operation == 'inorder':
-        print('Inorder traversal: ', end='')
+        print('Inorder Traversal is : ', end='')
         bstree.inorder()
         print()
     elif operation == 'quit':
