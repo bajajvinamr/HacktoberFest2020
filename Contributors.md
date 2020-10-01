@@ -46,3 +46,11 @@ Name: [Muhammad Azhar](https://github.com/muazhar)
 Place: Lahore, Pakistan
 About: Hybrid App Developer
 <br/>
+Name: [Manish Kumar](https://github.com/maku123)<br/>
+Place: India<br/>
+About: Just a normal Kid
+<br/>
+Name: [Niharika Kabra](https://github.com/feyre-2001)<br/>
+Place: India<br/>
+About: A developer rookie and machine learning enthusiast from Indian Institute of Information Technology, Lucknow. 
+<br/>
