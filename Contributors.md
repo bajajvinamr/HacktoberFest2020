@@ -30,3 +30,7 @@ Name: [Venkata Raman](https://github.com/venkataraman123)<br/>
 Place: India<br/>
 About: Web developer and aspiring Machine learning engineer<br/>
 <br/>
+Name: [Shubham Maurya](https://github.com/codeShaurya)<br/>
+Place: India<br/>
+About: Hacktoberfest
+<br/>
