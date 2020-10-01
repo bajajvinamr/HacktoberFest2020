@@ -139,3 +139,8 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+
+Name: [Lucas Santos](https://lsantos.dev)<br/>
+Place: São Paulo, Brazil<br/>
+About: Cloud Advocate<br/>
+<br/>
