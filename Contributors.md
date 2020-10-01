@@ -130,6 +130,12 @@ Place: India<br/>
 About: Rookie developer from IIITA.<br/>
 <br/>
 
+Name: Ida Bagus Putu Indra Sunarbawa <br/>
+From: Bali <br/>
+institution : ITB STIKOM BALI <br/>
+<br/>
+
 Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
-Place: Pink City, India
-About: ML Developer
+Place: Pink City, India<br/>
+About: ML Developer<br/>
+<br/>
