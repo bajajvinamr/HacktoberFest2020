@@ -88,6 +88,10 @@ Name: [Sagalpreet Singh](https://github.com/sagalpreet)<br/>
 Place: India<br/>
 About: Passionate about open-source | Competitive Coder<br/>
 <br/>
+Name: [Harshil Panwar](https://github.com/HarshilP03)<br/>
+Place: India</br>
+About: Experianced in Web Development and ML enthusiast</br>
+<br/>
 Name: [Emmanuel Ezenwigbo](https://github.com/SkyC0der)<br/>
 Place: Nigeria<br/>
 About: Software Developer<br/>
