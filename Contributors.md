@@ -40,7 +40,7 @@ About: Hacktoberfest
 <br/>
 Name: [Tejas Agrawal](https://github.com/cyber-venom003)<br/>
 Place: India<br/>
-About: A developer rookie from Indian Institute of Information Technology, Allahabad. 
+About: A developer rookie from Indian Institute of Information Technology, Allahabad.
 <br/>
 Name: [Muhammad Azhar](https://github.com/muazhar)
 Place: Lahore, Pakistan
@@ -52,7 +52,11 @@ About: Just a normal Kid
 <br/>
 Name: [Niharika Kabra](https://github.com/feyre-2001)<br/>
 Place: India<br/>
-About: A developer rookie and machine learning enthusiast from Indian Institute of Information Technology, Lucknow. <br/>
+About: A developer rookie and machine learning enthusiast from Indian Institute of Information Technology, Lucknow.
+<br/>
+Name: [Prastab Ghimire](https://github.com/Prastab)<br/>
+Place: Nepal<br/>
+About: Student and tech enthusiast<br/>
 <br/>
 Name: [Vatsal Narwal](https://github.com/VatsalNarwal)<br/>
 Place: India<br/>
@@ -63,4 +67,20 @@ About: Hacktoberfest<br/>
 </br>
 Name: [Arpit Verma](https://github.com/arpit-jpg)<br/>
 Place: India<br/>
+<br/>
+Name: [Samarth Agarwal](https://github.com/Thecapable)<br/>
+Place: Gwalior<br/>
+About: A future computer science engineer<br/>
+</br>
+Name: [Yogesh Kumar](https://github.com/yk1ax)<br/>
+Place: India<br/>
+About: Sophomore at IIITL | Competitive Programmer | App Development Enthusiast <br/>
+<br/>
+Name: [Mitarth Jain](https://github.com/mitarthjain)<br/>
+Place: India<br/>
+About: Competitive Coder<br/>
+<br/>
+Name: [Sagalpreet Singh](https://github.com/sagalpreet)<br/>
+Place: India<br/>
+About: Passionate about open-source | Competitive Coder<br/>
 <br/>
