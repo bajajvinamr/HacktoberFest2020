@@ -83,6 +83,7 @@ About: Competitive Coder<br/>
 Name: [Ayush Manglani](https://github.com/Ayushmanglani)<br/>
 Place: India<br/>
 About: Passionate About Programming | Full Stack Developer | Python Programmer <br/>
+<br/>
 Name: [Sagalpreet Singh](https://github.com/sagalpreet)<br/>
 Place: India<br/>
 About: Passionate about open-source | Competitive Coder<br/>
@@ -90,4 +91,8 @@ About: Passionate about open-source | Competitive Coder<br/>
 Name: [Aviral Yadav](https://github.com/aviralx10)<br/>
 Place: India<br/>
 About: Passionate about iOS Development and Open Source<br/>
-
+<br/>
+Name: [Smriti Rout](https://github.com/smriti2311)
+Place: Uttar Pradesh<br/>
+About: Data science enthusiast<br/>
+<br/>
