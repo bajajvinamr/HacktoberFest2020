@@ -42,3 +42,7 @@ Name: [Tejas Agrawal](https://github.com/cyber-venom003)<br/>
 Place: India<br/>
 About: A developer rookie from Indian Institute of Information Technology, Allahabad. 
 <br/>
+Name: [Niharika Kabra](https://github.com/feyre-2001)<br/>
+Place: India<br/>
+About: A developer rookie and machine learning enthusiast from Indian Institute of Information Technology, Lucknow. 
+<br/>
