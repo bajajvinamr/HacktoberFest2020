@@ -56,3 +56,8 @@ About: A developer rookie and machine learning enthusiast from Indian Institute 
 <br/>
 Name: [Vatsal Narwal](https://github.com/VatsalNarwal)<br/>
 Place: India<br/>
+</br>
+Name: [Satya Srikanth Ankam](https://github.com/mindfreakersatya)<br/>
+Place: India<br/>
+About: Hacktoberfest<br/>
+</br>
