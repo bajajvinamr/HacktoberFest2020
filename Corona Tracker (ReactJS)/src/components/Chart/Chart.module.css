@@ -1,0 +1,16 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 85%;
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=Chart.module.css.map */
