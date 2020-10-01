@@ -108,3 +108,8 @@ Name: [Smriti Rout](https://github.com/smriti2311)
 Place: Uttar Pradesh<br/>
 About: Data science enthusiast<br/>
 <br/>
+<br/>
+Name: [Mukul Mohmare](https://github.com/Mu-C00L)<br/>
+Place: India<br/>
+About: Rookie developer from IIITA.<br/>
+<br/>
