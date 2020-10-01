@@ -83,7 +83,12 @@ About: Competitive Coder<br/>
 Name: [Ayush Manglani](https://github.com/Ayushmanglani)<br/>
 Place: India<br/>
 About: Passionate About Programming | Full Stack Developer | Python Programmer <br/>
+<br/>
 Name: [Sagalpreet Singh](https://github.com/sagalpreet)<br/>
 Place: India<br/>
 About: Passionate about open-source | Competitive Coder<br/>
+<br/>
+Name: [Kunal Rustagi](https://github.com/kunalrustagi08)<br/>
+Place: India<br/>
+About: E&TC engineer <br/>
 <br/>
