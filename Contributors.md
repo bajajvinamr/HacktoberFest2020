@@ -32,27 +32,27 @@ About: Web developer and aspiring Machine learning engineer<br/>
 <br/>
 Name: [Shubham Maurya](https://github.com/codeShaurya)<br/>
 Place: India<br/>
-About: Hacktoberfest
+About: Hacktoberfest<br/>
 <br/>
 Name: [Maniteja Pratha](https://github.com/Manitej66)<br/>
 Place: India<br/>
-About: Hacktoberfest
+About: Hacktoberfest<br/>
 <br/>
 Name: [Tejas Agrawal](https://github.com/cyber-venom003)<br/>
 Place: India<br/>
-About: A developer rookie from Indian Institute of Information Technology, Allahabad.
+About: A developer rookie from Indian Institute of Information Technology, Allahabad.<br/>
 <br/>
-Name: [Muhammad Azhar](https://github.com/muazhar)
-Place: Lahore, Pakistan
-About: Hybrid App Developer
+Name: [Muhammad Azhar](https://github.com/muazhar)<br/>
+Place: Lahore, Pakistan<br/>
+About: Hybrid App Developer <br/>
 <br/>
 Name: [Manish Kumar](https://github.com/maku123)<br/>
 Place: India<br/>
-About: Just a normal Kid
+About: Just a normal Kid<br/>
 <br/>
 Name: [Niharika Kabra](https://github.com/feyre-2001)<br/>
 Place: India<br/>
-About: A developer rookie and machine learning enthusiast from Indian Institute of Information Technology, Lucknow.
+About: A developer rookie and machine learning enthusiast from Indian Institute of Information Technology, Lucknow.<br/>
 <br/>
 Name: [Prastab Ghimire](https://github.com/Prastab)<br/>
 Place: Nepal<br/>
@@ -83,7 +83,33 @@ About: Competitive Coder<br/>
 Name: [Ayush Manglani](https://github.com/Ayushmanglani)<br/>
 Place: India<br/>
 About: Passionate About Programming | Full Stack Developer | Python Programmer <br/>
+<br/>
 Name: [Sagalpreet Singh](https://github.com/sagalpreet)<br/>
 Place: India<br/>
 About: Passionate about open-source | Competitive Coder<br/>
+<br/>
+Name: [Aliza Hussain](https://github.com/error404-afk)<br/>
+Place: India<br/>
+About: Student at Delhi University<br/>
+<br/>
+Name: [Harshil Panwar](https://github.com/HarshilP03)<br/>
+Place: India</br>
+About: Experianced in Web Development and ML enthusiast</br>
+<br/>
+Name: [Emmanuel Ezenwigbo](https://github.com/SkyC0der)<br/>
+Place: Nigeria<br/>
+About: Software Developer<br/>
+<br/>
+Name: [Aviral Yadav](https://github.com/aviralx10)<br/>
+Place: India<br/>
+About: Passionate about iOS Development and Open Source<br/>
+<br/>
+Name: [Smriti Rout](https://github.com/smriti2311)
+Place: Uttar Pradesh<br/>
+About: Data science enthusiast<br/>
+<br/>
+<br/>
+Name: [Mukul Mohmare](https://github.com/Mu-C00L)<br/>
+Place: India<br/>
+About: Rookie developer from IIITA.<br/>
 <br/>
