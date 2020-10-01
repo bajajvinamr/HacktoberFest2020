@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Fasthand:regular" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <title>Weather API</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@500&family=Spicy+Rice&display=swap" rel="stylesheet">
 <body>
-    <section>
-        <h1 class="head">Dark Mode</h1>
-    <svg id="darkMode"width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path class="sun" d="M55 27.5C55 42.6878 42.6878 55 27.5 55C12.3122 55 0 42.6878 0 27.5C0 12.3122 12.3122 0 27.5 0C42.6878 0 55 12.3122 55 27.5Z" fill="#F3B618"/>
-        </svg>
+  
+    <h1 id="heading">CHECK WEATHER</h1>
+    <img src="./images/weather.png"  >
+    <div class="input">
+        <input type="text" placeholder="Enter the city" class="inputValue">
+        <input type="submit" value="Submit" class="submit">
+      </div>
+    
+    <div class="display">
+        <h3 class="city"></h3>
+        <p class="des"></p>
+        <p class="temp"></p>
+    </div>
 
-        </section> 
-<script src="./anime.min.js"></script>
-<script src="./app.js"></script>
+
+
+    <script src="./app.js"></script>
 </body>
 </html>
