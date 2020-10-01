@@ -44,5 +44,5 @@ About: A developer rookie from Indian Institute of Information Technology, Allah
 <br/>
 Name: [Manish Kumar](https://github.com/maku123)<br/>
 Place: India<br/>
-About: Just a normal Kid.
+About: Just a normal Kid
 <br/>
