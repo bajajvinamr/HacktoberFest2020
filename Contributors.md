@@ -13,3 +13,7 @@ Name: [Anshul Garg](https://github.com/anshul0771)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
 <br/>
+Name: [Rannie Pavillon](https://github.com/RanniePavillon)<br/>
+Place: Phillipines<br/>
+About: This a month for HacktoberFest<br/>
+<br/>
