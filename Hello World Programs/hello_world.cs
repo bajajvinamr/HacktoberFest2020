@@ -1,4 +1,4 @@
-// Hello World! program
+// Hello World! program in C#
 namespace HelloWorld
 {
     class Hello {         
