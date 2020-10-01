@@ -77,3 +77,8 @@ Name: [Mitarth Jain](https://github.com/mitarthjain)<br/>
 Place: India<br/>
 About: Competitive Coder<br/>
 <br/>
+
+Name: [Ayush Manglani](https://github.com/Ayushmanglani)<br/>
+Place: India<br/>
+About: Passionate About Programming | Full Stack Developer | Python Programmer <br/>
+<br/>
