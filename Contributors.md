@@ -61,3 +61,6 @@ Name: [Satya Srikanth Ankam](https://github.com/mindfreakersatya)<br/>
 Place: India<br/>
 About: Hacktoberfest<br/>
 </br>
+Name: [Arpit Verma](https://github.com/arpit-jpg)<br/>
+Place: India<br/>
+<br/>
