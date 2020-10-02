@@ -143,3 +143,8 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+
+Name: [Rajat Garg](https://github.com/rajatgarg2)<br/>
+Place: India<br/>
+About: Flutter Developer<br/>
+<br/>
