@@ -143,3 +143,8 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+
+Name: [Shivam Narula](https://github.com/snaruto7)<br/>
+Place: Jaipur, India<br/>
+About: Devops Engineer<br/>
+<br/>
