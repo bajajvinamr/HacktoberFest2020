@@ -139,7 +139,7 @@ From: Bali <br/>
 institution : ITB STIKOM BALI <br/>
 <br/>
 
-Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
-Place: Pink City, India<br/>
-About: ML Developer<br/>
+Name: [Sumitro Aji Prabowo](https://github.com/bowo-anakdesa)<br/>
+Place: Central Java, Indonesia<br/>
+About: Bismillah<br/>
 <br/>
