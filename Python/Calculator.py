@@ -53,4 +53,4 @@ elif choice == '7':
 elif choice == '8':
    print(Y,"sqpw",X,"=",sqpw(X,Y))
 else:
-   print("Invalid input")
+   print("Invalid input!")
