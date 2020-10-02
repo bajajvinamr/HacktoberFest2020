@@ -90,8 +90,7 @@ void scheduling(Process Heap[], Process array[], int n,
 			array[i] = min; 
 			break; 
 		} 
-} 
-
+}  
 void priority(Process array[], int n) 
 { 
 	sort(array, array + n, compare); 
@@ -115,11 +114,11 @@ void priority(Process array[], int n)
 					++insertedprocess; 
 					array[i].intime = -1; 
 					array[i].responsetime = -1; 
-					insert(Heap, array[i], &heapsize, ¤tTime); 
+					insert(Heap, array[i], &heapsize, &currentTime); 
 				} 
 			} 
 		} 
-		scheduling(Heap, array, n, &heapsize, ¤tTime); 
+		scheduling(Heap, array, n, &heapsize, &currentTime); 
 		++currentTime; 
 		if (heapsize == 0 && insertedprocess == n) 
 			break; 
@@ -139,6 +138,7 @@ void priority(Process array[], int n)
 		((float)(totalwaitingtime + totalbursttime) / (float)n)); 
 } 
 
+// Driver code 
 int main() 
 { 
 	int n, i; 
@@ -166,4 +166,3 @@ int main()
 	priority(a, 5); 
 	return 0; 
 } 
-
