@@ -104,6 +104,10 @@ Name: [Mayank Grover](https://github.com/MayankG514)<br/>
 Place: India<br/>
 About: Student | Passionate about Data structures and algorithms<br/>
 <br/>
+Name: [Juan Andres Fuentes](https://github.com/Juanandresfl)
+Place: Colombia
+About: passionate about technology and sports
+<br/>
 Name: [Aliza Hussain](https://github.com/error404-afk)<br/>
 Place: India<br/>
 About: Student at Delhi University<br/>
@@ -140,8 +144,9 @@ Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
 
+
 Name: [Amit Maurya](https://github.com/amitmaurya7374)<br/>
 From:India <br/>
 About: Flutter Developer<br/>
 Place:Faridabad<br/>
-<br/>
+
