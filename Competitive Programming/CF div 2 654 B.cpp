@@ -1,25 +1,25 @@
 #include<bits/stdc++.h>
-    using namespace std;
+using namespace std;
+
+int main()
+{
+    int t;
+    cin>>t;
     
-    int main()
+    while(t--)
     {
-        int t;
-        cin>>t;
+        long long int n,r;
+        cin>>n>>r;
         
-        while(t--)
+        if(r<n)
         {
-            long long int n,r;
-            cin>>n>>r;
-            
-            if(r<n)
-            {
-                cout<<r*(r+1)/2<<endl;
-            }
-            else
-            {
-                cout<<n*(n-1)/2 +1<<endl;
-            }
+            cout<<r*(r+1)/2<<endl;
         }
-    
-        return 0;
+        else
+        {
+            cout<<n*(n-1)/2 +1<<endl;
+        }
     }
+
+    return 0;
+}
