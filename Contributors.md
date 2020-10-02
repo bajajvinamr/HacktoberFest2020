@@ -143,3 +143,7 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+
+Name:Khushi Mehta(https://github.com/khushimehta12)<br/>
+Place:Hill City Dungarpur,Rajasthan<br/>
+About: Passoinate about new technologies.<br/>
