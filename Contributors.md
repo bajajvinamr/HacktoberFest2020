@@ -104,6 +104,10 @@ Name: [Mayank Grover](https://github.com/MayankG514)<br/>
 Place: India<br/>
 About: Student | Passionate about Data structures and algorithms<br/>
 <br/>
+Name: [Juan Andres Fuentes](https://github.com/Juanandresfl)
+Place: Colombia
+About: passionate about technology and sports
+<br/>
 Name: [Aliza Hussain](https://github.com/error404-afk)<br/>
 Place: India<br/>
 About: Student at Delhi University<br/>
@@ -144,3 +148,4 @@ Name: [Kiran Iyer](https://github.com/Memphis1983)<br/>
 Place: Bangalore, India<br/>
 About: Aspiring Full Stack Developer<br/>
 <br/>
+
