@@ -145,6 +145,6 @@ About: ML Developer<br/>
 <br/>
 <br/>
 Name: [Sudipta Das](https://github.com/Sudiptadas98)<br/>
-Place: Kolkata<br/>
+Place: Kolkata <br/>
 About: Full Stack Web Developer.<br/>
 <br/>
