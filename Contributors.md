@@ -139,3 +139,8 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+
+Name: [Shubhani Mulay](https://github.com/Shubhani25)<br/>
+Place: India<br/>
+About: Newbie coder who is always curious to know more.<br/>
+<br/>
