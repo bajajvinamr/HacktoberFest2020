@@ -31,17 +31,14 @@ int main()
     run
     loopt
     {
-        int n;
+        ll n;
         cin>>n;
-        vl v(n);
-        for(ll&x:v)    cin>>x;
-        if(n==0)    {cout<<0; nl; continue;}
-        ll ans=1;
-        ll m=v[0];
-        f(i,1,n-1)
+        if(n<5) {cout<<0; nl; continue;}
+        ll ans=0;
+        while(n)
         {
-            m=min(v[i],m);
-            if(v[i]<=v[i-1]&&v[i]<=m)    ans++;
+            ans+=n/5;
+            n=n/5;
         }
         cout<<ans;
         nl;
