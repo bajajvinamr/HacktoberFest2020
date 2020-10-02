@@ -143,3 +143,8 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+
+Name: [Harsh Vijay](https://github.com/filipewk)<br/>
+Place: Bali <br/>
+About: Rookie developer <br/>
+<br/>
