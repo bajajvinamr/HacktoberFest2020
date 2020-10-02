@@ -143,3 +143,8 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+
+Name: [Nathan Beard](https://github.com/nbeard49)<br/>
+Place: United States<br/>
+About: Network Engineer<br/>
+<br/>
