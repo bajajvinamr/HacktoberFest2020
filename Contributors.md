@@ -143,3 +143,8 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+
+Name: [Muhamad Biki Hamzah](https://github.com/bicky33)<br/>
+Place: Semarang City, Indonesia<br/>
+About: Human maybe<br/>
+<br/>
