@@ -104,6 +104,10 @@ Name: [Mayank Grover](https://github.com/MayankG514)<br/>
 Place: India<br/>
 About: Student | Passionate about Data structures and algorithms<br/>
 <br/>
+Name: [Juan Andres Fuentes](https://github.com/Juanandresfl)
+Place: Colombia
+About: passionate about technology and sports
+<br/>
 Name: [Aliza Hussain](https://github.com/error404-afk)<br/>
 Place: India<br/>
 About: Student at Delhi University<br/>
@@ -139,7 +143,10 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
-
+Name: [Khushi Srivastav](https://github.com/black73)<br/>
+Place: India<br/>
+About: Sophomore at IIITL<br/>
+<br/>
 Name: [Somesh Bachani](https://github.com/Someshb0512)<br/>
 Place: Greater Noida, India<br/>
 About: ML Developer,Google assistant Developer,Alexa Developer.<br/>
