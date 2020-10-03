@@ -151,3 +151,7 @@ About: Sophomore at IIITL<br/>
 Name: [Anuranjan Srivastava](https://github.com/codersaty)<br/>
 Place: Uttar Pradesh, India<br/>
 <br/>
+Name: [CoderSaty](https://github.com/codersaty)<br/>
+Place: Uttar Pradesh, India
+About: Junior year at MMMUT<br/>
+<br/>
