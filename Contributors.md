@@ -147,4 +147,8 @@ About: ML Developer<br/>
 Name: [Shivam Narula](https://github.com/snaruto7)<br/>
 Place: Jaipur, India<br/>
 About: Devops Engineer<br/>
+
+Name: [Khushi Srivastav](https://github.com/black73)<br/>
+Place: India<br/>
+About: Sophomore at IIITL<br/>
 <br/>
