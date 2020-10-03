@@ -133,13 +133,14 @@ Name: [Mukul Mohmare](https://github.com/Mu-C00L)<br/>
 Place: India<br/>
 About: Rookie developer from IIITA.<br/>
 <br/>
-
 Name: Ida Bagus Putu Indra Sunarbawa <br/>
 From: Bali <br/>
 institution : ITB STIKOM BALI <br/>
 <br/>
-
 Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+Name: [Dragan Belegisanin](Github Link)
+Place: Belgrade, Serbia
+About: Web & Mobile Developer
