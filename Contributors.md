@@ -148,3 +148,6 @@ Name: [Khushi Srivastav](https://github.com/black73)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
 <br/>
+
+Name: [Kumar Mulekar](https://github.com/Kumar-mulekar)<br/>
+Place: India <br/><br/>
