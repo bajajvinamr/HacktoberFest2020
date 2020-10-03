@@ -143,3 +143,8 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+
+Name: [Vivek2509](https://github.com/Vivek2509)<br/>
+Place: Kapadwanj India<br/>
+About: Ai/ML enthusiast<br/>
+<br/>
