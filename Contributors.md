@@ -148,3 +148,8 @@ Name: [Khushi Srivastav](https://github.com/black73)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
 <br/>
+
+Name: [Anand Chandrakar](https://github.com/AnandChandrakar)<br/>
+Place: India<br/>
+About: CS Undergrad<br/>
+<br/>
