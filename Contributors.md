@@ -143,3 +143,7 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+
+Name: [Mai Phan](https://github.com/maimaifr) <br/>
+Place: Melbourne, Australia <br/>
+About: student <br/>
