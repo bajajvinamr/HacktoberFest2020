@@ -148,3 +148,7 @@ Name: [Khushi Srivastav](https://github.com/black73)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
 <br/>
+Name: [Ankur sharma](https://github.com/ankur2825)<br/>
+Place: India<br/>
+About: aspiring flutter developer<br/>
+<br/>
