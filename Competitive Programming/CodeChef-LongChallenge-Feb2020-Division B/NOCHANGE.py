@@ -1,13 +1,13 @@
 t=int(input())
 for _ in range(t):
-    n,p=map(int,input().split())
+    ok,notok=map(int,input().split())
     a=list(map(int,input().split()))
     a=sorted(a,reverse=True)
-    l=[0]*n
+    l=[0]*ok
     flag=0
-    for i in range((n)):
-        if p%a[i]!=0:
-            k=(p//a[i])+1
+    for i in range((ok)):
+        if notok%a[i]!=0:
+            k=(notok//a[i])+1
             l[i]=k
             flag=1
             break
@@ -15,15 +15,15 @@ for _ in range(t):
         l.reverse()
         print("YES",*l)
     else:
-        for i in range((n)):
-            if p%a[i]!=0:
-                k=(p//a[i])+1
+        for i in range((ok)):
+            if notok%a[i]!=0:
+                k=(notok//a[i])+1
                 l[i]=k
                 flag=1
                 break
             else:
-                k=(p//a[i])-1
-                p=p-(a[i]*k)
+                k=(notok//a[i])-1
+                notok=notok-(a[i]*k)
                 l[i]=k
         if flag==1:
             l.reverse()

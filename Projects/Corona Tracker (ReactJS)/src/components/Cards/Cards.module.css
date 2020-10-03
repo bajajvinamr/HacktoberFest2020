@@ -1,0 +1,26 @@
+.container {
+  margin: 50px 0;
+}
+
+.container .card {
+  margin: 0 2% !important;
+}
+
+.container .infected {
+  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.container .recovered {
+  border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+.container .deaths {
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+@media (max-width: 770px) {
+  .container .card {
+    margin: 2% 0 !important;
+  }
+}
+/*# sourceMappingURL=Cards.module.css.map */

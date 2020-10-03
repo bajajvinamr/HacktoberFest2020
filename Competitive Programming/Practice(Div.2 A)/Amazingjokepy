@@ -1,0 +1,23 @@
+class AmusingJoke:
+    name1 = ""
+    name2 = ""
+    jumbLetters = ""
+
+    def solve(self):
+        from collections import Counter, OrderedDict
+
+        map1 = Counter(self.name1)
+        map2 = Counter(self.name2)
+        map_jumLtr = OrderedDict(Counter(self.jumbLetters))
+        if (OrderedDict(map1+map2)==map_jumLtr):
+            return "YES"
+        else:
+            return "NO"
+
+
+if __name__ == "__main__":
+    a = AmusingJoke()
+    a.name1 = raw_input()
+    a.name2 = raw_input()
+    a.jumbLetters = raw_input()
+    print a.solve()
