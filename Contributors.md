@@ -149,5 +149,3 @@ Place: India<br/>
 About: Sophomore at IIITL<br/>
 <br/>
 
-Name: [Kumar Mulekar](https://github.com/Kumar-mulekar)<br/>
-Place: India <br/><br/>
