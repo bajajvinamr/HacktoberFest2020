@@ -147,4 +147,8 @@ About: ML Developer<br/>
 Name: [Sayan Das](https://github.com/senshiii)<br/>
 Place: Kolkata, West Bengal, India<br/>
 About: MERN Stack Developer.<br/>
+
+Name: [Khushi Srivastav](https://github.com/black73)<br/>
+Place: India<br/>
+About: Sophomore at IIITL<br/>
 <br/>
