@@ -1,0 +1,23 @@
+.container{
+  width:100%;
+  margin:0px;
+  padding:0px;
+}
+.hero img{
+  width:100%;
+  border-radius:0px;
+}
+/*this is used to center any image*/
+.bear img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.kfc img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
