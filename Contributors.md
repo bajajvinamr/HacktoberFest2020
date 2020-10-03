@@ -143,3 +143,8 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+
+Name: [Balaji Rao](https://github.com/BALAJIRAO676) <br>
+Place: Gwalior<br>
+
+<br>
