@@ -148,3 +148,6 @@ Name: [Khushi Srivastav](https://github.com/black73)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
 <br/>
+Name: [Anuranjan Srivastava](https://github.com/codersaty)<br/>
+Place: Uttar Pradesh, India<br/>
+<br/>
