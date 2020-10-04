@@ -156,7 +156,7 @@ Name: [Muhammad Tri Anwarruddin](https://github.com/anwareset)<br/>
 Place: Kediri, East Java, Indonesia<br/>
 About: Linux System Engineer<br/>
 <br/>
-Name: [Denis Porov](https://github.com/Dj-Denis)<br/>
+Name: [Denis Povod](https://github.com/Dj-Denis)<br/>
 Place: Kherson, Ukraine<br/>
 About: Fullstack dev<br/>
 <br/>
