@@ -171,3 +171,7 @@ Name: [Arpit Agarwal](https://github.com/aarpit1010)<br/>
 Place: India<br/>
 About: ML Enthusiast from IIITA.<br/>
 <br/>
+Name: [Tejan Singh](https://github.com/tejan-singh)<br/>
+Place: India<br/>
+About: Web Developer<br/>
+<br/>
