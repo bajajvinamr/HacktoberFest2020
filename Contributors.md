@@ -159,6 +159,10 @@ Name: [Muhammad Tri Anwarruddin](https://github.com/anwareset)<br/>
 Place: Kediri, East Java, Indonesia<br/>
 About: Linux System Engineer<br/>
 <br/>
+Name: [Denis Povod](https://github.com/Dj-Denis)<br/>
+Place: Kherson, Ukraine<br/>
+About: Fullstack dev<br/>
+<br/>
 Name: [Arpit Agarwal](https://github.com/aarpit1010)<br/>
 Place: India<br/>
 About: ML Enthusiast from IIITA.<br/>
