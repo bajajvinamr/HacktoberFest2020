@@ -156,3 +156,7 @@ Name: [Muhammad Tri Anwarruddin](https://github.com/anwareset)<br/>
 Place: Kediri, East Java, Indonesia<br/>
 About: Linux System Engineer<br/>
 <br/>
+Name: [Zephyrus](https://github.com/zephyrus-tech/) <br />
+Place: Delhi, India<br />
+About: Frontend Web Developer<br />
+<br />
