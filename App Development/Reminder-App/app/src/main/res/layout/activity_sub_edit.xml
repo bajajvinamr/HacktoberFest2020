@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#BBDEFB">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EDIT TASK"
+            android:textColor="#4A148C"
+            android:layout_gravity="center_horizontal"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+        <EditText
+            android:id="@+id/tn_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#00695C"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:hint="Task Name" />
+
+        <EditText
+            android:id="@+id/editText_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Description"
+            android:textColor="#00695C"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#B71C1C"
+            android:text="Duration :"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/dur_day_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Days"
+                android:textColor="#00695C"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/dur_hour_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Hour"
+                android:textColor="#00695C"
+                android:textStyle="bold"
+                android:padding="10dp"/>
+            <EditText
+                android:id="@+id/dur_min_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#00695C"
+                android:textStyle="bold"
+                android:hint="Minute"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/st_edit"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Start Time :"
+            android:textColor="#B71C1C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:hint="dd-mm-yyyy"
+                android:layout_width="200dp"
+                android:textColor="#00695C"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:id="@+id/in_date_edit" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SELECT DATE"
+                android:id="@+id/btn_date_edit"
+                android:layout_alignBottom="@+id/in_date_edit"
+                android:layout_toRightOf="@+id/in_date_edit"
+                android:layout_toEndOf="@+id/in_date_edit" />
+
+            <EditText
+                android:hint="hh:mm"
+                android:layout_width="200dp"
+                android:textColor="#00695C"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:id="@+id/in_time_edit"
+                android:layout_below="@+id/in_date_edit"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SELECT TIME"
+                android:id="@+id/btn_time_edit"
+                android:layout_below="@+id/btn_date_edit"
+                android:layout_alignLeft="@+id/btn_date_edit"
+                android:layout_alignStart="@+id/btn_date_edit" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="25dp"
+            android:gravity="center_horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="edit task"
+                android:textSize="16sp"
+                android:onClick="edittask"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu"
+                android:textSize="16sp"
+                android:onClick="menu_nav"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/ids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:visibility="visible"/>
+    </LinearLayout>
+</ScrollView>
