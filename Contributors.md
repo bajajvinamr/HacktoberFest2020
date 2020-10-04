@@ -156,3 +156,9 @@ Name: [Muhammad Tri Anwarruddin](https://github.com/anwareset)<br/>
 Place: Kediri, East Java, Indonesia<br/>
 About: Linux System Engineer<br/>
 <br/>
+<br/>
+Name: [Vidushi Jain](https://github.com/VidushiJain30)<br/>
+Place: Noida,India<br/>
+About: Software Engineer<br/>
+<br/>
+
