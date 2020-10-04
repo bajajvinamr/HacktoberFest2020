@@ -157,6 +157,6 @@ Place: Kediri, East Java, Indonesia<br/>
 About: Linux System Engineer<br/>
 <br/>
 Name:[Anshika Bangar](https://github.com/AnshikaBangar)
-Place: Rajasthan,India
-About: Student at GLBITM
+Place: Rajasthan,India<br/>
+About: Student at GLBITM<br/>
 <br/>
