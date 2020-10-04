@@ -147,3 +147,16 @@ About: ML Developer<br/>
 Name: [Tanishq Bhatt](https://github.com/tb-rules10)<br/>
 Place: India<br/>
 About: Class 12th student.<br/>
+
+Name: [Khushi Srivastav](https://github.com/black73)<br/>
+Place: India<br/>
+About: Sophomore at IIITL<br/>
+<br/>
+Name: [CoderSaty](https://github.com/codersaty)<br/>
+Place: Uttar Pradesh, India
+About: Junior year at MMMUT<br/>
+<br/>
+Name: [Muhammad Tri Anwarruddin](https://github.com/anwareset)<br/>
+Place: Kediri, East Java, Indonesia<br/>
+About: Linux System Engineer<br/>
+<br/>
