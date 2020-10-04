@@ -156,7 +156,7 @@ Name: [Muhammad Tri Anwarruddin](https://github.com/anwareset)<br/>
 Place: Kediri, East Java, Indonesia<br/>
 About: Linux System Engineer<br/>
 <br/>
-Name:[Anshika Bangar](https://github.com/AnshikaBangar)
+Name:[Anshika Bangar](https://github.com/AnshikaBangar)<br/>
 Place: Rajasthan,India<br/>
 About: Student at GLBITM<br/>
 <br/>
