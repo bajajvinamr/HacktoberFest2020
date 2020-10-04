@@ -156,3 +156,7 @@ Name: [Muhammad Tri Anwarruddin](https://github.com/anwareset)<br/>
 Place: Kediri, East Java, Indonesia<br/>
 About: Linux System Engineer<br/>
 <br/>
+Name: [Kumar Nilind](https://github.com/Graviton5)
+Place: Rajasthan, India
+About: Student in Manipal
+<br/>
