@@ -133,7 +133,6 @@ Name: [Mukul Mohmare](https://github.com/Mu-C00L)<br/>
 Place: India<br/>
 About: Rookie developer from IIITA.<br/>
 <br/>
-
 Name: Ida Bagus Putu Indra Sunarbawa <br/>
 From: Bali <br/>
 institution : ITB STIKOM BALI <br/>
@@ -155,4 +154,8 @@ About: Junior year at MMMUT<br/>
 Name: [Muhammad Tri Anwarruddin](https://github.com/anwareset)<br/>
 Place: Kediri, East Java, Indonesia<br/>
 About: Linux System Engineer<br/>
+<br/>
+Name: [Arpit Agarwal](https://github.com/aarpit1010)<br/>
+Place: India<br/>
+About: ML Enthusiast from IIITA.<br/>
 <br/>
