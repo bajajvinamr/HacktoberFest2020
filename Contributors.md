@@ -159,6 +159,10 @@ Name: [Muhammad Tri Anwarruddin](https://github.com/anwareset)<br/>
 Place: Kediri, East Java, Indonesia<br/>
 About: Linux System Engineer<br/>
 <br/>
+Name : [Savar Bhasin] (https://github.com/savarbhasin)
+Place : Mumbai, India
+About : just a new coder 
+<br/>
 Name: [Denis Povod](https://github.com/Dj-Denis)<br/>
 Place: Kherson, Ukraine<br/>
 About: Fullstack dev<br/>
