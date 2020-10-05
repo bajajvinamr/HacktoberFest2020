@@ -6,6 +6,10 @@ Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
 <br/>
+Name: [Yuvarajan](https://github.com/dozerex)<br/>
+Place: India<br/>
+About: ML enthusiast<br/>
+<br/>
 Name: [Dipan Nama](https://www.github.com/DipanNama)</br>
 Place: India</br>
 About: A passionate frontend developer, programmer, CTF player & student from India.</br>
