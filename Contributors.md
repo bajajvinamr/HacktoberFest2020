@@ -133,7 +133,6 @@ Name: [Mukul Mohmare](https://github.com/Mu-C00L)<br/>
 Place: India<br/>
 About: Rookie developer from IIITA.<br/>
 <br/>
-
 Name: Ida Bagus Putu Indra Sunarbawa <br/>
 From: Bali <br/>
 institution : ITB STIKOM BALI <br/>
@@ -152,4 +151,29 @@ About: Sophomore at IIITL<br/>
 Name: [Rohit Kumar](https://github.com/RohitKumar-200)<br/>
 Place: India<br/>
 About: Web Developer<br/>
+<br/>
+
+Name: [Muskan Kumari](https://github.com/Code414)<br/>
+Place: India<br/>
+About: Educatee at IIITL<br/>
+<br/>
+Name: [CoderSaty](https://github.com/codersaty)<br/>
+Place: Uttar Pradesh, India
+About: Junior year at MMMUT<br/>
+<br/>
+Name: [Muhammad Tri Anwarruddin](https://github.com/anwareset)<br/>
+Place: Kediri, East Java, Indonesia<br/>
+About: Linux System Engineer<br/>
+<br/>
+Name : [Savar Bhasin] (https://github.com/savarbhasin)
+Place : Mumbai, India
+About : just a new coder 
+<br/>
+Name: [Denis Povod](https://github.com/Dj-Denis)<br/>
+Place: Kherson, Ukraine<br/>
+About: Fullstack dev<br/>
+<br/>
+Name: [Arpit Agarwal](https://github.com/aarpit1010)<br/>
+Place: India<br/>
+About: ML Enthusiast from IIITA.<br/>
 <br/>
