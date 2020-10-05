@@ -171,3 +171,7 @@ Name: [Arpit Agarwal](https://github.com/aarpit1010)<br/>
 Place: India<br/>
 About: ML Enthusiast from IIITA.<br/>
 <br/>
+Name: [Anto P V](https://github.com/anto-pv)<br/>
+Place: India<br/>
+About: Python dev<br/>
+<br/>
