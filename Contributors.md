@@ -188,3 +188,6 @@ Name: [Akhil S Nair](https://github.com/akhilsnair1047)<br/>
 Place: India<br/>
 About: Software Developer<br/>
 <br/>
+Name: [Vishiel Outar](https://github.com/VishielOutar)</br>
+Place: USA/NJ</br>
+</br>
