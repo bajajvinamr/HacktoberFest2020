@@ -184,3 +184,6 @@ Name: [Kiranmayep](https://github.com/Kiranmayep)<br/>
 Name: [Marcelo Wis](https://github.com/marcelowis)<br/>
 Place: Brazil<br/>
 <br/>
+Name: [Vishiel Outar](https://github.com/VishielOutar)</br>
+Place: USA/NJ</br>
+</br>
