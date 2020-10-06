@@ -1,3 +1,7 @@
+Name:[Hargun](https://github.com/hamiecod)<br/>
+Place: India<br/>
+About: 8th grade student and self made programmer and ethical hacker<br/>
+<br/>
 Name: [Amrita Singha Roy](https://github.com/uzumakinaruto96)<br/>
 Place: India<br/>
 About: SDET in Infosys and I love learning new things<br/>
