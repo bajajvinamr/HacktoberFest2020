@@ -171,3 +171,6 @@ Name: [Arpit Agarwal](https://github.com/aarpit1010)<br/>
 Place: India<br/>
 About: ML Enthusiast from IIITA.<br/>
 <br/>
+Name: [Marcelo Wis](https://github.com/marcelowis)<br/>
+Place: Brazil<br/>
+<br/>
