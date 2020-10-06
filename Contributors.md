@@ -165,6 +165,10 @@ Name: [Muhammad Tri Anwarruddin](https://github.com/anwareset)<br/>
 Place: Kediri, East Java, Indonesia<br/>
 About: Linux System Engineer<br/>
 <br/>
+Name: [Saksham Varshney](https://github.com/sakshamv30)<br/>
+Place: IIIT Lucknow<br/>
+About: Newbie to Machine Learning<br/>
+<br/>
 Name: [Noelia Escalera Mejías](https://github.com/Arelaxe)<br/>
 Place: Granada, Spain<br/>
 About: Computer Engineering Student at UGR<br/>
