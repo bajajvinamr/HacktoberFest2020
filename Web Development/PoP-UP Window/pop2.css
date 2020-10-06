@@ -1,0 +1,71 @@
+.modal-parent{
+    position: fixed;
+    top:0;
+    left: 0;
+    height:100vh;
+    width:100%;
+    display: none;
+}
+.modal{
+    background-color: aliceblue;
+    width:70%;
+    padding :30px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    animation:2s drop;
+}
+@keyframes drop {
+ 0%{
+     top: -100px;
+ }
+ 70%{
+     top: 52%;
+ }
+ 100%{
+     top:50%;
+ }
+
+}
+.X{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    font-size: 50px;
+    font-weight: 200;
+    cursor:pointer;
+}
+
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(90deg); } 
+  }
+  @-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(90deg); } 
+  }
+  @keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+  }
+  
+ 
+  .X:hover  {
+    /* -webkit-animation:spin 500ms linear;*/  /* These are the vendor-prefixed properties offered by the relevant 
+  /* -moz-animation:spin 500ms linear; */     /*  rendering engines (-webkit for Chrome, Safari; -moz for Firefox, -o for Opera,
+                                                -ms for Internet Explorer) */
+     
+      animation:spin 300ms linear;
+  }
+
+
+
+.section{
+    transition: 2s;
+}
