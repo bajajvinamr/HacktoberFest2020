@@ -228,3 +228,7 @@ About: Software Developer<br/>
 Name: [Vishiel Outar](https://github.com/VishielOutar)</br>
 Place: USA/NJ</br>
 </br>
+Name: [Ana Julia Zhu](https://github.com/anajuliazhu)</br>
+Place: Brazil</br>
+About: A Petroleum Engineering Student learning to code.</br>
+</br>
