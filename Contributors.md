@@ -217,7 +217,12 @@ Name: [Kiranmayep](https://github.com/Kiranmayep)<br/>
 Name: [Marcelo Wis](https://github.com/marcelowis)<br/>
 Place: Brazil<br/>
 <br/>
-Name:[Brian Loveless](https://github.com/BrianLoveGa)<br/>
+
+Name: [Jose Hudson](https://github.com/jhudsonsg)<br/>
+Place: Brazil<br/>
+About: Eternal student.<br/>
+<br/>
+Name: [Brian Loveless](https://github.com/BrianLoveGa)<br/>
 Place: Atlanta, Ga, USA <br/>
 About: Web Dev, Programmer, career changer.<br/>
 <br/>
