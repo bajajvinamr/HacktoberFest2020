@@ -173,6 +173,10 @@ Name: [Arpit Agarwal](https://github.com/aarpit1010)<br/>
 Place: India<br/>
 About: ML Enthusiast from IIITA.<br/>
 <br/>
+Name: [Harpreet Madaan](https://github.com/Harpreet199)<br/>
+Place: India<br/>
+About: Developer, Blogger, Tech Geek, Quick Learner<br/>
+<br/>
 Name: [Anika Agarwal](https://github.com/Anikaagarwal10)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
