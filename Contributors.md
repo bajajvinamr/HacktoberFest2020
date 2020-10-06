@@ -174,3 +174,16 @@ About: ML Enthusiast from IIITA.<br/>
 Name: [Rohit](https://github.com/rohit57382)<br/>
 Place: India<br/>
 <br/>
+Name: [Aayushi Choudhary](https://github.com/iusheee)<br/>
+Place: Jaipur, India<br/>
+About: Frontend web developer.<br/>
+<br/>
+Name: [Patrick Sedlacek](https://github.com/PatrickSedlacek)<br/>
+Place: Iowa, United States of America<br/>
+about: Linux and OS fan<br/>
+<br/>
+Name: [Kiranmayep](https://github.com/Kiranmayep)<br/>
+<br/>
+Name: [Marcelo Wis](https://github.com/marcelowis)<br/>
+Place: Brazil<br/>
+<br/>
