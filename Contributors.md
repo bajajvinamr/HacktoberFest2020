@@ -184,3 +184,7 @@ Name: [Kiranmayep](https://github.com/Kiranmayep)<br/>
 Name: [Marcelo Wis](https://github.com/marcelowis)<br/>
 Place: Brazil<br/>
 <br/>
+Name: [Akhil S Nair](https://github.com/akhilsnair1047)<br/>
+Place: India<br/>
+About: Software Developer<br/>
+<br/>
