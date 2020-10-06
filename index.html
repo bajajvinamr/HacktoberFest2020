@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Project</title>
+</head>
+<body>
+    
+    <!-- <button onclick="Increment()"> Increment </button>
+    <button onclick="Decrement()"> Decrement </button>
+    <button onclick="Reset()"> Reset </button> -->
+
+    <button onclick="change()">Change</button>
+
+    <script>
+
+        // var num = document.querySelector('#number');
+        // var counter = 0
+
+        // function Increment(){
+        //     counter++;
+        //     num.innerText = counter;
+        // }
+
+        // function Decrement(){
+        //     counter--;
+        //     num.innerText = counter;
+        // }
+
+        // function Reset(){
+        //     counter = 0;
+        //     num.innerText = counter;
+        // }
+        
+        const colors = ['red', 'blue', 'green', 'pink', 'yellow', 'orange', 'lightblue', 'lightgreen', 'grey'];
+        
+        function change(){
+            const colorIndex = parseInt(Math.random() * colors.length);
+            console.log(colorIndex);
+            document.body.style.backgroundColor= colors[colorIndex];
+        }
+
+
+    </script>
+    
+</body>
+</html>
