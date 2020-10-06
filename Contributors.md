@@ -173,3 +173,7 @@ About: ML Enthusiast from IIITA.<br/>
 <br/>
 Name: [Kiranmayep](https://github.com/Kiranmayep)<br/>
 <br/>
+
+Name: [Marcelo Wis](https://github.com/marcelowis)<br/>
+Place: Brazil<br/>
+<br/>
