@@ -54,3 +54,7 @@ Name: [Niharika Kabra](https://github.com/feyre-2001)<br/>
 Place: India<br/>
 About: A developer rookie and machine learning enthusiast from Indian Institute of Information Technology, Lucknow. 
 <br/>
+Name: [Somya Maheshwari](https://github.com/somya22)<br/>
+Place: India<br/>
+About: Learner for Life. 
+<br/>
