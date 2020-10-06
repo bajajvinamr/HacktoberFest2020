@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background: rgba(19, 19, 23, 0.9);
+  }
+  section{
+    background-image: url("modal-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    /* filter: blur(6px); */
+  }
+  .center{
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    margin: 40px;
+    text-transform: capitalize;
+  }
+  button{
+    margin: 0 auto;
+    height: 60px;
+    width: 500px;
+    background: #5454ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 25px;
+    color: #000;
+    cursor: pointer;
+  }
