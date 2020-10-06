@@ -1,0 +1,43 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    long long n;
+    cin>>n;
+    long long sume = (n*(n+1))/2;
+    vector<int> v;
+    vector<int> two;
+    vector<int> one;
+    for(long long i=n;i>0;i--){
+        v.push_back(i);
+    }
+    if (sume%2==0){
+        cout<<"YES"<<endl;
+        sume = sume/2;
+        long long i = 0;
+        long long f = 0;
+        while(i<n){
+            long long k = v[i];
+            long long u = f;
+            f = f + k;
+            if (f<=sume){
+                one.push_back(k);
+            }
+            else{
+                two.push_back(k);
+                f = u;
+            }
+            i = i + 1;    
+        }
+        cout<<two.size()<<endl;
+        for(auto &j:two) cout<<j<<" ";
+        cout<<endl;
+        cout<<one.size()<<endl;
+        for(auto &j:one) cout<<j<<" ";
+        
+
+    }
+    else{
+        cout<<"NO";
+    }
+
+}
