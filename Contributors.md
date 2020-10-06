@@ -188,3 +188,10 @@ Name:[Brian Loveless](https://github.com/BrianLoveGa)<br/>
 Place: Atlanta, Ga, USA <br/>
 About: Web Dev, Programmer, career changer.<br/>
 <br/>
+Name: [Akhil S Nair](https://github.com/akhilsnair1047)<br/>
+Place: India<br/>
+About: Software Developer<br/>
+<br/>
+Name: [Vishiel Outar](https://github.com/VishielOutar)</br>
+Place: USA/NJ</br>
+</br>
