@@ -137,15 +137,17 @@ Name: Ida Bagus Putu Indra Sunarbawa <br/>
 From: Bali <br/>
 institution : ITB STIKOM BALI <br/>
 <br/>
-
 Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
-
 Name: [Khushi Srivastav](https://github.com/black73)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
+<br/>
+Name: [Rohit Kumar](https://github.com/RohitKumar-200)<br/>
+Place: India<br/>
+About: Web Developer<br/>
 <br/>
 Name: [Muskan Kumari](https://github.com/Code414)<br/>
 Place: India<br/>
