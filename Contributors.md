@@ -173,6 +173,10 @@ Name: [Arpit Agarwal](https://github.com/aarpit1010)<br/>
 Place: India<br/>
 About: ML Enthusiast from IIITA.<br/>
 <br/>
+Name: [Anika Agarwal](https://github.com/Anikaagarwal10)<br/>
+Place: India<br/>
+About: Sophomore at IIITL<br/>
+<br/>
 Name: [Mochamad Putera Pamungkas](https://github.com/mputerapamungkas)<br/>
 Place: Indonesia<br/>
 About: Love Code and UI Design<br/>
