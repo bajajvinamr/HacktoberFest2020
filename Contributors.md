@@ -1,3 +1,7 @@
+﻿Name: [Shivam Bhat](https://github.com/shivambhat)<br/>
+Place: India<br/>
+About: Operations analyst at Amazon<br/>
+
 Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
