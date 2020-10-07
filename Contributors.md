@@ -264,3 +264,6 @@ About: Learner for Life.
 Name: [Vishiel Outar](https://github.com/VishielOutar)</br>
 Place: USA/NJ</br>
 </br>
+Name: [Ale Seydoux](https://github.com/AleeSeydoux)<br/>
+Place: Vhs/Mex<br/>
+About: Hacktoberfest/Hold onto hope if you got it <br/>
