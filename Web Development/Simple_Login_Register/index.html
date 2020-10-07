@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Login</title>
+        
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            body{
+                background:#148681;
+                color:#fff;
+            }
+            #login{
+                margin-top:7pc;
+                color:#333;
+            }
+            #register{
+                margin-top:2.5pc;
+                color:#333;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="login">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 mx-auto">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">
+                                   <b>Sign In</b> 
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <form method="post" action="">
+                                    <div class="form-group">
+                                        <label for="">Username</label>
+                                        <input type="text" name="user" id="user" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Password</label>
+                                        <input type="password" name="pass" id="pass" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="float-left mt-2 mb-2">
+                                        Don't have an account yet? 
+                                        <a href="javascript:void(0)" id="signUp">Sign Up</a>
+                                    </div>
+                                    <div class="float-right">
+                                        <button type="submit" class="btn btn-info btn-md">
+                                            Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="register">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 mx-auto">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">
+                                   <b>Sign Up</b> 
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <form method="post" action="">
+                                    <div class="form-group">
+                                        <label for="">Name</label>
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">E-mail</label>
+                                        <input type="text" name="email" id="email" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Username</label>
+                                        <input type="text" name="user" id="user" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Password</label>
+                                        <input type="password" name="pass" id="pass" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Retype Password</label>
+                                        <input type="password" name="pass" id="pass" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="float-left mt-2 mb-2">
+                                        Already have an account ? 
+                                        <a href="javascript:void(0)" id="signIn">Sign in</a>
+                                    </div>
+                                    <div class="float-right">
+                                        <button type="submit" class="btn btn-info btn-md">
+                                            Register</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#signIn').click(function(){
+                    $('#register').fadeOut('slow');
+                    $('#login').fadeIn('slow');
+                });
+                $('#signUp').click(function(){
+                    $('#login').fadeOut('slow');
+                    $('#register').fadeIn('slow');
+                });
+            });
+            $('#register').hide();
+        </script>
+    </body>
+</html>
