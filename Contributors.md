@@ -1,3 +1,7 @@
+Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
+Place: India<br/>
+About: Sophomore at IIITL<br/>
+<br/>
 Name:[Hargun](https://github.com/hamiecod)<br/>
 Place: India<br/>
 About: 8th grade student and self made programmer and ethical hacker<br/>
@@ -5,10 +9,6 @@ About: 8th grade student and self made programmer and ethical hacker<br/>
 Name: [Amrita Singha Roy](https://github.com/uzumakinaruto96)<br/>
 Place: India<br/>
 About: SDET in Infosys and I love learning new things<br/>
-<br/>
-Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
-Place: India<br/>
-About: Sophomore at IIITL<br/>
 <br/>
 Name: [Dipan Nama](https://www.github.com/DipanNama)</br>
 Place: India</br>
@@ -165,11 +165,15 @@ Name: [Muhammad Tri Anwarruddin](https://github.com/anwareset)<br/>
 Place: Kediri, East Java, Indonesia<br/>
 About: Linux System Engineer<br/>
 <br/>
+Name: [Kumar Nilind](https://github.com/Graviton5)<br/>
+Place: Rajasthan, India<br/>
+About: Student in Manipal University<br/>
+<br/>
 Name: [Zephyrus](https://github.com/zephyrus-tech/) <br />
 Place: Delhi, India<br />
 About: Frontend Web Developer<br />
 <br />
-=Name: [Saksham Varshney](https://github.com/sakshamv30)<br/>
+Name: [Saksham Varshney](https://github.com/sakshamv30)<br/>
 Place: IIIT Lucknow<br/>
 About: Newbie to Machine Learning<br/>
 <br/>
