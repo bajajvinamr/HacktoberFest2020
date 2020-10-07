@@ -268,3 +268,7 @@ Name: [Brian Tham](https://github.com/Nightey3s)</br>
 Place: Singapore</br>
 About: Student
 </br>
+Name: [Ale Seydoux](https://github.com/AleeSeydoux)<br/>
+Place: Vhs/Mex<br/>
+About: Hacktoberfest/Hold onto hope if you got it <br/>
+</br>
