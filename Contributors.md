@@ -264,3 +264,7 @@ About: Learner for Life.
 Name: [Vishiel Outar](https://github.com/VishielOutar)</br>
 Place: USA/NJ</br>
 </br>
+Name: [Brian Tham](https://github.com/Nightey3s)</br>
+Place: Singapore</br>
+About: Student
+</br>
