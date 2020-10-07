@@ -191,7 +191,7 @@ About: Software Engineer<br/>
 <br/>
 Name : [Savar Bhasin] (https://github.com/savarbhasin)
 Place : Mumbai, India
-About : just a new coder 
+About : just a new coder
 <br/>
 Name: [Denis Povod](https://github.com/Dj-Denis)<br/>
 Place: Kherson, Ukraine<br/>
@@ -263,7 +263,7 @@ About: Software Developer<br/>
 <br/>
 Name: [Somya Maheshwari](https://github.com/somya22)<br/>
 Place: India<br/>
-About: Learner for Life. 
+About: Learner for Life.
 <br/>
 Name: [Vishiel Outar](https://github.com/VishielOutar)</br>
 Place: USA/NJ</br>
@@ -276,3 +276,7 @@ Name: [Ale Seydoux](https://github.com/AleeSeydoux)<br/>
 Place: Vhs/Mex<br/>
 About: Hacktoberfest/Hold onto hope if you got it <br/>
 </br>
+Name:[Nanda](https://github.com/whitedevil31)<br/>
+Place:Chennai/India<br/>
+About:Aspiring full stack web developer<br/>
+<br/>
