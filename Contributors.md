@@ -141,6 +141,10 @@ Name: Ida Bagus Putu Indra Sunarbawa <br/>
 From: Bali <br/>
 institution : ITB STIKOM BALI <br/>
 <br/>
+Name: [Arjun G](https://github.com/Arjun-Gopinath)<br/>
+Place: India<br/>
+About: Web and Game Dev from Kerala<br/>
+<br/>
 Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
