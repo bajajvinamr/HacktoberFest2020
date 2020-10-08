@@ -276,3 +276,7 @@ Name: [Ale Seydoux](https://github.com/AleeSeydoux)<br/>
 Place: Vhs/Mex<br/>
 About: Hacktoberfest/Hold onto hope if you got it <br/>
 </br>
+Name: [Mahima Sawant](https://github.com/mahimasawant)<br/>
+Place: India
+About: Web developer 
+<br/>
