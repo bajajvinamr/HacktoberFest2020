@@ -64,28 +64,25 @@ void dfs(ll x)
 
 */
 
-int main()
-{
+int main() {
    fast
         test
         {
-            ll c,m,x;
-            cin>>c>>m>>x;
-           ll l=0, r = max(c,m); ll ans=0;
-           while(l<=r)
-           {
-               ll mid= (l+r)/2;
+            ll c, m, x;
+            cin >> c >> m >> x;
+           ll l = 0, r = max(c, m);
+           ll ans = 0;
+           while(l <= r) {
+               ll mid = (l + r) / 2;
 
-               if( c>=mid && m>=mid && x>=3*mid-(m+c))
-               {
+               if( c >= mid && m >= mid && x >= 3 * mid - (m + c)) {
                    ans = mid;
-                   l = mid+1;
+                   l = mid + 1;
                }
-               else
-               {
-                   r=mid-1;
+               else {
+                   r = mid - 1;
                }
            }
-           cout<<ans;nl;
+           cout << ans;nl;
         }
 }
