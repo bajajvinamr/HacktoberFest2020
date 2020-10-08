@@ -276,3 +276,6 @@ Name: [Ale Seydoux](https://github.com/AleeSeydoux)<br/>
 Place: Vhs/Mex<br/>
 About: Hacktoberfest/Hold onto hope if you got it <br/>
 </br>
+Name: [Guilherme ALmeida](https://github.com/guidapinta)<br/>
+Place: Portugal<br/>
+About: Student<br/>
