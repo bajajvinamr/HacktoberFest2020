@@ -276,3 +276,7 @@ Name: [Ale Seydoux](https://github.com/AleeSeydoux)<br/>
 Place: Vhs/Mex<br/>
 About: Hacktoberfest/Hold onto hope if you got it <br/>
 </br>
+Name: [Dylan Hernandez](https://github.com/UltimateDystrom)<br/>
+Place: Mexico/Veracruz<br/>
+About: Student and learner <br/v>
+</br>
