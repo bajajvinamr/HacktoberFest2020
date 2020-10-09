@@ -276,3 +276,8 @@ Name: [Ale Seydoux](https://github.com/AleeSeydoux)<br/>
 Place: Vhs/Mex<br/>
 About: Hacktoberfest/Hold onto hope if you got it <br/>
 </br>
+Name: [Sneha Nagpal](https://github.com/Sneha-nagpal)<br/>
+Place: India<br/>
+About: food for code <br/>
+</br>
+
