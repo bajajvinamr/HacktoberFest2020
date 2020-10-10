@@ -282,7 +282,6 @@ Name: [Smriti Rout](https://github.com/smriti2311)<br/>
 Place: Uttar Pradesh<br/>
 About: Data science enthusiast<br/>
 <br/>
-<br/>
 Name: [Mukul Mohmare](https://github.com/Mu-C00L)<br/>
 Place: India<br/>
 About: Rookie developer from IIITA.<br/>
@@ -299,6 +298,10 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+Name: [Mohan Kumar](https://github.com/imshines)<br />
+Place: TamilNadu, India <br />
+About: Web Developer <br />
+<br />
 Name: [Dragan Belegisanin](Github Link)<br/>
 Place: Belgrade, Serbia<br/>
 About: Web & Mobile Developer<br/>
