@@ -1,10 +1,10 @@
-﻿Name: [Shivam Bhat](https://github.com/shivambhat)<br/>
-Place: India<br/>
-About: Operations analyst at Amazon<br/>
-
 Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
+<br/>
+﻿Name: [Shivam Bhat](https://github.com/shivambhat)<br/>
+Place: India<br/>
+About: Operations analyst at Amazon<br/>
 <br/>
 Name:[Hargun](https://github.com/hamiecod)<br/>
 Place: India<br/>
@@ -172,6 +172,10 @@ About: Junior year at MMMUT<br/>
 Name: [Muhammad Tri Anwarruddin](https://github.com/anwareset)<br/>
 Place: Kediri, East Java, Indonesia<br/>
 About: Linux System Engineer<br/>
+<br/>
+Name: [Shruti](https://github.com/codeshruti)<br/>
+Place: India<br/>
+About: ML Enthusiast<br/>
 <br/>
 Name: [Kumar Nilind](https://github.com/Graviton5)<br/>
 Place: Rajasthan, India<br/>
