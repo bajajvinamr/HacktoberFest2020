@@ -1,3 +1,7 @@
+Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
+Place: India<br/>
+About: Sophomore at IIITL<br/>
+<br/>
 Name: [Anish Kamath](https://github.com/anishkamath)<br/>
 Place: India<br/>
 About: student<br/>
@@ -12,10 +16,6 @@ About: Verto <br/>
 Name: [Ayodele Foluso Timothy](https://github.com/ayfolut)<br/>
 Place: Nigeria<br/>
 About: Project Manager and C++ Enthusiast<br/>
-<br/>
-Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
-Place: India<br/>
-About: Sophomore at IIITL<br/>
 <br/>
 Name: [Dipan Nama](https://www.github.com/DipanNama)</br>
 Place: India</br>
@@ -313,6 +313,10 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+Name: [Shivam Narula](https://github.com/snaruto7)<br/>
+Place: Jaipur, India<br/>
+About: Devops Engineer<br/>
+</br>
 Name: [Rajat Garg](https://github.com/rajatgarg2)<br/>
 Place: India<br/>
 About: Flutter Developer<br/>
