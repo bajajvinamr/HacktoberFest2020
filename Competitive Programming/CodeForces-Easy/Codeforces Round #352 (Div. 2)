@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long int
+#define fast ios_base::sync_with_stdio(false);cin.tie();cout.tie();
+ 
+ 
+int main()
+{
+    fast
+    
+    int n;
+    string a;
+    cin>>n>>a;
+    if(n>26)
+    {
+        cout<<-1;
+        return 0;
+    }
+    set<char>s;
+    
+    for(int i=0;i<a.size();i++)
+    s.insert(a[i]);
+    
+    // cout<<s.size()<<"\n";
+    
+    cout<<n-s.size();
+    
+    
+}   
