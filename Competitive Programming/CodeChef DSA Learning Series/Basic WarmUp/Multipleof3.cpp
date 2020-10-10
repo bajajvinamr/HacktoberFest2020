@@ -31,19 +31,31 @@ int main()
     run
     loopt
     {
-        int n;
-        cin>>n;
-        vl v(n);
-        for(ll&x:v)    cin>>x;
-        if(n==0)    {cout<<0; nl; continue;}
-        ll ans=1;
-        ll m=v[0];
-        f(i,1,n-1)
+        ll k; ll d0,d1;
+        cin>>k>>d0>>d1;
+        if(k==2)
         {
-            m=min(v[i],m);
-            if(v[i]<=v[i-1]&&v[i]<=m)    ans++;
+            if((d0+d1)%3==0)    cout<<"YES";
+            else cout<<"NO";
+            nl;
+            continue;
         }
-        cout<<ans;
+        ll sum=(d0+d1)%10;
+        int term=(sum*2)%10;
+        sum=sum+d0+d1;
+        ll ar[5]={0};
+        ar[1]=term;
+        ar[2]=(term*2)%10;
+        ar[3]=(term*4)%10;
+        ar[4]=(term*8)%10;
+        ll sum1=((k-3)/4)*ar[1];
+        if((k-3)%4!=0)  sum1+=ar[1];
+        ll sum2=(((k-3)/4)+((k-3)%4)/2)*ar[2];
+        ll sum3=(((k-3)/4)+((k-3)%4)/3)*ar[3];
+        ll sum4=(((k-3)/4)*ar[4]);
+        if((sum+sum1+sum2+sum3+sum4)%3==0)
+            cout<<"YES";
+        else cout<<"NO";
         nl;
     }
     return 0;

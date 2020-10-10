@@ -28,23 +28,23 @@ typedef vector<vi > viv;
 
 int main()
 {
-    run
     loopt
     {
-        int n;
-        cin>>n;
-        vl v(n);
-        for(ll&x:v)    cin>>x;
-        if(n==0)    {cout<<0; nl; continue;}
-        ll ans=1;
-        ll m=v[0];
-        f(i,1,n-1)
+        int g;
+        cin>>g;
+        while(g--)
         {
-            m=min(v[i],m);
-            if(v[i]<=v[i-1]&&v[i]<=m)    ans++;
+            int i,n,q;
+            cin>>i>>n>>q;
+            if(!(n&1))
+                cout<<n/2;
+            else
+            {
+                if(i==q)    cout<<n/2;
+                else cout<<(n+1)/2;
+            }
+            nl;
         }
-        cout<<ans;
-        nl;
     }
     return 0;
 }

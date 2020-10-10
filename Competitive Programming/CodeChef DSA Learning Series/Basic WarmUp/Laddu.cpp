@@ -32,18 +32,30 @@ int main()
     loopt
     {
         int n;
-        cin>>n;
-        vl v(n);
-        for(ll&x:v)    cin>>x;
-        if(n==0)    {cout<<0; nl; continue;}
-        ll ans=1;
-        ll m=v[0];
-        f(i,1,n-1)
+        string nation;
+        cin>>n>>nation;
+        int ans=0;
+        while(n--)
         {
-            m=min(v[i],m);
-            if(v[i]<=v[i-1]&&v[i]<=m)    ans++;
+            string s;
+            cin>>s;
+            if(s=="CONTEST_WON")
+            {
+                int rank;
+                cin>>rank;
+                ans=ans+300+max(0,20-rank);
+            }
+            if(s=="TOP_CONTRIBUTOR")    ans=ans+300;
+            if(s=="BUG_FOUND")
+            {
+                int severity;
+                cin>>severity;
+                ans=ans+severity;
+            }
+            if(s=="CONTEST_HOSTED")     ans+=50;
         }
-        cout<<ans;
+        if(nation=="INDIAN")    cout<<ans/200;
+        else cout<<ans/400;
         nl;
     }
     return 0;
