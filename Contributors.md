@@ -313,6 +313,10 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+Name: [Rajat Garg](https://github.com/rajatgarg2)<br/>
+Place: India<br/>
+About: Flutter Developer<br/>
+<br/>
 Name: [Sudipta Das](https://github.com/Sudiptadas98)<br/>
 Place: Kolkata <br/>
 About: Full Stack Web Developer.<br/>
