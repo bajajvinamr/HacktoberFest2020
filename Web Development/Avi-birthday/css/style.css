@@ -1,0 +1,102 @@
+/*
+ * General Styles
+*/
+
+body {
+  background: url("../images/space-background.png");
+  font-family: "Open Sans", arial, sans-serif;
+
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 1.75rem;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+/*
+ * Heading Styles
+*/
+
+h1,
+h2 {
+  font-family: "Lobster", cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+}
+.hero {
+  line-height: 0px;
+}
+.hero img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+section.intro,
+section.time {
+  padding: 40px;
+}
+section.time p {
+  text-align: center;
+}
+
+section.time address {
+  text-align: center;
+}
+section.intro {
+  background: #fff;
+}
+.time {
+  background: url("../images/bubble-bg.png");
+}
+
+aside.bear img,
+aside.kfc img {
+  width: 40%;
+}
+aside.bear img {
+  float: right;
+}
+
+aside.kfc img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-bottom: 30px;
+}
