@@ -1,3 +1,7 @@
+Name: [Matteo Ruggiero](https://github.com/mRuggi)<br/>
+Place: Italy<br/>
+About: IT engineering student<br/>
+<br/>
 Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
