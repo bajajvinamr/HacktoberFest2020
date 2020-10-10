@@ -45,6 +45,10 @@ Name: [Venkata Raman](https://github.com/venkataraman123)<br/>
 Place: India<br/>
 About: Web developer and aspiring Machine learning engineer<br/>
 <br/>
+Name: [Amjali Kumari](https://github.com/Anjalikumari15)<br/>
+Place: India<br/>
+About: Android app developer and competitive coding enthusiast<br/>
+<br/>
 Name: [Shubham Maurya](https://github.com/codeShaurya)<br/>
 Place: India<br/>
 About: Hacktoberfest<br/>
