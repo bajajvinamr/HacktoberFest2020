@@ -1,0 +1,148 @@
+
+
+
+body{
+
+  background-color:#17141d;
+  color:white;
+  font-family: 'DM Mono', monospace;
+}
+.author-name{
+  color:#e52e71;
+}
+/* Section */
+
+
+
+.card-list{
+  display: flex; /*A flex container with  flex items: */
+  padding:3rem;
+  overflow-x: scroll; /* basically you want to made cards scrolling */
+}
+.card-list::-webkit-scrollbar{
+  width:10px;
+  height: 10px;
+}
+.card-list::-webkit-scrollbar-thumb{
+ background: #fff;
+ border-radius: 10px;
+ box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25), inset -2px -2px -2px rgba(0,0,0,0.25);
+}
+.card-list::-webkit-scrollbar-track{
+
+background: linear-gradient(90deg, #ffff );
+
+
+}
+
+
+
+
+/* Article Cards */
+.card{
+  display: flex;
+  position: relative;
+  flex-direction:column;
+  padding: 1.5rem;
+  height :300px;
+  width:300px;
+  min-width: 250px;
+
+  border-radius: 16px;
+  background-color:#17141d;
+  box-shadow: -1rem 0 3rem #000;
+  transition: 0.2s;
+}
+
+/* HOVER */
+
+.card:hover{
+  transform: translateY(-1rem);
+
+}
+.card:hover~.card{
+  transform: translateX(130px);
+}
+.card:not(:first-child){
+  margin-left: -130px;
+}
+
+/* CARDauthor */
+.card-author{
+  position: relative;
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  align-items:center;
+  margin: 3rem 0 0 ;
+}
+.author-avatar img{
+display:block;
+width:40px;
+height:40px;
+border-radius: 50%;
+filter: grayscale(0);
+margin: 16px 10px;
+}
+.half-circle{
+position: absolute;
+bottom: 0;
+left:0;
+width:60px;
+height:48px;
+fill:none;
+stroke: #ff8a00;
+stroke-width:8;
+stroke-linecap:round;
+
+
+}
+
+
+/* authorName */
+
+.authorname-prefix{
+  font-style: normal;
+  font-weight: 700;
+  color:#7a7a8c;
+
+}
+
+.card-header h2:hover{
+  background:linear-gradient(90deg, #ff8a00,#e52e71);
+  text-shadow: none;
+  background-clip: text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+
+/* TAGS */
+.tags {
+    margin: 1rem 0 2rem;
+    padding: .5rem 0 1rem;
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+.tags a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: .5rem;
+    color: #7a7a8c;
+    text-transform: uppercase;
+    font-size: .66rem;
+    border: 3px solid #28242f;
+    border-radius: 2rem;
+    padding: .2rem .85rem .25rem;
+    position: relative;
+}
+
+ .tags a:hover {
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    text-shadow: none;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-box-decoration-break: clone;
+    background-clip: text;
+    border-color: white;
+}
