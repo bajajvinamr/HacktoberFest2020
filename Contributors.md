@@ -1,6 +1,9 @@
 Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
+Name:[Almas Dinani](https://github.com/almas06)
+Place:India
+About:Love Coding
 <br/>
 Name: [Anish Kamath](https://github.com/anishkamath)<br/>
 Place: India<br/>
