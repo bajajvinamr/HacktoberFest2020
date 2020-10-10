@@ -413,6 +413,10 @@ Name: [Khushi Srivastav](https://github.com/black73)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
 <br/>
+Name: [Somesh Bachani](https://github.com/Someshb0512)<br/>
+Place: Greater Noida, India<br/>
+About: ML Developer,Google assistant Developer,Alexa Developer.<br/>
+<br/>
 Name: [Akshat Bhardwaj](https://github.com/akshatb622)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/> 
