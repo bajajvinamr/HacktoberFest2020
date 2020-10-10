@@ -11,6 +11,15 @@ def linear_search(arr, x):
     return -1
 
 
-arr = [2, 1, 3, 5, 6, 7]
-x = 3
+print("Enter no. of elements")
+n = int(input())
+
+print("Enter elements")
+arr = []
+for i in range(n):
+    arr.append(int(input())
+
+print("Enter no. to find")               
+x = int(input())
+               
 print(f'Position of element {x} is at {linear_search(arr, x)}')
