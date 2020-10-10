@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{int n,a,b,smax=0,max=0,i;
+    printf("how many numbers");
+    scanf("%d",&n);
+    printf("enter number 1\t");
+    scanf("%d",&a);
+    max=a;   
+       for(i=2;i<=n;i++)
+    {
+       printf("enter number %d\t",i);
+        scanf("%d",&b);
+        if (b>max)
+        {smax=max;
+        max=b;}
+        else if(b>smax);
+        smax=b;                
+         }         
+    printf("maximum no is %d and second maximum number is %d",max,smax);
+    getch();
+    }
