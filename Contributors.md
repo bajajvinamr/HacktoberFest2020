@@ -17,6 +17,10 @@ Name: [Ayodele Foluso Timothy](https://github.com/ayfolut)<br/>
 Place: Nigeria<br/>
 About: Project Manager and C++ Enthusiast<br/>
 <br/>
+Name: [rmrvubl](https://github.com/rmrvubl)<br/>
+Place: Singapore<br/>
+About: Student<br/>
+<br/>
 Name: [Dipan Nama](https://www.github.com/DipanNama)</br>
 Place: India</br>
 About: A passionate frontend developer, programmer, CTF player & student from India.</br>
