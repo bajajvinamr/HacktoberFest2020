@@ -297,6 +297,10 @@ Name: Ida Bagus Putu Indra Sunarbawa <br/>
 From: Bali <br/>
 institution : ITB STIKOM BALI <br/>
 <br/>
+Name: [Sumitro Aji Prabowo](https://github.com/bowo-anakdesa)<br/>
+Place: Central Java, Indonesia<br/>
+About: Bismillah<br/>
+<br/>
 Name: [Arjun G](https://github.com/Arjun-Gopinath)<br/>
 Place: India<br/>
 About: Web and Game Dev from Kerala<br/>
