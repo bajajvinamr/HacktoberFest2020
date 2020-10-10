@@ -276,6 +276,10 @@ Name: [Ale Seydoux](https://github.com/AleeSeydoux)<br/>
 Place: Vhs/Mex<br/>
 About: Hacktoberfest/Hold onto hope if you got it <br/>
 </br>
+Name: [Ricardo Dantas](https://github.com/licensed)<br/>
+Place: Brazil<br/>
+About: Python + Digitalocen = Life<br/>
+</br>
 Name: [Devanshika Jha](https://github.com/error404-afk1)<br/>
 Place: Haryana<br/>
 About: Student of Bio Technology <br/>
