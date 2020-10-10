@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
+
+.parent {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent div {
+  width: 0px;
+  height: 0px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+.first {
+  animation: 1s grow ease-out alternate infinite;
+}
+
+.second {
+  animation: 1s grow ease-out alternate infinite;
+  animation-delay: 0.25s;
+}
+
+.third {
+  animation: 1s grow ease-out alternate infinite;
+  animation-delay: 0.425s;
+}
+
+@keyframes grow {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+  }
+}
