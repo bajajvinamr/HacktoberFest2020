@@ -284,6 +284,10 @@ Name: [Ale Seydoux](https://github.com/AleeSeydoux)<br/>
 Place: Vhs/Mex<br/>
 About: Hacktoberfest/Hold onto hope if you got it <br/>
 </br>
+Name: [Lakhan Kumawat](https://github.com/Lakhankumawat)<br/>
+Place: Gujarat , India<br/>
+About: Hacktoberfest-2020<br/>
+<br/>
 Name:[Nanda](https://github.com/whitedevil31)<br/>
 Place:Chennai/India<br/>
 About:Aspiring full stack web developer<br/>
