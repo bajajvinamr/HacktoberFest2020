@@ -157,6 +157,9 @@ Name: [Khushi Srivastav](https://github.com/black73)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
 <br/>
+Name: [Akshat Bhardwaj](https://github.com/akshatb622)<br/>
+Place: India<br/>
+About: Sophomore at IIITL<br/> 
 Name: [Rohit Kumar](https://github.com/RohitKumar-200)<br/>
 Place: India<br/>
 About: Web Developer<br/>
