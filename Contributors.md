@@ -1,3 +1,7 @@
+Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
+Place: India<br/>
+About: Sophomore at IIITL<br/>
+<br/>
 Name: [Anish Kamath](https://github.com/anishkamath)<br/>
 Place: India<br/>
 About: student<br/>
@@ -12,10 +16,6 @@ About: Verto <br/>
 Name: [Ayodele Foluso Timothy](https://github.com/ayfolut)<br/>
 Place: Nigeria<br/>
 About: Project Manager and C++ Enthusiast<br/>
-<br/>
-Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
-Place: India<br/>
-About: Sophomore at IIITL<br/>
 <br/>
 Name: [Dipan Nama](https://www.github.com/DipanNama)</br>
 Place: India</br>
@@ -44,6 +44,10 @@ About: I love open source <3 <br/>
 Name: [Venkata Raman](https://github.com/venkataraman123)<br/>
 Place: India<br/>
 About: Web developer and aspiring Machine learning engineer<br/>
+<br/>
+Name: [Amjali Kumari](https://github.com/Anjalikumari15)<br/>
+Place: India<br/>
+About: Android app developer and competitive coding enthusiast<br/>
 <br/>
 Name: [Shubham Maurya](https://github.com/codeShaurya)<br/>
 Place: India<br/>
@@ -309,12 +313,86 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
-
 Name: [Amit Maurya](https://github.com/amitmaurya7374)<br/>
 From:India <br/>
 About: Flutter Developer<br/>
 Place:Faridabad<br/>
-
+<br/>
+Name: [Shubhani Mulay](https://github.com/Shubhani25)<br/>
+Place: India<br/>
+About: Newbie coder who is always curious to know more.<br/>
+<br/>
+Name: [Avishka](https://github.com/avishka24) <br/>
+Place: Bathinda,INDIA <br/>
+About: web developer <br/>
+Place: Jamshedpur, India<br/>
+About: Software Developer<br/>
+<br/>
+Name: [Shraddha Arora](https://github.com/Shraddhaarora)<br/>
+Place: India<br/>
+<br/>
+Name: [Shivam Narula](https://github.com/snaruto7)<br/>
+Place: Jaipur, India<br/>
+About: Devops Engineer<br/>
+</br>
+Name: [Rajat Garg](https://github.com/rajatgarg2)<br/>
+Place: India<br/>
+About: Flutter Developer<br/>
+<br/>
+Name: [Sudipta Das](https://github.com/Sudiptadas98)<br/>
+Place: Kolkata <br/>
+About: Full Stack Web Developer.<br/>
+<br/>
+Name: [Shivam Agrahari](https://github.com/geeks5551)<br/>
+Place: Prayagraj, India<br/>
+Institute: Indian Institute of Information Technology Allahabad, India<br/>
+About: Full Stack Web developer<br/>
+<br/>
+Name:Khushi Mehta(https://github.com/khushimehta12)<br/>
+Place:Hill City Dungarpur,Rajasthan<br/>
+About: Passoinate about new technologies.<br/>
+Name: [Nathan Beard](https://github.com/nbeard49)<br/>
+Place: United States<br/>
+About: Network Engineer<br/>
+<br/>
+Name: [pahesali](https://github.com/pahesali) <br/>
+Place: Goiania, Brazil <br/>
+About: Software Developer <br/>
+<br/>
+Name: [Balaji Rao](https://github.com/BALAJIRAO676) <br>
+Place: Gwalior<br>
+<br>
+Name: [Tanishq Bhatt](https://github.com/tb-rules10)<br/>
+Place: India<br/>
+About: Class 12th student.<br/>
+<br/>
+Name: [Mai Phan](https://github.com/maimaifr) <br/>
+Place: Melbourne, Australia <br/>
+About: student <br/>
+</br>
+Name: [Md. Hasnain Ali](https://github.com/mdhasnainali)<br/>
+Place: Rajshahi, Bangladesh<br/>
+Institute: University of Rajshahi, Bangladesh<br/>
+<br/>
+Name: [Muhamad Biki Hamzah](https://github.com/bicky33)<br/>
+Place: Semarang City, Indonesia<br/>
+About: Human maybe<br/>
+<br/>
+Name: [Sayan Das](https://github.com/senshiii)<br/>
+Place: Kolkata, West Bengal, India<br/>
+About: MERN Stack Developer.<br/>
+Name: [Mohan Kumar](https://github.com/imshines)<br />
+Place: TamilNadu, India <br />
+About: Web Developer <br />
+<br />
+Name: [Dragan Belegisanin](Github Link)<br/>
+Place: Belgrade, Serbia<br/>
+About: Web & Mobile Developer<br/>
+<br/>
+Name: [M](https://github.com/leoninerising)<br/>
+Place: North America<br/>
+About: Aspiring Web Dev & Designer<br/>
+<br/>
 Name: [Khushi Srivastav](https://github.com/black73)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
