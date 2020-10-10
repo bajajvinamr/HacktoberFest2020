@@ -280,6 +280,10 @@ Name: [Ale Seydoux](https://github.com/AleeSeydoux)<br/>
 Place: Vhs/Mex<br/>
 About: Hacktoberfest/Hold onto hope if you got it <br/>
 </br>
+Name: [Vivek2509](https://github.com/Vivek2509)<br/>
+Place: Kapadwanj India<br/>
+About: Ai/ML enthusiast<br/>
+<br/>
 Name: [Dicky Setiono](https://github.com/Dicky1)<br/>
 Place: Indonesia<br/>
 About: Loveyourself <br/>
