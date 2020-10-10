@@ -1,0 +1,471 @@
+#include<stdio.h> 
+#include<malloc.h>
+#include<string.h>
+
+struct employee
+{
+	int id;//6 digits
+	//a-z and .
+	char name[30];
+	char father_name[30];
+	char mother_name[30];
+	char position[30];
+	char department[30];
+	struct doj
+	{
+		int day;//2 digits 
+		int month;//two digits 
+		int year;//4 digits
+	}date_of_joining;
+	struct Address
+	{
+     int house_no;
+	 char street_name[20];
+     char city[20];
+     char state[20];
+     char country[20]; 
+     int pin;
+	}address;
+	
+	struct employee *next;
+};
+
+int c =0;
+
+typedef struct employee node_link; //a function named node_link of type employee structure is created
+
+node_link *start; // defined the start pointer
+
+//to create the list if the list is empty
+void create_record(node_link*);
+
+int search_record_by_id(node_link *);// to check for id for insert ,delete and update function 
+int search_record(node_link*,char [] ,int ); // for display  annd report function
+
+//to show the list of employees belonging to particular address , department or batch
+void report(node_link*);
+
+//the functions to be used when the record is not present
+
+void insert_record(node_link*);
+//the functions to be used when the record is present
+
+void print(node_link*);
+void display_record(node_link*);
+void delete_record(node_link*);
+void update_record(node_link*);
+
+void check_names(node_link *);
+void check_id(node_link *);
+void check_date(node_link *);
+
+int main()
+{
+		start=(node_link *)malloc(sizeof (node_link));
+		char tries='n';
+		do
+			{
+				//user interface 
+				int option;
+				printf("\nMENU\n");
+				printf("1.create_record\n2.display_record\n3.search_record\n4.insert_record\n5.delete_record\n6.update_record\n7.report\n8.exit");
+				printf("\nEnter the option number: ");
+				scanf("%d",&option);
+				fflush(stdin);
+				switch(option)
+		        {
+		        case 1:
+		        	create_record(start);
+		        	break;
+		        case 2:
+		        	display_record(start);// display will have serach as well as print feature
+		        	break;
+		        case 3:
+		        	search_record_by_id(start); 
+		        	if (c==1)
+		        	print(start); 
+		        	break;
+		        case 4:
+		        	insert_record(start);
+		        	break;
+		        case 5:
+		        	delete_record(start);
+		        	break;
+		        case 6:
+		        	update_record(start);
+		        	break;
+		        case 7:
+		        	report(start);
+		        	break;	
+				case 8: 
+					printf("Enter y to exit:");
+		        	scanf("%c",&tries);  
+					break;     	
+		        default:
+		        	printf("You entered an invalid option.Please enter a number between 1-7 only.\n");
+		        	break;
+		        }	
+	    	}while(tries!='y');	
+	    printf("\nExiting program....\n");
+}
+
+void check_names( node_link * ptr)
+{   int flag = 0;
+	char names[30];
+	do
+	{
+		scanf("%s",&ptr->father_name);
+		names [0]=*ptr->father_name;
+		for (int i=0;i<strlen(names);i++)
+		{
+		if ( (names[i]>='a' && names[i]<='z') || names[i]=='.')
+		{
+			if (i==strlen(names))
+			flag=1;
+		}
+		else
+		{
+			printf("Please enter only 'a' to 'z' or '.' ");
+			flag=0;
+			break;
+		}
+		}
+	} while (flag==0);
+}
+
+void check_id(node_link *ptr)
+{   int flag = 0;
+	do
+	{
+		scanf("%d",&ptr->id);
+		int ids=ptr->id;
+		if ( ids>=100000 && ids <=999999)	
+		flag=1;
+		else
+		{
+			flag=0;
+			printf("Please enter 6 digit id only ");
+		}
+	} while (flag==0);
+}
+
+void check_date(node_link *ptr)
+{   			
+	//day
+	int flag = 0;
+	do
+	{   
+	    printf("\nenter the day in dd format : ") ; 
+		scanf("%d",&ptr->date_of_joining.day);
+		fflush(stdin);
+		int days=ptr->date_of_joining.day;
+		if (days>=1&&days<=31)	
+		flag=1;
+		else
+		{
+			printf("Please enter valid day in DD format from 1 -31 ");
+		}
+	} while (flag==0);
+	
+	 //month
+	flag = 0;
+	do
+	{   
+	    printf("\nenter the day in mm format : ") ; 
+		scanf("%d",&ptr->date_of_joining.month);
+		fflush(stdin);
+		int months=ptr->date_of_joining.month;
+		if (months>=1&&months<=12)	
+			flag=1;
+		else
+		{
+			printf("Please enter valid day in MM format from 1-12 ");
+		}
+	} while (flag==0);
+	
+		//year
+	flag = 0;
+	do
+	{   
+	    printf("\nenter the day in yyyy format : ") ; 
+		scanf("%d",&ptr->date_of_joining.year);
+		int years=ptr->date_of_joining.year;
+		if (years>=1&&years<=12)
+		flag=1;
+		else
+		{
+			printf("Please enter valid day in YYYY format  ");
+		}
+	} while (flag==0);
+	
+}
+
+void create_record(node_link *ptr)
+{   
+	char ch='y';
+	int num=1;
+	do{
+	//printf("Enter the id :");
+	check_id(ptr);
+	printf("Enter the f name :");
+	check_names(ptr);
+	printf("Enter the name :");
+	scanf("%s",&ptr-> name);
+	printf("Enter the fathers name :");
+	scanf("%s",&ptr->father_name);
+	printf("Enter the mothers :");
+	scanf("%s",&ptr->mother_name);
+	printf("Enter the department:");
+	scanf("%s",&ptr->department);
+	printf("Enter the position :");
+	scanf("%s",&ptr->position);
+	printf("Enter the date of joining:");
+	check_date(ptr);
+	printf("Enter the address in order house no ,street name ,city,state,country,pin :\n");
+	scanf("%d%s%s%s%s",&ptr->address.house_no,&ptr->address.street_name,&ptr->address.city,&ptr->address.state,&ptr->address.country);
+	scanf("%d",&ptr->address.pin);
+	fflush(stdin);
+	printf("record has been updated.\n");
+	printf("Enter y to add another element in the list : ");
+	scanf("%c",&ch);
+	if (ch=='y')
+	{
+		ptr->next=(node_link*)malloc(sizeof(node_link ));
+		ptr=ptr->next;
+		num++;
+	}
+	}
+	while(ch=='y');
+	ptr->next=NULL;
+	printf("total entries made =%d",num);
+}
+
+void print (node_link *ptr)
+{
+	printf("%d\n",ptr->id);
+	printf("name=%s\n",ptr-> name);
+	printf("father's name='%s\n",ptr->father_name);
+	printf("mother's name='%s\n",ptr->mother_name);
+	printf("department=%s\n",ptr->department);
+	printf("position=%s\n",ptr->position);
+	printf("date of joining=%d-%d-%d\n",ptr->date_of_joining.day,ptr->date_of_joining.month,ptr->date_of_joining.year);
+	printf("address:\n");
+	printf("house number=%d\n,street=%s\n,city=%s\n,state=%s\n,country=%s\n,",ptr->address.house_no,ptr->address.street_name,ptr->address.city,ptr->address.state,ptr->address.country);
+	printf("pin=%d\n",ptr->address.pin);
+}
+
+void display_record(node_link *ptr)
+{	int check =0;
+ 	char c [30];
+    int value;
+    printf("Enter the value to be searched: 1. city ,2. state, 3. country ");
+    scanf("%d",&value);
+    printf("Enter the name ");
+    scanf("%s",&c);
+	while(ptr!=NULL)
+	{
+	   check=search_record(ptr,c,value);
+	   if ( check == 1)
+		{
+			print(ptr);
+		}
+		ptr=ptr->next;	
+	}	
+}
+
+int search_record_by_id(node_link *ptr)
+{
+	int Id;
+	while(1)
+	{
+	printf("Enter the id you want to search: ");
+	scanf("%d",&Id);
+	fflush(stdin);
+	if(Id>=100000 && Id <=999999)
+	{
+		printf("Searching...");
+		if (ptr==NULL)
+		printf("the list is empty");
+		else{
+			while(ptr!=NULL)
+			{
+				if (ptr->id==Id)
+				{
+					printf("Id found\n");
+					c=1;
+					break;
+				}
+			ptr=ptr->next;
+			if (ptr==NULL)
+			printf("no match found.\n");
+			c=0;
+			}
+		}
+		printf("Search has ended.");
+		break;
+	}
+	else
+	printf("you have enterd the wrong Id.\nPlease Enter a valid positive 6 digit number Id only.");	
+    }
+return (c);
+}
+
+int search_record(node_link *ptr,char c[],int value )
+{
+    
+    if (start == NULL)
+    {
+        scanf("empty list");
+    }
+    if (value==1)
+    {
+    
+    while (ptr!= NULL)
+    {
+        if (ptr->address.city == c)
+        {
+           return 1;
+        }
+        ptr = ptr->next;
+    }
+    }else if(value==2)
+    {
+    while (ptr!= NULL)
+    {
+        if (ptr->address.state == c)
+        {
+           return 1;
+        }
+        ptr = ptr->next;
+	}}
+	else if (value==3)
+	{
+
+    while (ptr!= NULL)
+    {
+        if (ptr->address.country == c)
+        {
+           return 1;
+        }
+        ptr = ptr->next;
+	}
+	}
+}
+
+void insert_record(node_link *ptr)
+{   
+    int check=0;
+	check=search_record_by_id(ptr);
+	if (check==0)
+	{
+	node_link *new1;
+	int i ,node_no;
+	new1=(node_link*)malloc(sizeof(node_link));
+	printf("enter the numbern of node you to insert:0. for first 1. for last 3.eneter the number at which to insert");
+	scanf("%d",node_no);
+	printf("enter details");
+	scanf("%d",&ptr->id);
+    scanf("%s",&ptr-> name);
+	scanf("%s",&ptr->father_name);
+	scanf("%s",&ptr->mother_name);
+	scanf("%s",&ptr->department);
+	scanf("%s",&ptr->position);
+	scanf("%d%d%d\n",&ptr->date_of_joining.day,&ptr->date_of_joining.month,&ptr->date_of_joining.year);
+	scanf("%d%s%s%s%s",&ptr->address.house_no,&ptr->address.street_name,&ptr->address.city,&ptr->address.state,&ptr->address.country);
+	scanf("%d",&ptr->address.pin);
+	if (node_no==0){
+	new1->next=start;
+	start=new1;    }
+	else if (node_no==1){
+		while(ptr!=NULL)
+	{
+		ptr=ptr->next;
+		ptr->next=new1;
+		new1->next=NULL;
+	}   
+	}else
+	{
+		for(i=1;i<node_no-1;i++)
+		{
+		ptr=ptr->next;
+		new1->next=ptr->next;
+		ptr->next=new1;	
+		}
+	}
+	}
+	else 
+	{
+		printf("the record already exsist.");
+	}
+}
+
+void delete_record(node_link *ptr)
+{
+	int check=0;
+	if (ptr==NULL){
+		printf("Record empty, exiting.");
+		return ;
+	}
+	
+	check =search_record_by_id(ptr);
+    if (check==1)
+    {
+      free(ptr);	
+	}
+	while(ptr!=NULL)
+	{
+		print(ptr);
+		ptr=ptr->next;
+	}		
+}
+
+void update_record(node_link *ptr)
+{
+ 	search_record_by_id(ptr);
+ 	if (c==1)
+	{
+ 	scanf("%s",&ptr-> name);
+	scanf("%s",&ptr->father_name);
+	scanf("%s",&ptr->mother_name);
+	scanf("%s",&ptr->department);
+	scanf("%s",&ptr->position);
+	scanf("%d%d%d\n",&ptr->date_of_joining.day,&ptr->date_of_joining.month,&ptr->date_of_joining.year);
+	scanf("%d%s%s%s%s",&ptr->address.house_no,&ptr->address.street_name,&ptr->address.city,&ptr->address.state,&ptr->address.country);
+	scanf("%d",&ptr->address.pin);
+	printf("record has been updated.\n");
+	}	
+}
+
+void report(node_link *ptr)
+{
+	if (ptr==NULL)
+	{
+		printf("there is no employee record.");
+	}
+	else
+	{
+		int check =0;
+		char c [30];
+        int value,num=0;
+        printf("Enter the value to be searched: 1. city ,2. state, 3. country ");
+        scanf("%d",&value);
+        printf("Enter the name ");
+        scanf("%s",&c);
+		while(ptr!=NULL)
+		{
+		   check=search_record(ptr,c,value);
+		   if ( check = 1)
+			{
+				printf("%d\n",ptr->id);
+				printf("name=%s\n",ptr-> name);
+				num++;
+			}
+			ptr=ptr->next;	
+		}
+		printf("total people founded are :",num++);	
+	}
+}
+
+
+
+
