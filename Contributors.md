@@ -302,6 +302,9 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+Name: [Balaji Rao](https://github.com/BALAJIRAO676) <br>
+Place: Gwalior<br>
+<br>
 Name: [Tanishq Bhatt](https://github.com/tb-rules10)<br/>
 Place: India<br/>
 About: Class 12th student.<br/>
