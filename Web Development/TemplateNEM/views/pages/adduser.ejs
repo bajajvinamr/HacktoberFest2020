@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Add a user</title> 
+    </head>
+    <body>
+        <h3>Enter details of user to be added</h3>
+        <form method="POST" action="/adduser" class="form">
+            <%- include ("../partials/form") %>
+        </form>
+        <br/>
+        <%- include ("../partials/footer") %>
+    </body>
+    <style>
+        body{
+            margin: 10px;
+            padding: 20px;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    </style>
+</html>
