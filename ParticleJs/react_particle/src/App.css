@@ -1,0 +1,51 @@
+.toogle-container{
+  z-index:101;
+  position: absolute;
+  bottom: 40px;
+  right:40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app{
+  z-index: -1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.light-mode{
+  background-color: #fff;
+  color:#111;
+  font:20px;
+  font-weight: 700;
+}
+.dark-mode{
+  background-color: #111;
+  color:#fff;
+  font:20px;
+  font-weight: 700;
+}
+
+.particles{
+  z-index: 1;
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+} 
+.image{
+  z-index: 10;
+}
+.img{
+  height: 30px;
+}
+.switch{
+  outline: none;
+  cursor: pointer;
+}
+.switch:focus{
+  outline: none;
+}
