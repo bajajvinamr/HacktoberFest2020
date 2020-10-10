@@ -1,23 +1,27 @@
-package college;
-
-public class linearSearch {
-
+import java.util.Scanner;
+public class Main
+{
 	public static void main(String[] args) {
-		int ar[] = {1,2,5,8,12,27, 31,42};
-		int element = 27;
-		int ans = linearSearch(ar, 0, 7, element);
-		if (ans!=-1)
-				System.out.println("element found at "+ans);
-		else
-			System.out.println("not found");
-	}
-	static int linearSearch(int [] ar, int start, int end, int element) {
-        if (end < start) 
-           return -1; 
-        if (ar[start] == element) 
-           return start; 
-        if (ar[end] == element) 
-           return end; 
-        return linearSearch(ar, start+1, end-1, element); 
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter array size");
+		int n = sc.nextInt();
+		int arr[] = new int[n];
+		System.out.println("Enter array elements");
+		for(int i =0 ;i<n;i++){
+		    arr[i] = sc.nextInt();
+		}
+		System.out.println("Enter number to search");
+		int k = sc.nextInt();
+		int i =0;
+		for(i=0;i<n;i++){
+		    if(arr[i]==k){
+		        System.out.println(k + " is at index "+i);
+		        break;
+		    }
+		}
+		if(i==n){
+		    System.out.println("Number is not in the array");
+		}
+		
 	}
 }
