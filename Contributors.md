@@ -298,6 +298,10 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+Name: [Md. Hasnain Ali](https://github.com/mdhasnainali)<br/>
+Place: Rajshahi, Bangladesh<br/>
+Institute: University of Rajshahi, Bangladesh<br/>
+<br/>
 Name: [Muhamad Biki Hamzah](https://github.com/bicky33)<br/>
 Place: Semarang City, Indonesia<br/>
 About: Human maybe<br/>
