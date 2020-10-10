@@ -126,7 +126,7 @@ We’ll first go over configuring a remote for the fork, then syncing the fork.
 
 Next up, you’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. you’ll have to do this with the git remote add command.
 
-##### ` git remote add upstream https://github.com/acmbvp/Hacktoberfest.git `
+##### ` git remote add upstream https://github.com/bajajvinamr/HacktoberFest2020.git `
 
 In this example, // upstream // is the shortname we have supplied for the remote repository since in terms of Git, “upstream” refers to the repository that you cloned from. If you want to add a remote pointer to the repository of a collaborator, you may want to provide that collaborator’s username or a shortened nickname for the shortname.
 
