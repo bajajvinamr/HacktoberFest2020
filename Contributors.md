@@ -302,6 +302,10 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+Name: [Tanishq Bhatt](https://github.com/tb-rules10)<br/>
+Place: India<br/>
+About: Class 12th student.<br/>
+<br/>
 Name: [Mai Phan](https://github.com/maimaifr) <br/>
 Place: Melbourne, Australia <br/>
 About: student <br/>
@@ -499,7 +503,7 @@ About: Web developer
 <br/>
 Name: [Yash Shah](https://github.com/YashShah85)</br>
 Place: Ahmedabad</br>
-About: Hacktoberfest
+About: Hacktoberfest</br>
 </br>
 Name: [Djuan Ellis](https://github.com/tremont)
 Place: Louisville
