@@ -1,0 +1,22 @@
+let arr = [];
+for (i = 0; i < 99; i++) {
+    arr[i] = String(i+1);
+   }
+console.log(arr);
+function getSumm(array)  {
+    let temp = array;
+    let a = Number(temp[0]);
+    let b = Number(temp[1]);
+    let b1 = Boolean(b);
+    if(!b1) {
+        return a;
+    }
+    else {
+        return (a + b);
+    }
+}
+let summ = 0;
+for(let i = 0; i < 99; i++){ 
+    summ += getSumm(arr[i]);
+    }
+console.log(summ);
