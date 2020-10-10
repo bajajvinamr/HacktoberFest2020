@@ -295,6 +295,10 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+Name: [M](https://github.com/leoninerising)<br/>
+Place: North America<br/>
+About: Aspiring Web Dev & Designer<br/>
+<br/>
 Name: [Khushi Srivastav](https://github.com/black73)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
