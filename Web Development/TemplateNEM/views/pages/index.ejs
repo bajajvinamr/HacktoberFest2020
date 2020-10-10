@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Template NEM</title>
+    <link rel="stylesheet" href="../../public/index.css">
+</head>
+
+<body>
+    <div class="head">
+        <h1><a href="/adduser" style="text-decoration: none;">
+                Add User</a>
+        </h1>
+        <h1><a href="/deluser" style="text-decoration: none;">
+                Delete User</a>
+        </h1>
+    </div>
+
+    <br />
+    <% users.forEach(function(user){ %>
+    <ul id="list">
+        <li>id=<%= user._id %></li>
+        <li>Fname=<%= user.fname %></li>
+        <li>Lname=<%= user.lname %></li>
+        <a href="/update/<%=user._id%>"><button>Edit</button></a>
+    </ul>
+    <% })%>
+
+    <br />
+    <%- include ("../partials/footer") %>
+</body>
+<style>
+    .head {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+    }
+
+    #list {
+        display: flex;
+        flex-flow: row;
+        font-size: 25px;
+        list-style-type: none;
+        justify-content: space-around;
+    }
+</style>
+
+</html>
