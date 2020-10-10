@@ -313,6 +313,10 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+Name: [Shivam Sherkar](https://github.com/ShivamSherkar23)<br/>
+Place: India<br/>
+About: Student<br/>
+<br/>
 Name: [Amit Maurya](https://github.com/amitmaurya7374)<br/>
 From:India <br/>
 About: Flutter Developer<br/>
