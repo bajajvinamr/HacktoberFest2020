@@ -141,6 +141,10 @@ Name: Ida Bagus Putu Indra Sunarbawa <br/>
 From: Bali <br/>
 institution : ITB STIKOM BALI <br/>
 <br/>
+Name: [Arjun G](https://github.com/Arjun-Gopinath)<br/>
+Place: India<br/>
+About: Web and Game Dev from Kerala<br/>
+<br/>
 Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
@@ -279,4 +283,36 @@ About: Hacktoberfest/Hold onto hope if you got it <br/>
 Name: [Dicky Setiono](https://github.com/Dicky1)<br/>
 Place: Indonesia<br/>
 About: Loveyourself <br/>
+Name: [Mahima Sawant](https://github.com/mahimasawant)<br/>
+Place: India
+About: Web developer 
+<br/>
+Name: [Yash Shah](https://github.com/YashShah85)</br>
+Place: Ahmedabad</br>
+About: Hacktoberfest
+</br>
+Name: [Djuan Ellis](https://github.com/tremont)
+Place: Louisville
+About: Learning is my hobby
+Name: [Guilherme ALmeida](https://github.com/guidapinta)<br/>
+Place: Portugal<br/>
+About: Student<br/>
+Name: [Mousoom Mudoi](https://github.com/mousoom)<br/>
+Place: India<br/>
+About: React Developer<br/>
+<br/>
+Name: [Sneha Nagpal](https://github.com/Sneha-nagpal)<br/>
+Place: India<br/>
+About: food for code <br/>
+</br>
+Name: [Mahi Monga](https://github.com/mahimonga)
+Place: INDIA
+About: A cocktail of half code, half blood.
+Name: [Ricardo Dantas](https://github.com/licensed)<br/>
+Place: Brazil<br/>
+About: Python + Digitalocen = Life<br/>
+</br>
+Name: [Devanshika Jha](https://github.com/error404-afk1)<br/>
+Place: Haryana<br/>
+About: Student of Bio Technology <br/>
 </br>
