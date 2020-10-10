@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Register Page</title>
+    <style>
+        .navbar{
+      position: fixed;
+      width: 100%;
+      background: #fff !important;
+      box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
+      transition: .6s;
+      z-index: 10;
+    }
+
+    
+
+    .navbar-nav{
+      font-family: 'Jost', sans-serif;
+      font-weight: bold;
+    }
+
+    .nav-link{
+      margin-right: 5px;
+    }
+
+    .nav-link:hover{
+      color: rgb(9, 242, 250) !important;
+    }
+
+    nav.sticky{
+      background-color: #fff !important;
+      margin-right: 5px;
+    }
+
+    @media (max-width:768px){
+
+      .navbar{
+        z-index: 10;
+      }
+
+      .navbar-brand .logo-one{
+        margin-left: 5px !important;
+        height: 40px;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img class="logo-one" src="images/1.png" alt="logo one" width="100%">
+          
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html"></a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html"></a>
+              </li>
+             
+             
+              
+              
+              
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"> <i class="fas fa-phone-alt"> &nbsp;1800 233 8888</i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> <i class="fas fa-shopping-bag"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"> <i class="fas fa-user"></i></a>
+            </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+             
+             
+              
+              
+              
+          </ul>
+        </div>
+      </nav>
+     <br><br><br>
+
+    <div class="jumbotron">
+        <h1><center>Create Account</center></h1>
+        <br><br>
+        <div class="card bg-light" style="border-color: rgb(138, 135, 135);">
+            <br><br><br>
+            
+        <div class="row">
+            <div class="col-md-10 mx-auto">
+                <form>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label for="inputFirstname">Comapany Name</label>
+                            <input type="text" class="form-control" id="inputFirstname" placeholder="Company Name">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="inputLastname">Name *</label>
+                            <input type="text" class="form-control" id="inputLastname" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label for="inputAddressLine1">Address</label>
+                            <input type="text" class="form-control" id="inputAddressLine1" placeholder="Address">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="inputAddressLine2">Landmark</label>
+                            <input type="text" class="form-control" id="inputAddressLine2" placeholder="Landmark">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label for="inputCity">Country</label>
+                           
+                            <select  class="form-control" name="cars" id="cars"  placeholder="City">
+                                <option value="india">India</option>
+                                <option value="germany">Germany</option>
+                                <option value="usa">USA</option>
+                                <option value="aus">Australia</option>
+                              </select>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="inputCity">State</label>
+                           
+                            <select  class="form-control" name="cars" id="cars"  placeholder="City">
+                                <option value="Odisha">Odisha</option>
+                                <option value="Rajastan">Rajastan</option>
+                                <option value="Gujrat">Gujrat</option>
+                                <option value="andra">Andra Pradesh</option>
+                              </select>
+                        </div>
+                        
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="City">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="inputState">Pincode</label>
+                            <input type="number" class="form-control" id="inputState" placeholder="Pincode">
+                        </div>
+                        
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label for="inputWebsite">Email Address *</label>
+                            <input type="text" class="form-control" id="inputWebsite" placeholder="Email Addrress">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="inputContactNumber">Referral Mobile Number *</label>
+                            <input type="number" class="form-control" id="inputContactNumber" placeholder="Contact Number">
+                        </div>
+                        
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label for="inputContactNumber">Mobile Number * will be login id</label>
+                            <input type="number" class="form-control" id="inputContactNumber" placeholder=" Refferal Mobile Number">
+                        </div>
+                        
+                        <div class="col-sm-6">
+                            <label for="inputWebsite">Password *</label>
+                            <input type="password" class="form-control" id="inputWebsite" placeholder="Password">
+                        </div>
+                        
+                    </div>
+                    <button type="button" class="btn btn-primary px-4 float-left">Save</button>
+                </form>
+                <br> <br><br><br>
+            </div>
+        </div>
+
+        </div>
+       
+    </div>
+
+     <!-- Footer -->
+<footer class="jumbotron">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mt-md-0 mt-3">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase">Categories</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" style="color: black;">Over Head Shower</a>
+            </li>
+            <li>
+              <a href="#!" style="color: black;">Faucet Collection</a>
+            </li>
+            <li>
+              <a href="#!" style="color: black;">Hand Shower</a>
+            </li>
+            <li>
+              <a href="#!" style="color: black;"> Body Jet Shower</a>
+            </li>
+            <li>
+                <a href="#!" style="color: black;"> Health Faucet</a>
+              </li>
+              <li>
+                <a href="#!" style="color: black;">Bathroom Accesories</a>
+              </li>
+          </ul>
+  
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">My Account</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!"style="color: black;">Sign In</a>
+            </li>
+            <li>
+              <a href="#!" style="color: black;">Register</a>
+            </li>
+            
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">Contact</h5>
+  
+          <p>Address: Hare Krishna Bath Fittings LLP. Plot No. C-6/10, Road No.7, Hojiwala Industrial Estate, Sachin, Surat - 394230.Phone: 1800 233 8888Hours: Mon – Sat (10 am to 6pm) </p>
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+    </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© Kindle batch accesories 2020:
+      <a href="https://sovam-coder.github.io/SovamPradhan/" style="color: orangered;"> Made By Sovam Kumar Pradhan </a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
