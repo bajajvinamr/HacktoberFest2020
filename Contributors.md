@@ -276,6 +276,10 @@ Name: [Ale Seydoux](https://github.com/AleeSeydoux)<br/>
 Place: Vhs/Mex<br/>
 About: Hacktoberfest/Hold onto hope if you got it <br/>
 </br>
+<br>
+Name: [Mahi Monga](https://github.com/mahimonga)
+Place: INDIA
+About: A cocktail of half code, half blood.
 Name: [Ricardo Dantas](https://github.com/licensed)<br/>
 Place: Brazil<br/>
 About: Python + Digitalocen = Life<br/>
