@@ -280,4 +280,11 @@ About: Hacktoberfest/Hold onto hope if you got it <br/>
 Name: [Mahi Monga](https://github.com/mahimonga)
 Place: INDIA
 About: A cocktail of half code, half blood.
+Name: [Ricardo Dantas](https://github.com/licensed)<br/>
+Place: Brazil<br/>
+About: Python + Digitalocen = Life<br/>
+</br>
+Name: [Devanshika Jha](https://github.com/error404-afk1)<br/>
+Place: Haryana<br/>
+About: Student of Bio Technology <br/>
 </br>
