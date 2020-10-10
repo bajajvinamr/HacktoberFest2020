@@ -1,10 +1,18 @@
-Name: [Amrita Singha Roy](https://github.com/uzumakinaruto96)<br/>
-Place: India<br/>
-About: SDET in Infosys and I love learning new things<br/>
-<br/>
 Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
+<br/>
+﻿Name: [Shivam Bhat](https://github.com/shivambhat)<br/>
+Place: India<br/>
+About: Operations analyst at Amazon<br/>
+<br/>
+Name:[Hargun](https://github.com/hamiecod)<br/>
+Place: India<br/>
+About: 8th grade student and self made programmer and ethical hacker<br/>
+<br/>
+Name: [Amrita Singha Roy](https://github.com/uzumakinaruto96)<br/>
+Place: India<br/>
+About: SDET in Infosys and I love learning new things<br/>
 <br/>
 Name: [Dipan Nama](https://www.github.com/DipanNama)</br>
 Place: India</br>
@@ -133,20 +141,29 @@ Name: [Mukul Mohmare](https://github.com/Mu-C00L)<br/>
 Place: India<br/>
 About: Rookie developer from IIITA.<br/>
 <br/>
-
 Name: Ida Bagus Putu Indra Sunarbawa <br/>
 From: Bali <br/>
 institution : ITB STIKOM BALI <br/>
 <br/>
-
+Name: [Arjun G](https://github.com/Arjun-Gopinath)<br/>
+Place: India<br/>
+About: Web and Game Dev from Kerala<br/>
+<br/>
 Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
-
 Name: [Khushi Srivastav](https://github.com/black73)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
+<br/>
+Name: [Rohit Kumar](https://github.com/RohitKumar-200)<br/>
+Place: India<br/>
+About: Web Developer<br/>
+<br/>
+Name: [Muskan Kumari](https://github.com/Code414)<br/>
+Place: India<br/>
+About: Educatee at IIITL<br/>
 <br/>
 Name: [CoderSaty](https://github.com/codersaty)<br/>
 Place: Uttar Pradesh, India
@@ -160,3 +177,166 @@ Name:[Anshika Bangar](https://github.com/AnshikaBangar)<br/>
 Place: Rajasthan,India<br/>
 About: Student at GLBITM<br/>
 <br/>
+Name: [Shruti](https://github.com/codeshruti)<br/>
+Place: India<br/>
+About: ML Enthusiast<br/>
+<br/>
+Name: [Kumar Nilind](https://github.com/Graviton5)<br/>
+Place: Rajasthan, India<br/>
+About: Student in Manipal University<br/>
+<br/>
+Name: [Zephyrus](https://github.com/zephyrus-tech/) <br />
+Place: Delhi, India<br />
+About: Frontend Web Developer<br />
+<br />
+Name: [Saksham Varshney](https://github.com/sakshamv30)<br/>
+Place: IIIT Lucknow<br/>
+About: Newbie to Machine Learning<br/>
+<br/>
+Name: [Noelia Escalera Mejías](https://github.com/Arelaxe)<br/>
+Place: Granada, Spain<br/>
+About: Computer Engineering Student at UGR<br/>
+<br/>
+Name: [Muhamad Hanif](https://github.com/dontbeasalad)<br/>
+Place: Jakarta, Indonesia<br/>
+About: Front End Developer<br/>
+<br/>
+Name: [Vidushi Jain](https://github.com/VidushiJain30)<br/>
+Place: Noida,India<br/>
+About: Software Engineer<br/>
+<br/>
+Name : [Savar Bhasin] (https://github.com/savarbhasin)
+Place : Mumbai, India
+About : just a new coder
+<br/>
+Name: [Denis Povod](https://github.com/Dj-Denis)<br/>
+Place: Kherson, Ukraine<br/>
+About: Fullstack dev<br/>
+<br/>
+Name: [Arpit Agarwal](https://github.com/aarpit1010)<br/>
+Place: India<br/>
+About: ML Enthusiast from IIITA.<br/>
+<br/>
+Name: [Naruepanart Siangsanan](https://github.com/naruepanart)<br/>
+Place: Thailand<br/>
+About: Fullstack dev.<br/>
+<br/>
+Name: [Tejan Singh](https://github.com/tejan-singh)<br/>
+Place: India<br/>
+About: Web Developer<br/>
+<br/>
+Name: [Harpreet Madaan](https://github.com/Harpreet199)<br/>
+Place: India<br/>
+About: Developer, Blogger, Tech Geek, Quick Learner<br/>
+<br/>
+Name: [Anika Agarwal](https://github.com/Anikaagarwal10)<br/>
+Place: India<br/>
+About: Sophomore at IIITL<br/>
+<br/>
+Name: [Mochamad Putera Pamungkas](https://github.com/mputerapamungkas)<br/>
+Place: Indonesia<br/>
+About: Love Code and UI Design<br/>
+<br/>
+Name: [Anto P V](https://github.com/anto-pv)<br/>
+Place: India<br/>
+About: Python dev<br/>
+<br/>
+Name: [Murli Maheshwari](https://github.com/0xpurpl3)<br/>
+Place: India
+About: Python Dev
+<br/>
+Name: [Pasindu Dushan](https://github.com/PasinduDushan)<br>
+Place: Makola, Sri Lanka<br>
+About: C++ Young Programmer.<br>
+<br>
+Name: [Rohit](https://github.com/rohit57382)<br/>
+Place: India<br/>
+<br/>
+Name: [Aayushi Choudhary](https://github.com/iusheee)<br/>
+Place: Jaipur, India<br/>
+About: Frontend web developer.<br/>
+<br/>
+Name: [Patrick Sedlacek](https://github.com/PatrickSedlacek)<br/>
+Place: Iowa, United States of America<br/>
+about: Linux and OS fan<br/>
+<br/>
+Name: [Kiranmayep](https://github.com/Kiranmayep)<br/>
+<br/>
+Name: [Marcelo Wis](https://github.com/marcelowis)<br/>
+Place: Brazil<br/>
+<br/>
+Name: [Jose Hudson](https://github.com/jhudsonsg)<br/>
+Place: Brazil<br/>
+About: Eternal student.<br/>
+<br/>
+Name: [Brian Loveless](https://github.com/BrianLoveGa)<br/>
+Place: Atlanta, Ga, USA <br/>
+About: Web Dev, Programmer, career changer.<br/>
+<br/>
+Name: [Akhil S Nair](https://github.com/akhilsnair1047)<br/>
+Place: India<br/>
+About: Software Developer<br/>
+<br/>
+Name: [Somya Maheshwari](https://github.com/somya22)<br/>
+Place: India<br/>
+About: Learner for Life.
+<br/>
+Name: [Vishiel Outar](https://github.com/VishielOutar)</br>
+Place: USA/NJ</br>
+</br>
+Name: [Brian Tham](https://github.com/Nightey3s)</br>
+Place: Singapore</br>
+About: Student
+</br>
+Name: [Ale Seydoux](https://github.com/AleeSeydoux)<br/>
+Place: Vhs/Mex<br/>
+About: Hacktoberfest/Hold onto hope if you got it <br/>
+</br>
+Name: [Lakhan Kumawat](https://github.com/Lakhankumawat)<br/>
+Place: Gujarat , India<br/>
+About: Hacktoberfest-2020<br/>
+<br/>
+Name:[Nanda](https://github.com/whitedevil31)<br/>
+Place:Chennai/India<br/>
+About:Aspiring full stack web developer<br/>
+<br/>
+Name: [Vivek2509](https://github.com/Vivek2509)<br/>
+Place: Kapadwanj India<br/>
+About: Ai/ML enthusiast<br/>
+<br/>
+Name: [Dicky Setiono](https://github.com/Dicky1)<br/>
+Place: Indonesia<br/>
+About: Loveyourself <br/>
+Name: [Mahima Sawant](https://github.com/mahimasawant)<br/>
+Place: India
+About: Web developer 
+<br/>
+Name: [Yash Shah](https://github.com/YashShah85)</br>
+Place: Ahmedabad</br>
+About: Hacktoberfest
+</br>
+Name: [Djuan Ellis](https://github.com/tremont)
+Place: Louisville
+About: Learning is my hobby
+Name: [Guilherme ALmeida](https://github.com/guidapinta)<br/>
+Place: Portugal<br/>
+About: Student<br/>
+Name: [Mousoom Mudoi](https://github.com/mousoom)<br/>
+Place: India<br/>
+About: React Developer<br/>
+<br/>
+Name: [Sneha Nagpal](https://github.com/Sneha-nagpal)<br/>
+Place: India<br/>
+About: food for code <br/>
+</br>
+Name: [Mahi Monga](https://github.com/mahimonga)
+Place: INDIA
+About: A cocktail of half code, half blood.
+Name: [Ricardo Dantas](https://github.com/licensed)<br/>
+Place: Brazil<br/>
+About: Python + Digitalocen = Life<br/>
+</br>
+Name: [Devanshika Jha](https://github.com/error404-afk1)<br/>
+Place: Haryana<br/>
+About: Student of Bio Technology <br/>
+</br>
