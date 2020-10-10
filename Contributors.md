@@ -298,6 +298,9 @@ Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
 <br/>
+Name: [Sayan Das](https://github.com/senshiii)<br/>
+Place: Kolkata, West Bengal, India<br/>
+About: MERN Stack Developer.<br/>
 Name: [Mohan Kumar](https://github.com/imshines)<br />
 Place: TamilNadu, India <br />
 About: Web Developer <br />
