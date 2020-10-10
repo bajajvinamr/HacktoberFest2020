@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  color: #fff;
+  background-color: #011f3f;
+  font-family: "Roboto", "cursive", sans-serif;
+}
+
+.level {
+  margin-top: 3rem;
+  font-size: 3rem;
+  font-family: cursive;
+  margin-bottom: 1rem;
+}
+.container {
+  height: 73vh;
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn {
+  margin: 25px;
+  margin-top: 0;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+@media only screen and (max-width: 500px) {
+  .btn {
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 20%;
+  }
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.info a {
+  color: white;
+  text-decoration: none;
+}
+.social-links {
+  margin: 20px 0 0 0;
+}
+.social-links a {
+  padding: 0 2px;
+}
+.social-links a i {
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: 1s;
+}
+.social-links a i:hover {
+  background: #fff;
+}
+.bottom center {
+  margin-top: 1rem;
+  padding: 5px;
+  font-size: 1rem;
+}
+.bottom center span {
+  color: #fff;
+}
+.bottom center a {
+  color: #e94560;
+  text-decoration: none;
+}
+.bottom center a:hover {
+  text-decoration: none;
+}
+.visibility {
+  display: none;
+}
