@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-red-color: #f11c1f;
+  --main-black-color: #26292d;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: var(--main-black-color);
+}
+
+body.html {
+  margin: 0;
+  padding: 0;
+  font-family: "Gloria Hallelujah", cursive;
+}
