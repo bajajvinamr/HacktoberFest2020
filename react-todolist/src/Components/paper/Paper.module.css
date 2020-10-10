@@ -1,0 +1,15 @@
+.container {
+    width: 600px;
+    height: 800px;
+    background-color: #feb575;
+    border-radius: 4px;
+    padding: 32px;
+}
+
+.frame {
+    border: 1px solid var(--main-black-color);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

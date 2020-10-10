@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Edit User</title> 
+    </head>
+    <body>
+        <h3>Enter new Details</h3>
+        <form method="POST" class="form" action='/update/<%=users._id%>'>
+            <%- include ("../partials/form") %>
+        </form>
+        <br/>
+        <%- include ("../partials/footer") %>
+    </body>
+    <style>
+        body{
+            margin: 10px;
+            padding: 20px;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    </style>
+</html>
