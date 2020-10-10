@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Random_Number_Generator.iml" filepath="$PROJECT_DIR$/.idea/modules/Random_Number_Generator.iml" group="Random_Number_Generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Random Number Generator/app" />
+    </modules>
+  </component>
+</project>

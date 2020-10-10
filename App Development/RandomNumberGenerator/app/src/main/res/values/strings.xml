@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Random Number Generator</string>
+    <string name="random_number_generator_between_1_to_1000">Random Number Generator between 1 to 1000</string>
+    <string name="generate">Generate</string>
+    <string name="_0">0</string>
+</resources>
