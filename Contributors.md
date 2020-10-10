@@ -614,4 +614,7 @@ About: Student of Bio Technology <br/>
 Name: [Imge Ildan](https://github.com/imgeildan)<br/>
 Place: Germany<br/>
 About: There was no Octoberfest2020, so i joined Hacktoberfest2020! <br/>
+</br>Name: [Fernanda Ramadhan](https://github.com/fernanda322)<br/>
+Place: West Jakarta, Indonesia<br/>
+About: Student of Software Enginering <br/>
 </br>
