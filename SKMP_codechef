@@ -1,0 +1,24 @@
+import math
+t = int(input())
+for _ in range(t):
+    h, p = input().split()
+    h = int(h)
+    p = int(p)
+    if h == 0 and p > 0:
+        print(1)
+        continue
+    elif p == 0 and h > 0:
+        print(0)
+        continue
+    maxi = int(math.log(p,2))
+    maxi += 1
+    sum = 0
+    for i in range(maxi):
+        sum += p
+        p = p//2
+    if sum >= h:
+        print(1)
+    else:
+        print(0)
+        
+https://www.codechef.com/AUG20B/problems/CHEFWARS
