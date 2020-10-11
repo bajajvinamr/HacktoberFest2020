@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/day_theme1"
-    >
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginTop="5dp"
+    tools:context=".MainActivity">
 
     <EditText
         android:hint="Search something..."
         android:layout_width="match_parent"
+        android:paddingStart="10dp"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:id="@+id/searchBar"
-
-        />
+        android:id="@+id/searchBar"/>
 
     <ListView
         android:layout_width="match_parent"
@@ -27,6 +27,16 @@
         android:layout_marginTop="@android:dimen/app_icon_size">
     </ListView>
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationID"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/empty_box_fly"
+        android:layout_gravity="center"/>
+
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -37,7 +47,6 @@
         android:background="@android:color/darker_gray"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        app:srcCompat="@android:drawable/ic_input_add"
-        />
+        app:srcCompat="@android:drawable/ic_input_add" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
