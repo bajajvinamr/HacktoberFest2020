@@ -614,3 +614,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Amrita Singha Roy](https://github.com/uzumakinaruto96)<br/>
+Place: India<br/>
+About: SDET in Infosys and I love learning new things<br/>
+<br/>
