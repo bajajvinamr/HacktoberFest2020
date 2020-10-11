@@ -614,3 +614,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Faizan Haider](https://github.com/Haid-Faiz)<br/>
+Place: Rajasthan<br/>
+About: Android Dev Learner & Machine Learning Enthusiast <br/>
+
