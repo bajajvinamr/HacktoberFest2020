@@ -614,3 +614,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Devanshika Jha](https://github.com/error404-afk1)<br/>
+Place: Haryana<br/>
+About: Student of Bio Technology 
+<br/>
