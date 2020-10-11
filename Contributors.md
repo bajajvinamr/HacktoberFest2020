@@ -614,3 +614,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Anu Ragi](https://github.com/ananthalakshmiragi)<br/>
+Place: Bengaluru, India<br/>
+About: <3 Software + Food/Cooking + Kpop/Kdrama + <3 for Music/Dance = me ;) <br/>
+</br>
