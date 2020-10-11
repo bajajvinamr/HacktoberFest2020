@@ -614,3 +614,8 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+
+Name: [Ayush Ranjan](https://github.com/azus2000)<br/>
+Place: Jharkhand,India<br/>
+About: Computer science student<br/>
+<br/>
