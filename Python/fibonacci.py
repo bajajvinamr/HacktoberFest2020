@@ -1,29 +1,13 @@
-# Fibonacci Sequence
-import math
+#The series starts with 0 and 1 and the next number is the sum of previous two numbers 
+def fibonacci(n):
+	n1=0
+	n2=1
+	for i in range(n):
+		print(n1)
+		next = n1+n2 #the next number is sum of n1 and n2
+		n1=n2 #n1 becomes n2
+		n2=next #n2 gets value of next variable
+		
+n = int(input("Enter no of element in fibonacci series:"))
 
-def fibonacci(number):
-    if (number <= 1):
-        return number
-    else:
-        return (fibonacci(number-1) + fibonacci(number-2)) 
-
-n = int(input("Input a number: "))
-
-print(fibonacci(n))
-# Python program to display the Fibonacci sequence
-
-def recur_fibo(n):
-   if n <= 1:
-       return n
-   else:
-       return(recur_fibo(n-1) + recur_fibo(n-2))
-
-nterms = 10
-
-# check if the number of terms is valid
-if nterms <= 0:
-   print("Plese enter a positive integer")
-else:
-   print("Fibonacci sequence:")
-   for i in range(nterms):
-       print(recur_fibo(i))
+fibonacci(n)
