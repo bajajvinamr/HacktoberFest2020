@@ -1,4 +1,4 @@
-public class Main {
+public class PalindromeCheckShort {
     public static void main(String[] args) {
         System.out.println(isPalindrome("seven"));
         System.out.println(isPalindrome("12"));
