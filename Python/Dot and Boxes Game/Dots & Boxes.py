@@ -1,3 +1,5 @@
+# Author: Pratyush Jain
+
 from tkinter import *
 import numpy as np
 
