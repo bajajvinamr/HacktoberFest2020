@@ -615,7 +615,7 @@ Name: [Fernanda Ramadhan](https://github.com/fernanda322)<br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
-Name: [Manish Kumar](https://github.com/kumarmanish03<br/>
+Name: [Manish Kumar](https://github.com/kumarmanish03)<br/>
 Place: Uttar Pradesh, India<br/>
 About: MERN Stack Developer from IIIT Allahabad, India<br/>
 </br>
