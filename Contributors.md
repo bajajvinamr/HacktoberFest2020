@@ -1,3 +1,7 @@
+Name: [Pratyush Jain](https://github.com/pratyushjain122)<br/>
+Place: India<br/>
+About: Sophomore at SIT,Pune<br/>
+<br/>
 Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
