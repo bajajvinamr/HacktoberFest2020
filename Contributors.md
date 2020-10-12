@@ -1,3 +1,7 @@
+Name: [Nikhil Kadam](https://github.com/Nick-h4ck3r)<br/>
+Place: Maharashtra,India<br/>
+About: Pursuing B.TECH in Computer Science<br/>
+<br/>
 Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
