@@ -1,0 +1,49 @@
+{
+    "particles" : {
+        "number": {
+            "value" : 70
+        },
+        "shape": {
+            "type": "image",
+            "image": {
+                "src": "./radhey3.png",
+                "width": 100,
+                "height": 100
+            },
+            "size": {
+                "value": 4,
+                "anim": {
+                    "enable": true,
+                    "speed": 5
+                }
+            },
+            "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "width": 1
+            }
+        }
+    },
+    "interactivity": {
+        "events": {
+            "onhover":{
+                "enable": true,
+                "mode": "repulse"
+            },
+            "onclick":{
+                "enable": true,
+                "mode":"push"
+            }
+        },
+        "modes":{
+            "repulse":{
+              "distance": 70,
+              "duration":0.4
+            },
+            "bubble":{
+              "distance":100,
+              "size":10
+            }
+          }
+    }
+}
