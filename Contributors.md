@@ -614,3 +614,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Anurag Singh](https://github.com/AnuragSingh001)<br/>
+Place: Delhi<br/>
+About: I am a student and a web developer<br/>
+<br/>
