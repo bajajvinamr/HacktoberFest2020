@@ -1,3 +1,8 @@
+
+Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
+Place: Karachi,Pakistan</br>
+About: A passionate frontend developer, programmer and Photographer.
+<br/>
 Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
