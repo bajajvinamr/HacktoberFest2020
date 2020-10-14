@@ -1,3 +1,5 @@
+#User function Template for python3
+
 def RulingPair(arr, n): 
     # code here
     d=dict()
@@ -31,3 +33,5 @@ if __name__ == '__main__':
         n = int(input())
         arr = list(map(int, input().strip().split()))
         print(RulingPair(arr,n))
+        
+        # } Driver Code Ends
