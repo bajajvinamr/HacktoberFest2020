@@ -1,4 +1,7 @@
-
+Name: [Ajay Ram](https://www.github.com/ajayram515)</br>
+Place: Amalapuram,India</br>
+About: Backend developer, programmer and SoftwareDeveloper.
+<br/>
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
 About: A passionate frontend developer, programmer and Photographer.
