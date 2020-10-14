@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>Name: [James Ta](https://github.com/jamestacos)<br/>
+Place: Cupertino<br/>
+About: Student studying CS <br/>
+</br>
