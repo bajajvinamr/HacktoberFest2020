@@ -619,3 +619,6 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Haseeb Ali Sajid](https://github.com/haseebalisajid)<br/>
+Place: Islamabad, Pakistan<br/>
+About: MERN Stack Developer.
