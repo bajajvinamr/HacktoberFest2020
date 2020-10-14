@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Jayant Dwivedi](https://github.com/JayantDwivedi)<br/>
+Place: Mainpuri U.P.<br/>
+About: Student at GLAU<br/>
+<br/>
