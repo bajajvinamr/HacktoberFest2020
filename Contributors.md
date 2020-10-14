@@ -618,4 +618,7 @@ About: Student of Bio Technology <br/>
 </br>Name: [Fernanda Ramadhan](https://github.com/fernanda322)<br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
+</br>Name: [João Victor Bravo](https://github.com/JVBravoo)<br/>
+Place: Recife, Brazil<br/>
+About: Student of Computer Science <br/>
 </br>
