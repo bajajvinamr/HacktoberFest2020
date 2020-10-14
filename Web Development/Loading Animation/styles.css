@@ -1,0 +1,62 @@
+.box {
+  width: 240px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  margin-right: -120px;
+  margin-top: -25px;
+}
+.circle {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  float: right;
+  box-sizing: border-box;
+  background-color: #f7dad9;
+  border: 3px solid #686d76;
+  border-radius: 100%;
+  margin-left: 10px;
+  animation: rotate 5s linear;
+  animation-iteration-count: infinite;
+  z-index: 2;
+}
+.circle:before {
+  content: "";
+  position: absolute;
+  width: 62px;
+  height: 3px;
+  background: #646464;
+  top: -3px;
+  right: 50%;
+  transform-origin: right;
+  animation: rotate 5s linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  z-index: 1;
+}
+.circle:after {
+  content: "";
+  position: absolute;
+  width: 62px;
+  height: 3px;
+  background: #646464;
+  bottom: -3px;
+  right: 50%;
+  transform-origin: right;
+  animation: rotate 5s linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  z-index: 1;
+}
+.circle:last-child {
+  overflow: hidden;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
