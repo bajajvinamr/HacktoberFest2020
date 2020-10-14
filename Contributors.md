@@ -621,10 +621,8 @@ About: Student of Software Enginering <br/>
 
 :slightly_smiling_face:
 
-# **Name: Savannah Niemeyer**
+# [Savannah Niemeyer ](http://github.com/sniemeyer1)
 
 ## _Place: Kansas City, MO_
 
 ### About: Web Developer in training
-
-[GitHub](http://github.com/sniemeyer1)
