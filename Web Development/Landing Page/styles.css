@@ -1,0 +1,194 @@
+body{
+  background: url("https://img.wallpapersafari.com/desktop/1920/1080/44/70/w5uXxE.jpg"); 
+    
+    /*linear-gradient(to left, #fbc7d4, #9796f0); */
+  
+  }  
+  
+  p{
+    display: block;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  #logo img{
+    padding-top: 30px;
+    height: auto;
+    width: 300px;
+  }
+  
+  #header{
+    text-align: center;
+  }
+  
+  h1{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 40px;
+  }
+  
+  h3{
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 30px;
+  }
+  
+  #video{
+    display: block;
+    text-align: center;
+  }
+  
+  
+  .product-img img{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  form{
+   padding-left: 50px;
+   font-family: Impact, Charcoal, sans-serif;
+   font-size: 20px;
+  }
+  
+  #signup{
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  
+  input[type=text]{
+    width: 25%; 
+    padding: 12px; 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  input[type=email]{
+    width: 25%; 
+    padding: 12px; 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 130px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: #4CAF50;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+  
+  input[type=submit] {
+    display: flex;
+    float: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+   
+    background-color: #45a049;
+  }
+  
+  .wallpaper{
+    display: block;
+    float: left;
+    width: 50%;
+  }
+  
+  .image img{
+    display: block;
+    float: right;
+    padding-right: 100px;
+    width: 35%;
+    height: 35%;
+  }
+  
+  #AS{
+    color: black;
+  }
+  footer{
+    display: block;
+    float: bottom;
+    paddin-top: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, fantasy;
+    margin: 10;
+    overflow: hidden;
+  }
