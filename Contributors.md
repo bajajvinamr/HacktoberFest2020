@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>Name: [Hideki J.](https://github.com/dekisr)<br/>
+Place: São Paulo, Brazil<br/>
+About: Learner<br/>
+</br>
