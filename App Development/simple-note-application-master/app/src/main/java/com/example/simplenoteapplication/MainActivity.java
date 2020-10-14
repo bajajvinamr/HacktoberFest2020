@@ -21,6 +21,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
@@ -39,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
     private ListView listView;
     private EditText editSearch;
     private NoteAdapter adapter;
+    // declaring Lottie animation variable
+    private LottieAnimationView lottieAnimationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,10 +51,12 @@ public class MainActivity extends AppCompatActivity {
         note_details = getListData();
         listView = findViewById(R.id.listView);
         editSearch = findViewById(R.id.searchBar);
+        lottieAnimationView = findViewById(R.id.lottieAnimationID);
+        lottieAnimationView.setVisibility(View.GONE);
 
         adapter = new NoteAdapter(this,note_details);
         listView.setAdapter(adapter);
-
+        checkList();
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
@@ -94,7 +99,6 @@ public class MainActivity extends AppCompatActivity {
         registerForContextMenu(listView);
     }
 
-
     @Override
     protected void onPause() {
         super.onPause();
@@ -133,15 +137,13 @@ public class MainActivity extends AppCompatActivity {
             int index = info.position;
             switch(item.getItemId()){
                 case R.id.optionDelete:
-                {
                     note_details.remove(index);
                     adapter.notifyDataSetChanged();
                     listView.setAdapter(adapter);
+                    checkList();
                     Toast.makeText(getApplicationContext(),"Deleted!",Toast.LENGTH_LONG).show();
-                } break;
             }
         }
-
         return true;
     }
     @Override
@@ -162,6 +164,7 @@ public class MainActivity extends AppCompatActivity {
 
                 isAddingNewNote = false;
                 saveData();
+                checkList();
                 adapter = new NoteAdapter(this,note_details);
                 listView.setAdapter(adapter);
             }
@@ -173,10 +176,19 @@ public class MainActivity extends AppCompatActivity {
         String json = prefs.getString("MyList",null);
         Type type = new TypeToken<ArrayList<NoteInfo>>() {}.getType();
         note_details = gson.fromJson(json,type);
-        if (note_details == null)
-        {
+        if (note_details == null) {
             note_details = new ArrayList<>();
         }
         return note_details;
+    }
+
+    private void checkList(){
+        if (note_details.isEmpty()){
+            lottieAnimationView.setVisibility(View.VISIBLE);
+            listView.setVisibility(View.INVISIBLE);
+        }else {
+            lottieAnimationView.setVisibility(View.INVISIBLE);
+            listView.setVisibility(View.VISIBLE);
+        }
     }
 }

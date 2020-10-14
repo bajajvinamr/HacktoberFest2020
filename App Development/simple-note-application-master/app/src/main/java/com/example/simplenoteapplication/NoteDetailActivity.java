@@ -47,21 +47,25 @@ public class NoteDetailActivity extends AppCompatActivity {
     public void SaveNoteDetailsClick(View view) {
         mTitleSave = findViewById(R.id.title_edit);
         mContentSave = findViewById(R.id.content_edit);
-
         mTagSave = findViewById(R.id.tag_edit);
+
         String returnTitle = mTitleSave.getText().toString();
         String returnContent = mContentSave.getText().toString();
         String returnTag = mTagSave.getText().toString();
-        Date date = Calendar.getInstance().getTime();
-        DateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
-        String returnDate = dateFormat.format(date);
-        NoteInfo replyMessage = new NoteInfo(returnTitle, returnContent,returnTag,returnDate);
+        if (!returnTitle.isEmpty()){
+            Date date = Calendar.getInstance().getTime();
+            DateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
+            String returnDate = dateFormat.format(date);
+            NoteInfo replyMessage = new NoteInfo(returnTitle, returnContent,returnTag,returnDate);
 
-        Intent replyIntent = new Intent();
-        replyIntent.putExtra(EXTRA_REPLY, (Serializable) replyMessage);
-        setResult(RESULT_OK, replyIntent);
-        Toast.makeText(NoteDetailActivity.this, "Changes are saved!", Toast.LENGTH_SHORT).show();
-        finish();
+            Intent replyIntent = new Intent();
+            replyIntent.putExtra(EXTRA_REPLY, (Serializable) replyMessage);
+            setResult(RESULT_OK, replyIntent);
+            Toast.makeText(NoteDetailActivity.this, "Changes are saved!", Toast.LENGTH_SHORT).show();
+            finish();
+        }else {
+            Toast.makeText(getApplicationContext(), "This field can't be empty", Toast.LENGTH_SHORT).show();
+        }
     }
 
 
