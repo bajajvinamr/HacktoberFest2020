@@ -1,4 +1,8 @@
 
+Name: [Vaibhav Agarwal](https://www.github.com/vaibhav412)</br>
+Place: India</br>
+About: Stuent
+<br/>
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
 About: A passionate frontend developer, programmer and Photographer.
