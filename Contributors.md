@@ -7,6 +7,10 @@ Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
 <br/>
+Name: [Souvik Banerjee](https://github.com/Souvik73)<br/>
+Place: Kolkata, India<br/>
+About: Student(B.Tech CSE)<br/>
+<br/>
 Name: [Anish Kamath](https://github.com/anishkamath)<br/>
 Place: India<br/>
 About: student<br/>
