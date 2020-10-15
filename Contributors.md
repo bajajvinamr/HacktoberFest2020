@@ -1,3 +1,7 @@
+Name: [Neemesh Yadav](https://github.com/Stealth-py)</br>
+Place: India</br>
+About: I am an 18 year old student who loves coding.</br>
+
 
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
