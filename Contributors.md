@@ -1,3 +1,6 @@
+Name: [Nishant Sabbarwal](https://github.com/Nishant3007)</br>
+Place: Delhi,India</br>
+About: Sophomore at IIIT SONEPAT</br>
 
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
