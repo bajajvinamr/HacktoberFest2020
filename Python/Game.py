@@ -4,13 +4,13 @@ import pandas as pd
 def menu():
     print('-'*20)
     print("Welcome To DIE Game Menu")
-    print("TO play - 1")
-    print("TO see Leaderboard -2")
-    print("To exit press anything else !")
+    print("TO Play - 1")
+    print("TO See Leaderboard -2")
+    print("To Exit Press Anything Else !")
     print('-'*20)
     choice = input()
     if choice == '1':
-        input('Press anything to start the game')
+        input('Press Anything To Start The Game')
         stage=1
         StartGame(stage)
         if user1.tot_score > user2.tot_score :
@@ -48,8 +48,8 @@ def leaderboard():
 
 def StartGame(stage):
     if(stage<=5):
-        print(stage," Dice roll of ",user1.name)
-        input("Press any key to roll dice")
+        print(stage," Dice Roll Of ",user1.name)
+        input("Press Any Key To Roll Dice")
         die1=Die()
         die2=Die()
         die1.roll_die()
@@ -59,8 +59,8 @@ def StartGame(stage):
         if (sum1 % 2 == 0):
             sum1 = sum1 + 10
             if(die1.roll == die2.roll):
-                print("YAAY you rolled doubles.So you get to roll one die again")
-                input("Press any key to roll die")
+                print("YAAY You Rolled Doubles.So you get to roll one Die again")
+                input("Press Any key to roll die")
                 die1.roll_die()
                 sum1 = sum1 + die1.roll
         else:
