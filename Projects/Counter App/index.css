@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap");
+body {
+  background-color: #ff613f;
+  color: #1d1d1d;
+  font-family: "Inter", sans-serif;
+}
+body button {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background-color: #ff613f;
+  padding: 1rem 1.5rem;
+  border: 1px solid #1d1d1d;
+  color: #1d1d1d;
+  transition: 0.4s;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  body button {
+    width: 300px;
+    margin: 0.2rem 0;
+  }
+}
+body button:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #1d1d1d;
+}
+body textarea {
+  font-family: "Inter", sans-serif;
+  background-color: #ff613f;
+  border: 1px solid #1d1d1d;
+  padding: 1rem;
+  width: 650px;
+  height: 100px;
+}
+body ::placeholder {
+  color: #1d1d1d;
+}
+@media only screen and (max-width: 600px) {
+  body textarea {
+    width: 300px;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.header h1 {
+  font-size: 1rem;
+  color: #1d1d1d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.header p {
+  font-size: 0.9rem;
+  color: #1d1d1d;
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header p {
+    text-align: center;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(400px, auto);
+  justify-items: center;
+  align-items: center;
+}
+
+.input-row {
+  padding: 4rem 0 2rem 0;
+  grid-column: span 2;
+}
+
+.output-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .output-row {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .output-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.counter-display {
+  background-color: #1d1d1d;
+  padding: 1rem 1.5rem;
+  color: #fff;
+}
+.counter-display p {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  padding: 0;
+  font-weight: bold;
+}
+
+.counter {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  margin: 5rem 0 0 0;
+  border-top: 1px solid #1d1d1d;
+  display: flex;
+  justify-content: center;
+}
+.footer p {
+  font-size: 2rem;
+  color: #1d1d1d;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, 10px) rotate(5deg);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.halloween {
+  animation: floating 2s infinite;
+}
+
+/*# sourceMappingURL=index.css.map */
