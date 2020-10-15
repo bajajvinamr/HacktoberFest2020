@@ -109,4 +109,4 @@ class Notepad:
 		self.__root.mainloop() 
 
 notepad = Notepad(width=600,height=400) 
-notepad.run()  
+notepad.run()
