@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Rizky Ferdi Nugraha](https://www.github.com/rcmiryad123)</br>
+Place: Jawa Barat, Indonesia</br>
+About: A future computer science engineer.
+<br/>
