@@ -171,3 +171,8 @@ Name: [Arpit Agarwal](https://github.com/aarpit1010)<br/>
 Place: India<br/>
 About: ML Enthusiast from IIITA.<br/>
 <br/>
+
+Name: [Abdul Samad](https://github.com/Samadmemon991)<br/> 
+Place: Pakistan<br/>
+About: Aspiring Software Engineer<br/>
+<br/>
