@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap");
+// Colors
+$black: #1d1d1d;
+$primary: #ff613f;
+$white: #fff;
+
+// Font
+$main-font: "Inter", sans-serif;
+
+// Sizing
+$xsmall: 0.7rem;
+$small: 0.9rem;
+$regular: 1rem;
+$large: 1.5rem;
+$xlarge: 2rem;
+
+body {
+  background-color: $primary;
+  color: $black;
+  font-family: $main-font;
+  button {
+    font-size: $xsmall;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: $primary;
+    padding: 1rem 1.5rem;
+    border: 1px solid $black;
+    color: $black;
+    transition: 0.4s;
+    cursor: pointer;
+    @media only screen and (max-width: 600px) {
+      width: 300px;
+      margin: 0.2rem 0;
+    }
+  }
+  button:hover {
+    background-color: $white;
+    border: 1px solid $white;
+    color: $black;
+  }
+  textarea {
+    font-family: $main-font;
+    background-color: $primary;
+    border: 1px solid $black;
+    padding: 1rem;
+    width: 650px;
+    height: 100px;
+  }
+  ::placeholder {
+    color: $black;
+  }
+  @media only screen and (max-width: 600px) {
+    textarea {
+      width: 300px;
+    }
+  }
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  h1 {
+    font-size: $regular;
+    color: $black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  p {
+    font-size: $small;
+    color: $black;
+  }
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    justify-content: center;
+    p {
+      text-align: center;
+    }
+  }
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(400px, auto);
+  justify-items: center;
+  align-items: center;
+}
+.input-row {
+  padding: 4rem 0 2rem 0;
+  grid-column: span 2;
+}
+.output-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+.output-buttons {
+  @media only screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.counter-display {
+  background-color: $black;
+  padding: 1rem 1.5rem;
+  color: $white;
+  p {
+    font-size: $xsmall;
+    text-transform: uppercase;
+    padding: 0;
+    font-weight: bold;
+  }
+}
+.counter {
+  padding: 0;
+  margin: 0;
+}
+.footer {
+  margin: 5rem 0 0 0;
+  border-top: 1px solid $black;
+  display: flex;
+  justify-content: center;
+  p {
+    font-size: $xlarge;
+    color: $black;
+  }
+}
+@keyframes floating {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, 10px) rotate(5deg);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.halloween {
+  animation: floating 2s infinite;
+}
