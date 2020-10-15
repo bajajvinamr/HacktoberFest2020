@@ -1,0 +1,23 @@
+	/* Media Queries */
+	$mobile-breakpoint: "(min-width : 320px) and (max-width : 767px)";
+	$tablet-breakpoint: "(min-width: 768px) and (max-width : 991px)";
+	$desktop-breakpoint: "(min-width: 992px) and (max-width : 1999px)";
+	$lg-breakpoint: "(min-width: 1200px)";
+
+	@mixin mq($media-size) {
+		@if $media-size == xs-device {
+			@media #{$mobile-breakpoint} { @content; }
+		}
+
+		@else if $media-size == sm-device {
+			@media #{$tablet-breakpoint} { @content; }
+		}
+
+		@else if $media-size == md-device {
+			@media #{$desktop-breakpoint} { @content; }
+		}
+
+		@else if $media-size == lg-device {
+			@media #{$lg-breakpoint} { @content; }
+		}
+	}

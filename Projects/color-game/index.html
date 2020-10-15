@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Color Game by Jiwom</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Play your all time favorite carnibal game, Color Game!">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/cge-main.css">
+	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="assets/js/scripts.js"></script>
+</head>
+<body>
+	<div class="main-wrap">
+	<section class="header-wrap">
+		<div class="">
+		<center><h1>BALANCE: <strong><span id="pera"></span></h1></strong></center>
+		</div>
+	</section>
+
+	<section class="dice-container-wrap">
+		<div id="dice-container" class=" row-centered">
+			<div id="dice-0" data-color="" class="dice col-lg-3 col-sm-3 col-md-3 col-xs-3 col-centered"></div>
+			<div id="dice-1" data-color="" class="dice col-lg-3 col-sm-3 col-md-3 col-xs-3 col-centered"></div>
+			<div id="dice-2" data-color="" class="dice col-lg-3 col-sm-3 col-md-3 col-xs-3 col-centered"></div>
+		</div>
+	</section>
+
+
+	<section class="dice-control-wrap">
+		<div id="dice-control" class="">
+			<button id="dice-pull" class="btn btn-info btn-block" type="submit">PULL!</button>
+		</div>
+	</section>
+
+	<section class="tayaan-wrap">
+	<div class="tayaan-container">
+		<div class="container-fluid">
+		
+		<div id="box-green" class="bet-box col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered dice-green">0</div>
+		<div id="box-pink" class="bet-box col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered dice-red">0</div>
+		<div id="box-white" class="bet-box col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered dice-yellow">0</div>
+		<div class="clearfix"></div>
+		<div id="box-white" class="bet-box2 col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered label-color">GREEN</div>
+		<div id="box-white" class="bet-box2 col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered label-color">RED</div>
+		<div id="box-white" class="bet-box2 col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered label-color">YELLOW</div>
+		<div class="clearfix"></div>
+		<div id="box-red" class="bet-box col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered dice-blue">0</div>
+		<div id="box-yellow" class="bet-box col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered dice-pink">0</div>
+		<div id="box-blue" class="bet-box col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered dice-white">0</div>
+		<div id="box-white" class="bet-box2 col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered label-color">BLUE</div>
+		<div id="box-white" class="bet-box2 col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered label-color">PINK</div>
+		<div id="box-white" class="bet-box2 col-lg-4 col-sm-4 col-md-4 col-xs-12 col-centered label-color">WHITE</div>
+
+		</div>
+    </div>
+    </section>
+
+    <div class="">
+        <div class="col-lg-4 col-sm-12 col-md-12 col-xs-12 col-centered"> <h1><strong>COLOR GAME</strong> v1.1.0 by jiwom</h1></div>
+    </div>
+    </div>
+
+    <div id="initialMoneyMdl" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modal-sm">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Initial Money</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="number" id="initial-money-txt" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary setMoney">SET</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+</body>
+</html>
