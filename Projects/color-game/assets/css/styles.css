@@ -1,0 +1,115 @@
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+#dice-container {
+	height: auto;
+	/*background-color: black;*/
+    background: #101010;
+	padding: 10px;
+}
+#dice-pull {
+	font-size: 75px;
+    border-radius: 0;
+}
+.dice {
+	margin: 10px;
+	height: 15vw;
+    width: 15%;
+    background-color: red;
+    border-style: solid;
+    border-width: 5px;
+    /*border-radius: 2vw;*/
+    border-radius: 2rem;
+    /*border-color: gray;*/
+    border: none;
+}
+.bet-box {
+
+    /*border-radius: 2rem;*/
+	height:  350px;
+	/*line-height:  300px;*/
+	/*border-color: gray;*/
+    border-color: #101010;
+	border-style: solid;
+	border-width: 10px;
+	text-align: center;
+	font-size: 35px;
+	font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+    cursor: pointer;
+    /*border: none;*/
+}
+
+body {
+    /*margin-left: 15px;*/
+}
+
+.tayaan-container {
+    background:  #101010;
+    width: 100%;
+    /*padding-right: 15px;*/
+}
+
+.dice-green {
+    background:  #006442;
+    label : "GREEN";
+    /*padding-right: 15px;*/
+}
+
+.dice-red {
+    background:  #8F1D21;
+}
+
+.dice-yellow {
+    background:  yellow;
+}
+
+.dice-blue{
+    background:  blue;
+}
+
+.dice-pink{
+    background:  pink;
+}
+
+.dice-white{
+    background:  white;
+}
+
+.label-color{
+    background:  #ffffff;
+}
+
+.bet-box2 {
+
+    /*border-radius: 2rem;*/
+    height:  100px;
+    line-height:  100px;
+    /*border-color: gray;*/
+    border-color: #101010;
+    border-style: solid;
+    border-width: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+    cursor: pointer;
+    /*border: none;*/
+}
+
+* {box-sizing:  border-box; }
+
+.main-wrap {
+    
+}

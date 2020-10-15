@@ -1,0 +1,108 @@
+@import "cge-responsive";
+@import "cge-mixins";
+@import "cge-palette";
+
+
+* {	box-sizing: border-box; }
+
+body {
+	// background: #ECF0F5;
+	background:  #f9f9f9;
+}
+
+
+
+
+.header-wrap {
+	text-align: center;
+
+	h1 {
+		// font-size: 4rem;
+		color: #1B8366 !important;
+		small {
+			color: #000 !important;
+			display: block;
+			font-size: 30% !important;
+		}
+	}
+}
+
+
+.tayaan-container {
+	// background: #ECF0F5;
+	background: #f9f9f9;
+}
+
+.dice {
+	height: 200px;
+	border-radius: 6px;
+}
+
+.bet-box {
+	border-radius: 6px;
+	height: 200px;
+	border: none;
+	position: relative;
+	z-index: 9999 !important;
+
+
+	// &:before {
+	// 	position: absolute;
+	//     content: "";
+	//     width: 100%;
+	//     height: 100%;
+	//     box-shadow: 0 2px 60px 0 #717171;
+	//     height: 50px;
+	//     left: 13%;
+	//     bottom: 0;
+	//     width: 75%;
+	//     z-index: -2 !important;
+	// }
+}
+
+.tayaan-wrap {
+	.col-3 {
+		position: relative;
+	}
+}
+
+
+
+
+.dice-control-wrap {
+	img {
+		width: 100px;
+
+	}
+}
+
+
+.footer-contents {
+	text-align: center;
+}
+
+
+// Colors Override
+.dice-yellow {
+	@include clr-yellow;
+}
+
+.dice-red {
+	@include clr-red;
+}
+
+.dice-green {
+	@include clr-green;
+}
+
+.dice-blue {
+	@include clr-blue;
+}
+
+.dice-pink {
+	@include clr-pink;
+}
+
+.dice-white {
+	@include clr-white;
+}

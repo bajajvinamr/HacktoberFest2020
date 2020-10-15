@@ -1,0 +1,38 @@
+@mixin flex-row-center {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+
+@mixin flex-col-left {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	-ms-flex-align: left;
+	-webkit-align-items: left;
+	-webkit-box-align: left;
+	align-items: left;
+	justify-content: center;
+}
+
+// Flex Default is Row
+@mixin flex-only {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+@mixin absolute {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+}
+
