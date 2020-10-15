@@ -1,0 +1,5 @@
+  
+enum State {
+  menu,
+  playing,
+}
