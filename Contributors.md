@@ -424,7 +424,7 @@ About: ML Developer,Google assistant Developer,Alexa Developer.<br/>
 <br/>
 Name: [Akshat Bhardwaj](https://github.com/akshatb622)<br/>
 Place: India<br/>
-About: Sophomore at IIITL<br/> 
+About: Sophomore at IIITL<br/>
 <br/>
 Name: [Ankur sharma](https://github.com/ankur2825)<br/>
 Place: India<br/>
@@ -432,7 +432,7 @@ About: aspiring flutter developer<br/>
 <br/>
 Name: [Akshat Bhardwaj](https://github.com/akshatb622)<br/>
 Place: India<br/>
-About: Sophomore at IIITL<br/> 
+About: Sophomore at IIITL<br/>
 Name: [Rohit Kumar](https://github.com/RohitKumar-200)<br/>
 Place: India<br/>
 About: Web Developer<br/>
@@ -585,7 +585,7 @@ Place: Indonesia<br/>
 About: Loveyourself <br/>
 Name: [Mahima Sawant](https://github.com/mahimasawant)<br/>
 Place: India
-About: Web developer 
+About: Web developer
 <br/>
 Name: [Yash Shah](https://github.com/YashShah85)</br>
 Place: Ahmedabad</br>
@@ -619,3 +619,6 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Marcos Ellys](https://github.com/marcosellys)<br/>
+Place: Ceará, Brazil<br/>
+About: Software Enginner<br/>
