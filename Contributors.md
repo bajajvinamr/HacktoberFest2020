@@ -619,3 +619,6 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Moksha Shah](https://github.com/Moksha3Shah)
+Place: Mumbai<br/>
+About: Python, Machine Learning <br/>
