@@ -188,6 +188,10 @@ Name: [Priyanshu Bajaj](https://github.com/Priyanshuuuu)<br/>
 Place: India<br/>
 About: 11th grade student at BBPS Noida<br/>
 <br/>
+Name: [Kalyani Kolhe](https://github.com/kalyani489)<br/>
+Place: India<br/>
+About: Student of Computer Engineering<br/>
+<br/>
 Name: [Anshul Garg](https://github.com/anshul0771)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
