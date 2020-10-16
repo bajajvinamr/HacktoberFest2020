@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Leandro Quiroga](https://github.com/Hydefs)</br>
+Place: Argentina</br>
+About: Student of Software Development</br>
+</br>
