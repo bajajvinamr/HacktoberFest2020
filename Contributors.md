@@ -619,3 +619,8 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>
+Name: [Rishabh Negi](https://github.com/Rishabh-Negi)<br/>
+Place: New Delhi, India<br/>
+About: Native App Developer <br/>
+</br>
