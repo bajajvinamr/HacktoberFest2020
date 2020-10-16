@@ -7,6 +7,10 @@ Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
 <br/>
+Name: [Swarna Krishnan Kuchibhotla](https://github.com/swarnakrishnan)</br>
+Place: Faridabad, India </br>
+About: A passionate programmer, frontend developer, Security researcher and Student from India.</br>
+</br>
 Name: [Anish Kamath](https://github.com/anishkamath)<br/>
 Place: India<br/>
 About: student<br/>
