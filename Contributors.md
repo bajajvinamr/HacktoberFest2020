@@ -619,7 +619,6 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
-<br/>
 Name: [KUSAL PERERA](https://github.com/KusalPriyanka) <br/>
 Place: Colombo, Sri Lanka <br/>
 About: Student of Software Enginering <br/>
