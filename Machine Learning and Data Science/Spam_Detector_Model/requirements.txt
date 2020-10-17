@@ -1,0 +1,4 @@
+nltk
+flask
+streamlit
+sklearn
