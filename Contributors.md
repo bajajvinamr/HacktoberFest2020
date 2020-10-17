@@ -1,3 +1,6 @@
+Name: [Nimish Srivastava](https://www.github.com/nimishh7)
+Place: New Delhi, India
+About: Cyber Security Enthusiast
 
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
