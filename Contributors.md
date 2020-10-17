@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Rishikesh raj](https://github.com/rishikeshrajrxl)<br/>
+Place: India<br/>
+About: Machine Learning || Android <br/>
+<br/>
