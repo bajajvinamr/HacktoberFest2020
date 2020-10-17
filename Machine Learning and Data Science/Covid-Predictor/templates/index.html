@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ML PREDICTOR FORM</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" type= "text/css" href= "../static/styles/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="../static/images/form-img.jpg" alt="">
+                    <div class="signup-img-content">
+                        <h2>Predict Now </h2>
+                        <p>WITH 3 MODEL SELECTION!</p>
+                    </div>
+                </div>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form" action= "/predict">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <label for="first_name" class="required">User Name</label>
+                                    <input type="text" name="name" id="first_name" />
+                                </div>
+
+                                <div class="form-input">
+                                    <label for="phone_number" class="required">Date (DD-MM-YYYY)</label>
+                                    <input type="text" name="date" id="phone_number" />
+                                </div>
+
+                                <div>
+
+                                  RESULT<br>
+                                  Username : {{name}}<br>
+                                  Model    : {{model}}<br>
+                                  The predicted cases by the model on {{date}} are:<br>
+
+                                  <div style="color:green">{{pred}}</div>
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <div class="form-radio">
+                                    <div class="label-flex">
+                                        <label for="payment">Models Available</label>
+                                        <a href="https://github.com/HAC-2020/rajas2716" target = "_blank" class="form-link">Github</a>
+                                    </div>
+                                    <div class="form-radio-group">
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="options" id="cash" value ="LR" checked>
+                                            <label for="cash">Linear Regression</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="options" id="cheque" value="SVM">
+                                            <label for="cheque">SVM</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="options" id="demand" value = "HF">
+                                            <label for="demand">Holt Forecast</label>
+                                            <span class="check"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="form-submit">
+                            <input type="submit" value="Submit" class="submit" id="submit" name="submit" />
+                            <input type="reset" value="Reset" class="submit" id="reset" name="reset" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

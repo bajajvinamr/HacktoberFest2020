@@ -1,0 +1,10 @@
+[default]
+name=Default
+runtime=host
+config-opts=
+run-opts=
+prefix=/home/rajas/.cache/gnome-builder/install/Breast-Cancer-Detector-ML/host
+app-id=
+postbuild=
+prebuild=
+default=true
