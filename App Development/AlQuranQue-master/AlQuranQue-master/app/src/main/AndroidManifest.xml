@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aplikasi.alquranque">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.VIBRATE" />
+
+<application
+android:allowBackup="true"
+android:icon="@drawable/logoplay"
+android:label="@string/app_name"
+android:roundIcon="@drawable/logoplay"
+android:supportsRtl="true"
+android:theme="@style/NoAppTheme">
+<activity android:name="com.aplikasi.alquranque.DzikirActivity"
+    android:theme="@style/AppTheme"
+
+    android:parentActivityName="com.aplikasi.alquranque.DashboardActivity"></activity>
+<activity android:name="com.aplikasi.alquranque.AboutActivity" />
+<activity android:name="com.aplikasi.alquranque.KiblatActivity" />
+<activity android:name="com.aplikasi.alquranque.HadistActivity" />
+<activity android:name="com.aplikasi.alquranque.AlquranActivity" />
+<activity android:name="com.aplikasi.alquranque.DashboardActivity" />
+<activity android:name="com.aplikasi.alquranque.MainActivity">
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+</activity>
+</application>
+
+    </manifest>
