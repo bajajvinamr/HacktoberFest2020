@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Khush Sachdeva](https://github.com/khush3211)
+Place: Panipat, Haryana, India
+About: Class X student starting to learn things!
+</br>
