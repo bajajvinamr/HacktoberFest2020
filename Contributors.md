@@ -1,3 +1,6 @@
+Name: [Sriparna Chakraborty] (https://www.github.com/Sriparna190393)</br>
+Place: United States</br>
+About: Graduate Student, passionate about Python programming, loves to learn new things.
 
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
