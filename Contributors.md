@@ -1,3 +1,7 @@
+Name: [Azwan N.](https://github.com/AzwanNF)
+Place: Indo
+About: A student who need to improve the skill
+
 Name: [Amrita Singha Roy](https://github.com/uzumakinaruto96)<br/>
 Place: India<br/>
 About: SDET in Infosys and I love learning new things<br/>
