@@ -616,5 +616,5 @@ About: Student of Software Enginering <br/>
 </br>
 Name: [Meghna Singh](https://github.com/Meghna2080)<br/>
 Place: Chandigarh, India<br/>
-About: Sophomore at UIET,Panjab University<br/>
+About: Sophomore at UIET,Panjab University, Graphic Designer, Coder and tech enthusiast<br/>
 <br/>
