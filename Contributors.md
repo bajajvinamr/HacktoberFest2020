@@ -1,3 +1,6 @@
+Name: [Azwan N.](https://github.com/AzwanNF)<br/>
+Place: Indo <br/>
+About: A student who need to improve the skill<br/>
 
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
@@ -5,11 +8,12 @@ About: A passionate frontend developer, programmer and Photographer.
 <br/>
 Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
-About: Sophomore at IIITL<br/>
+About: Sophomore at IIITL<br/
 <br/>
 Name: [Anish Kamath](https://github.com/anishkamath)<br/>
 Place: India<br/>
 About: student<br/>
+
 <br/>
 Name: [Amrita Singha Roy](https://github.com/uzumakinaruto96)<br/>
 Place: India<br/>
@@ -317,7 +321,6 @@ About: Web and Game Dev from Kerala<br/>
 Name: [Harsh Vijay](https://github.com/hvijaycse)<br/>
 Place: Pink City, India<br/>
 About: ML Developer<br/>
-<br/>
 Name: [Adithya](https://github.com/adithyaz)<br/>
 Place: Jakarta, Indonesia<br/>
 About: Software and Web Developer<br/>
@@ -618,4 +621,3 @@ About: Student of Bio Technology <br/>
 </br>Name: [Fernanda Ramadhan](https://github.com/fernanda322)<br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
-</br>
