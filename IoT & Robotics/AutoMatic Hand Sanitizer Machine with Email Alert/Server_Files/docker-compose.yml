@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+    python_server:
+
+        restart: always
+        mem_limit: 100m
+        logging:
+            options:
+                "max-size": 500m
+        build:
+            dockerfile: dockerfile
+            context: ./
+        entrypoint:
+            python test_api.py
+            
+        ports:
+            - '8000:8000'
+

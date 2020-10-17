@@ -1,0 +1,3 @@
+sudo apt get install docker 
+sudo apt get install docker-compose 
+sudo docker-compose -f ./Server_Files/docker-compose.yml up --build -d

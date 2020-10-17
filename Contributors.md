@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>Name: [Avnoor Singh](https://github.com/avnoor-488)<br/>
+Place: Patiala,Punjab<br/>
+About: Coding==Love <br/>
+</br>
