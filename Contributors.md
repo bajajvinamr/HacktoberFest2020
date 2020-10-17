@@ -619,3 +619,8 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+
+</br>Name: [Fiorent Nicholas Yehardi](https://github.com/fionicholas)<br/>
+Place: South Tangerang, Indonesia<br/>
+About: Android Developer at Nusantara Beta Studio <br/>
+</br>
