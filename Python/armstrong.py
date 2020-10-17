@@ -1,21 +1,18 @@
-# Program to check Armstrong numbers in a certain interval
+#user input 
+num = int(input("Enter a number: "))
 
-lower = 100
-upper = 2000
+# initialize sum
+sum = 0
 
-for num in range(lower, upper + 1):
+# for sum of the cube of each digit
+temp = num
+while temp > 0:
+   digit = temp % 10
+   sum += digit ** 3
+   temp //= 10
 
-   # order of number
-   order = len(str(num))
-    
-   # initialize sum
-   sum = 0
-
-   temp = num
-   while temp > 0:
-       digit = temp % 10
-       sum += digit ** order
-       temp //= 10
-
-   if num == sum:
-       print(num)
+# display the result
+if num == sum:
+   print(num,"is an Armstrong number")
+else:
+   print(num,"is not an Armstrong number")
