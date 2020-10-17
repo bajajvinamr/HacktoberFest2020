@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Waqar Ansari](https://github.com/mdwaqaransari)<br/>
+Place: Gorakhpur<br/>
+About: Student of MCA <br/>
+</br>
