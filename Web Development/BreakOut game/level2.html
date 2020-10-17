@@ -1,0 +1,459 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+  <title>Break the Brick</title>
+  <link rel="stylesheet" type="text/css" href="game.css">
+<!-- <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" /> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+<style>
+      #Clouds {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 30%;
+  overflow: hidden;
+  -webkit-animation: FadeIn 3s ease-out;
+          animation: FadeIn 3s ease-out;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+@-webkit-keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.Cloud {
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  height: 70px;
+  -webkit-animation-duration: 120s;
+          animation-duration: 120s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-name: Float, FadeFloat;
+          animation-name: Float, FadeFloat;
+  z-index: 1;
+}
+.Cloud.Foreground {
+  height: 10%;
+  min-height: 20px;
+  z-index: 3;
+}
+.Cloud.Background {
+  height: 9.09090909%;
+  min-height: 8px;
+  -webkit-animation-duration: 210s;
+          animation-duration: 210s;
+}
+@-webkit-keyframes Float {
+  from {
+    -webkit-transform: translateX(100%) translateZ(0);
+            transform: translateX(100%) translateZ(0);
+  }
+  to {
+    -webkit-transform: translateX(-15%) translateZ(0);
+            transform: translateX(-15%) translateZ(0);
+  }
+}
+@keyframes Float {
+  from {
+    -webkit-transform: translateX(100%) translateZ(0);
+            transform: translateX(100%) translateZ(0);
+  }
+  to {
+    -webkit-transform: translateX(-15%) translateZ(0);
+            transform: translateX(-15%) translateZ(0);
+  }
+}
+/*
+@keyframes Float {
+  from { transform: translateX(100%) translateY(-100%) translateZ(0); }
+  50% { transform: translateX(55%) translateY(0) translateZ(0); }
+  to { transform: translateX(-5%) translateY(-100%) translateZ(0); }
+}
+*/
+@-webkit-keyframes FadeFloat {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  5%,
+  90% {
+    opacity: 1;
+  }
+}
+@keyframes FadeFloat {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  5%,
+  90% {
+    opacity: 1;
+  }
+}
+.Cloud:nth-child(10) {
+  -webkit-animation-delay: -184.61538462s;
+          animation-delay: -184.61538462s;
+  top: 60%;
+}
+.Cloud.Foreground:nth-child(10) {
+  -webkit-animation-duration: 80s;
+          animation-duration: 80s;
+  height: 35%;
+}
+.Cloud.Background:nth-child(10) {
+  -webkit-animation-duration: 110s;
+          animation-duration: 110s;
+  height: -3.40909091%;
+}
+.Cloud:nth-child(9) {
+  -webkit-animation-delay: -166.15384615s;
+          animation-delay: -166.15384615s;
+  top: 54%;
+}
+.Cloud.Foreground:nth-child(9) {
+  -webkit-animation-duration: 84s;
+          animation-duration: 84s;
+  height: 32.5%;
+}
+.Cloud.Background:nth-child(9) {
+  -webkit-animation-duration: 114s;
+          animation-duration: 114s;
+  height: -2.15909091%;
+}
+.Cloud:nth-child(8) {
+  -webkit-animation-delay: -147.69230769s;
+          animation-delay: -147.69230769s;
+  top: 48%;
+}
+.Cloud.Foreground:nth-child(8) {
+  -webkit-animation-duration: 88s;
+          animation-duration: 88s;
+  height: 30%;
+}
+.Cloud.Background:nth-child(8) {
+  -webkit-animation-duration: 118s;
+          animation-duration: 118s;
+  height: -0.90909091%;
+}
+.Cloud:nth-child(7) {
+  -webkit-animation-delay: -129.23076923s;
+          animation-delay: -129.23076923s;
+  top: 42%;
+}
+.Cloud.Foreground:nth-child(7) {
+  -webkit-animation-duration: 92s;
+          animation-duration: 92s;
+  height: 27.5%;
+}
+.Cloud.Background:nth-child(7) {
+  -webkit-animation-duration: 122s;
+          animation-duration: 122s;
+  height: 0.34090909%;
+}
+.Cloud:nth-child(6) {
+  -webkit-animation-delay: -110.76923077s;
+          animation-delay: -110.76923077s;
+  top: 36%;
+}
+.Cloud.Foreground:nth-child(6) {
+  -webkit-animation-duration: 96s;
+          animation-duration: 96s;
+  height: 25%;
+}
+.Cloud.Background:nth-child(6) {
+  -webkit-animation-duration: 126s;
+          animation-duration: 126s;
+  height: 1.59090909%;
+}
+.Cloud:nth-child(5) {
+  -webkit-animation-delay: -92.30769231s;
+          animation-delay: -92.30769231s;
+  top: 30%;
+}
+.Cloud.Foreground:nth-child(5) {
+  -webkit-animation-duration: 100s;
+          animation-duration: 100s;
+  height: 22.5%;
+}
+.Cloud.Background:nth-child(5) {
+  -webkit-animation-duration: 130s;
+          animation-duration: 130s;
+  height: 2.84090909%;
+}
+.Cloud:nth-child(4) {
+  -webkit-animation-delay: -73.84615385s;
+          animation-delay: -73.84615385s;
+  top: 24%;
+}
+.Cloud.Foreground:nth-child(4) {
+  -webkit-animation-duration: 104s;
+          animation-duration: 104s;
+  height: 20%;
+}
+.Cloud.Background:nth-child(4) {
+  -webkit-animation-duration: 134s;
+          animation-duration: 134s;
+  height: 4.09090909%;
+}
+.Cloud:nth-child(3) {
+  -webkit-animation-delay: -55.38461538s;
+          animation-delay: -55.38461538s;
+  top: 18%;
+}
+.Cloud.Foreground:nth-child(3) {
+  -webkit-animation-duration: 108s;
+          animation-duration: 108s;
+  height: 17.5%;
+}
+.Cloud.Background:nth-child(3) {
+  -webkit-animation-duration: 138s;
+          animation-duration: 138s;
+  height: 5.34090909%;
+}
+.Cloud:nth-child(2) {
+  -webkit-animation-delay: -36.92307692s;
+          animation-delay: -36.92307692s;
+  top: 12%;
+}
+.Cloud.Foreground:nth-child(2) {
+  -webkit-animation-duration: 112s;
+          animation-duration: 112s;
+  height: 15%;
+}
+.Cloud.Background:nth-child(2) {
+  -webkit-animation-duration: 142s;
+          animation-duration: 142s;
+  height: 6.59090909%;
+}
+.Cloud:nth-child(1) {
+  -webkit-animation-delay: -18.46153846s;
+          animation-delay: -18.46153846s;
+  top: 6%;
+}
+.Cloud.Foreground:nth-child(1) {
+  -webkit-animation-duration: 116s;
+          animation-duration: 116s;
+  height: 12.5%;
+}
+.Cloud.Background:nth-child(1) {
+  -webkit-animation-duration: 146s;
+          animation-duration: 146s;
+  height: 7.84090909%;
+}
+.Cloud {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAABgCAYAAACTzNnjAAAFCklEQVR42u3d34uVRRjA8YMsEi0iSwhdRBGhSJgZiNRFIkWhQVEXBipKUVBBLCF6k0h4UxFkBLq4QT/Qiyi80EgxCjXMWqOMtqy0bBNja92yXatN3c3pGc9sHU/v+X3emWfe93vx+QN23u+e95x5Z94pmNWFQo5NEytErzgoBsSIOCf+FqbEBTEhzophcVTsFxvFEjE152PZHGMukbcB6BAPij0uqgtl0bXCBvyjeFPcS2wEWc0y0ec++Ywnf7rwbyc8grQ6RY8Y9RhhJT+Jde4TmghzFuR08bo4ryDEpE/N58QUYsx+kFPcD4yzCkMsZz+1uwkyu0HeKYYiCLHcN2I2QWYnSPudbHubfy37NuFu4wQZeZD2k2Uw4hDLHRZdBBnnH3K/5ykcX86IeQQZl6civ0XXYv/RlhJkHLZkOMTypz7dBKnbyzmJsfTZeTdB6vRszmIsjXI5QeryWMa/M9ZinzjdTJA63CLGcxzjpD/ElQQZfq3iKDFe8lSHIAPqI8L/6SHIMB4nvorTQQsI0v+teoz4KjpBkH7tIrqaNhCkH9cnbK5C8q/uywiSHzKabCLIdM3K+QR4o8YysfVWcZDvElnD1hNkOi5XuilLu5MlOyzni3vESnGfWCRuIMjm1zgSWPM7GWvNXdonXkdM8Q0dCwmytu8Iy/vK9B3iRoJMnghnqifc8jb7yXkXQf5nLWGo2WR2HUGuLrxPDKq25D6d9yBPE4I6/e6rVO6CnMpkuFq/eLmFKwtyMRde/dOg2XkKkvlH/X5P9ZNSWZBvcMGjMJza6iJlQe7nYkfjozwE+TkXOiprsx7kES5yVOzLYK/IcpA/cJGj806Wg/yaCxzlzsersxpkPxc4SruzGuQBLm603yU7DPOQUOSJWIK0E6j2lcvPm+JJVp+674oDbiFuv5t/fEXs5cJG65DmIO3KY3vG3yCLbXO1N1xVkB3uWfQQFye3rtUS5DN1bC5C9j0cOki7XOwUFwJOb6gg7TmCW1lMizI7QwQ5nW2qqGCv7yDtwsxfGXhU0OczyKvECIOOKvb5CnKa2+TDoKOat3wFyaIH1ONFH0H2MNCo00NpBzmXR39owIy0gzzOIKNOv6X9LHsZg4wGp3xsM/ZMoUfF3aaZ4++qBDnIIKMNzrsHKb11Lb6oEORtDCRSYB81f+vWxzYUJBv2kTYb5vx6gzzHgMHTjsUXagV5BwMFzz78d5NYQpDbGCAEcOzissaEIL9kcBDIx0lBsrwMIW0uD3KcQUHgqaEFpUGyLQGhnSgNkgGBBg8QJDQ5Phkky82g5bvkNQXDscDQY6MNcpiBgBL9NsjDDAS0LPq1Qb7EQECJicLFSUkGAkpMLgMaYzCgKci3GQxomPqZDPImBgMa9uOULifnDWcI7VRpkIsYEAR2sHwX2GcMCgJak/QKPh4lIsgcpOhM2iv7JIODAPqqvY7vPQYInlf6zKsWpN2iOMBAwZMD9bzSudPwvh+kr3gofJ0vve/ikxIp36pXNHosiD2j5gMGD2ksyG3lJK917qc5A4l2eNW04Wi5OaZ41DADilZu0xtMmw/fXCV+ZnDRoFFTfBdpaudlLxVfsXMRNYy7W3SH8XSAu/01bo8s/kL8xQWAM+JC7DIeDnCvZqZ4RGxxi3/3iUPOJ+5TtRXfG/v6jeadNMVjlqsZquG0uwU164ybg2vFuPuh2ax23tkm3N91VLwmbjVNvPT+H7Ro4730ITNPAAAAAElFTkSuQmCC);
+}
+.Cloud.Background {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAAAqCAYAAAAUJM0rAAACFUlEQVRo3u3aPSwDYRzH8UZEbAYiYrDYjLZGpIPBJLGwSKwi0k1iYBKDdFJsEiMxSZgsFZJGiGjqJWEhSKuaNKRUG8r5PfI8SXOud72+PH2eu2f47Ndv7+V5/nee/G6bh5MWmIV9iEMWvkGjfiADD7AHk9BU6+PSNK0kPAINwwXkC6KU6gvC4HVyKB/clhHHCDnbTqHbSaEaYIv+OK3KyBk274RQrXBXg0B6B/QPkTIUiZTiEIm5gkbZQjXTJ5nG2ZFsocJ1iMQEZQk1VcdIGl2L9Yoeitwj3uocirgRPVRAgEjMoMihkgKFStIzK063QVHYhKF6h/IKFMlKGpaNlhM8Qq1JFIp5gQHeoSIShmJPST/PUElJQ7FN9hivUGmJQxE56OQRKiN5qL/NNY9QKQeEIpdgR7VC9cEqHeGeUyEHXHrMUiWhyKx6BV4dEsNMtNxQI4Ls33h5LidUoEYjXKEXoXZDLbgsEBOzE8qne8fmJhE7oWIujUQcwhyMmy0VSKRRF0cyWlclYMYo1LEKZOgRugpDpVWUot5ZLI8LlwN23bNQKoY1vwpVmmsS6kOFsPRJQl2qENZIqGkVwnp9xb5nUksEcxm2hZlQMcy3OYXTgx0VpOi2pl8/jwqpMP9sF5twBl08ctE7I/dws5l5D5y4OBj51HvdzluYdlik0RL06cjkKpSlB1Span5x/AQb5Hfrxyy/oU5ISeVw53AAAAAASUVORK5CYII=);
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+body {
+  color: #FFF;
+  background-color: #FD940A;
+  background-image: radial-gradient(circle, #F9A72B 0%, #FA9026 70%, #FB6C1F 100%);
+}
+
+    </style>
+    
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body >
+    <div style="width:100%; height:15%; background-color: blue;">
+        <h1 style="font-family:'Courier New', Courier, monospace; text-align: center">
+    <br>			BRICK BREAKER<br><br>
+        </h1>
+      </div>
+
+      <div id="game" class="container-fluid text-center slide" style="display:block;"> 
+        <canvas id="myCanvas" width="480" height="320" ></canvas>
+        <div style="position: relative; display: inline-block; z-index:100; top:1000px">
+        <span id="mobleft"  style="margin-right: 200px; color: white; font-size: 100px; "><i class="fas fa-arrow-left"></i></span>
+        <span id="mobright" style="margin-left: 200px; color: white; font-size: 100px; "><i class="fas fa-arrow-right"></i></span>
+      </div>  
+      </div>
+    
+      <div id="lost"  style="display: none;">
+        <h1 style="font-family:'Courier New', Courier, monospace; text-align: center"><br>You Lost</h1>	
+      <div class="container" style="max-width:100%;display: inline-block; text-align: center; z-index: 100; position: absolute; margin-top: 10%"</div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+          <button type="button" class="btn btn-primary btn-lg" style="margin:10%; background-color: green;width: 100%" onclick="myFunction()" >PLAY AGAIN
+          </button>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+          <button type="button" class="btn btn-primary btn-lg" style="margin:10%; background-color: red;width: 100%" onclick="myFunction1()" >MAIN MENU
+          </button>
+        </div>
+      </div>
+        </div>
+      </div>
+
+      <div id="won"  style="display: none;">
+        <h1 style="font-family:'Courier New', Courier, monospace; text-align: center"><br>CONGRATULATIONS<br>YOU WON<br>LEVEL 2!!</h1>	
+      <div class="container" style="max-width:100%;display: inline-block; text-align: center; z-index: 100; position: absolute; margin-top: 10%"</div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+          <button type="button" class="btn btn-primary btn-lg" style="margin:10%; background-color: green; width: 100%;" onclick="myFunction()" >PLAY AGAIN
+          </button>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+          <button type="button" class="btn btn-primary btn-lg" style="margin:10%; background-color: red; width: 100%" onclick="myFunction1()" >MAIN MENU
+          </button>
+        </div>
+      </div>
+        </div>
+      </div>
+
+      <div id="level3"  style="display: none;">
+        <h1 style="font-family:'Courier New', Courier, monospace; text-align: center"><br>CONGRATULATIONS
+        <br>YOU WON<br>LEVEL 2!!</h1>	
+      <div class="container" style="max-width:100%;display: inline-block; text-align: center; z-index: 100; position: absolute; margin-top: 10%"</div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+          <a href="level3.html">
+          <button type="button" class="btn btn-primary btn-lg" style="margin:10%; background-color: green; width: 100%;" " >START LEVEL 3
+          </button></a>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+          <div class="col-md-auto">
+              <a href="level2.html">
+            <button type="button" class="btn btn-primary btn-lg" style="margin:10%; background-color:BLUE; width: 100%" " >REPLAY
+            </button></a>
+          </div>
+        </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+            <a href="index.html">
+          <button type="button" class="btn btn-primary btn-lg" style="margin:10%; background-color: red; width: 100%" " >MAIN MENU
+          </button></a>
+        </div>
+      </div>
+        </div>
+      </div>
+
+<div id="Clouds">
+  
+<div class="Cloud Foreground"></div>
+<div class="Cloud Background"></div>
+<div class="Cloud Foreground"></div>
+<div class="Cloud Background"></div>
+<div class="Cloud Foreground"></div>
+<div class="Cloud Background"></div>
+<div class="Cloud Background"></div>
+<div class="Cloud Foreground"></div>
+<div class="Cloud Background"></div>
+<div class="Cloud Background"></div>
+
+</div>
+<!-- <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="24px" viewBox="0 0 40 24" enable- xml:space="preserve">
+<defs>
+<path id="Cloud" d="M33.85,14.388c-0.176,0-0.343,0.034-0.513,0.054c0.184-0.587,0.279-1.208,0.279-1.853c0-3.463-2.809-6.271-6.272-6.271
+	c-0.38,0-0.752,0.039-1.113,0.104C24.874,2.677,21.293,0,17.083,0c-5.379,0-9.739,4.361-9.739,9.738
+	c0,0.418,0.035,0.826,0.084,1.229c-0.375-0.069-0.761-0.11-1.155-0.11C2.811,10.856,0,13.665,0,17.126
+	c0,3.467,2.811,6.275,6.272,6.275c0.214,0,27.156,0.109,27.577,0.109c2.519,0,4.56-2.043,4.56-4.562
+	C38.409,16.43,36.368,14.388,33.85,14.388z" />
+</defs>
+</svg> -->
+<!-- <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script>
+;(function(){
+  
+  // bracket [≠] square [⠝] 
+  var svgIcon = '<svg class="shaw__icon" width="222" height="284" viewBox="0 0 2223 2846"><path fill="#f4d198" d="M1040 436c46-.8 71.4 17.4 103 31l82 35 441 189c-3 6.2-3.7 9-2 16 28.7 21.2 64 26.6 102 41 32 12.2 62.6 27.5 89 46 70 49.6 122 125.5 156 211 16.7 42.4 23 95.4 40 136 21.3 52.2 85.3 136.6 72 214-9 50.5-31.4 75-57 107-19 23.4-52 45.2-43 95 14.7 82.3 57.8 139 89 205 10.8 23.4 22 46.7 32.8 70l10 32c17.8 28 85.5 81.5 64 130-15 34.3-48.4 58.2-84 72-17 4.4-34 8.8-51 13 5 15.5 9 29.5 16 42-5.6 6.8-11.3 13.4-17 20 1.4 58 36.5 119.5 4 164-14 19.4-35 26.6-54 41 9.7 12.6 21.5 23.3 28 39 30 72.4-52.2 154.4-82 196-17.7 25-36.7 64.3-64 79-52.3-6.2-104.6-12.6-157-19-130.8-26-259.5-41.8-381-76-82.6-23-166-43.7-243-74l-143-59c-.2-50-.5-100-1-150h-1c-23.5 1.4-47.2 2.8-71 4l-15 15c-13.7 10.2-32 17.4-52 21-90.8 17.2-202.2-74.8-249.8-112l-42-38c-11.4-1.6-22.7-3.2-34-5-33.6-7.2-99.3-17.8-115-41l-67-167-142-339 166-20c1.4-27.2 26.6-95.5 51-97l181 49 2-1c-.7-51.7 2-106.3 10-154 8.6-51.6 8-103.5 17-152l18-124c29.5-135.3 55.3-266.4 104-381 41.2-97.2 85.7-194 164-254 22.4-17.2 48.8-32.8 79-42l47-8z"/><path fill="#bf3d27" d="M1008 59v-8c14.8 4.4 23.6 20.4 35 29l65 43c8.4 6.3 26.4 24.8 40 21 9.7-5 8.2-22.2 8-34 15 7.2 32.2 21.3 49 24v-5c-4.4-15.4-4.7-33-7-51h6c88.8 27.2 209.3 5.2 297 22l52-2c32.2 7.3 66.3 35.3 97 47l52 17c3.5 5.7 7.2 11.3 11 17 8.2 6.3 16.5 12.7 25 19 58.6 30.8 113.8 60 168 93l24 10c10.6 7.4 11 22.2 20 31 13.2 9.3 26.5 18.7 40 28 31.5 25.4 72.8 84 89 124 14 35.8 12.7 100 3 139-23.3 92-85 195.2-150 244-3.5-3.3-6.8-6.6-10-10l-51-46-213 57-196 85c-41.2 18-84.3 36-122 58-26 15-49.5 34-83 41-54 11.2-111-6.6-161-7 8.6 61.2 25 132 52 179 8 14.2 41.8 81.8 39 101-12.7 85.2-70.4 125.8-122 172l7 137 7 101c12.5 77.8 10 156.3 24 229 9 48 13 94 25 137l8 34c8.6 16 90.4 62.3 111 75 79.6 49.7 164.7 96.8 254 136 38.3 17 84 48.6 126 58 18.4-23 38-43 54-70 6.2-14.6 12.5-29.2 19-44 6.3-10.5 67.2-41 82-50 61.3-37.3 124.7-70.7 196-99 34.2-13.5 75.3-29.6 121-23 4.5 10.4 9.2 20.8 14 31 10.6 34.2.8 70.2-12 94-31.2 1-63 14.8-89 23-82.7 26.3-167.3 58-214 120-23.7 31.4-44 88.3-13 128 18.2 23.8 53.3 24 83 11 21.6-9.4 40-30.8 59-39 18.4-7.8 80.2-5.5 99 0-2.6 28.8-3.4 61.8-3 94v47c-14 83.2-40 137-95 177-94.4 68.6-214.8 41.3-315 2-60.8-21.5-121.4-43.2-182-65-120.6-58-243.3-122.3-355-190-72.2-43.5-139.8-77-182-150-17.7-30.3-20-87-12-132l28-184 6-76c5.3-33.3 2.7-117-9-139l-62-67c-57-57-198.2-164.5-324-138-42.3 9-87.2 26.4-109 56-32 43.3-40.3 141.8-16 201 27.5 67.4 69.7 136 112 191l80 84 4 40c11.4 71.7-24.4 176.2-59 205-10.4-11.6-20.7-23.2-31-35-22.4-28-47.7-53.4-70-82-60.6-77-115.6-155-167-243-18-31-29.4-66-44-100l-83-196C88.7 1670 27.3 1539.8 0 1406v-138c0-155.8 32.6-292.3 91-391 16.3-27.6 37-57 62-76l29-17 52-44 22-17 62-96 14-46 35-86c29.3-66.6 70.2-123.8 113-177 23.6-29.4 57-46.7 87-70C627.8 201 717.3 93.4 730 0h4c30 13 74.3 15.3 109 21h27c19.6 5.2 33.4 22.5 56 28l1-13h8l-1-8 26 11 3-4c10.6 9.8 27 22.4 45 24zm917 68h2-2zm2 1h2-2zm58 47c1.5 1.7 3.2 3.3 5 5l-3-2c-3.2-2-1.2-.3-2-3z"/></svg>';
+  
+  document.head.insertAdjacentHTML('beforeend','<style>.shaw { display: block; position: absolute; position: fixed; z-index: 9999; bottom: 5px; right: 5px; font-size: 10px; color: #c03b27; text-decoration: none; padding: 10px; border-radius: 50%; opacity: 0.4; transform-origin: 100% 100%; transition: all 300ms ease-in-out; } .shaw > * { transition: inherit; } .shaw:hover { opacity: 1; background: rgba(255,255,255,0.9); } .shaw__icon, .shaw__title { display: inline-block; vertical-align: middle; } .shaw__icon { width: 24px; height: 24px; position: relative; z-index: 1; } .shaw__title {  white-space: nowrap; opacity: 0; padding-right: 10px; transform: translateX(100%); } .shaw:hover .shaw__title { transform: scale(1); opacity: 1; } .shaw:hover .shaw__icon { transform: scale(1.4); } </style>'); // .shaw__title { position: absolute; right: 100%; top: 50%; margin-top: -0.5em;width: fit-content; position: absolute; right: 100%; margin-right: 10px; }
+  
+  var a = document.createElement('a');
+  a.setAttribute('href','https://codepen.io/shshaw');
+  a.setAttribute('target','_blank');
+  a.className = 'shaw';
+  a.innerHTML = svgIcon;
+  a.onclick = function(){
+    if ( ga ) {
+      var url = this.getAttribute('href');
+      ga('send', 'event', 'shawhead', 'click', url, {
+        'transport': 'beacon',
+        'hitCallback': function(){ console.log('callback!');window.open(url); }
+      });
+      return false;
+    }
+  };
+  
+  document.body.appendChild(a);
+  
+  //document.body.insertAdjacentHTML('beforeend','<a href="https://codepen.io/shshaw" target="_blank" class="shaw">'+svgIcon+'</a>');
+  
+})();
+
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-6412794-6', 'auto');
+ga('send', 'pageview');
+</script> -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://static.codepen.io/assets/editor/live/css_reload-5619dc0905a68b2e6298901de54f73cefe4e079f65a75406858d92924b4938bf.js"></script>
+<script src="level2.js"></script>
+<script src="start.js"></script>
+</body>
+</html>
