@@ -82,6 +82,11 @@ Name: [Prastab Ghimire](https://github.com/Prastab)<br/>
 Place: Nepal<br/>
 About: Student and tech enthusiast<br/>
 <br/>
+<br/>
+Name: [Sakshi Hada](https://github.com/sakshihada/)<br/>
+Place: India<br/>
+About: This for HacktoberFest 2020<br/>
+<br/>
 Name: [Vatsal Narwal](https://github.com/VatsalNarwal)<br/>
 Place: India<br/>
 </br>
