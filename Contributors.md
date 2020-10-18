@@ -619,3 +619,8 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>Name: [Wantana Vera](https://github.com/manymoji/)<br/>
+Place: Bangkok, Thailand<br/>
+About: Student of Software Enginering <br/>
+</br>
+
