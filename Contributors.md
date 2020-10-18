@@ -1,4 +1,6 @@
-
+Name: [Sreshtha Mehrotra](https://github.com/sreshtha10)</br>
+Place: Varanasi, India</br>
+<br/>
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
 About: A passionate frontend developer, programmer and Photographer.
