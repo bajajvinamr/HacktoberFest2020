@@ -618,4 +618,6 @@ About: Student of Bio Technology <br/>
 </br>Name: [Fernanda Ramadhan](https://github.com/fernanda322)<br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
-</br>
+</br>Name: [Luma Liana](https://github.com/LumaLiana)<br/>
+Place: São Paulo, Brasil<br/>
+About: Student <br/>
