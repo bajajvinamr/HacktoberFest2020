@@ -1,0 +1,14 @@
+# dependencies
+/superchat-app/node_modules
+
+# misc
+/superchat-app/.DS_Store
+/superchat-app/.env.local
+/superchat-app/.env.development.local
+/superchat-app/.env.test.local
+/superchat-app/.env.production.local
+/superchat-app/creds
+/superchat-app/npm-debug.log*
+/superchat-app/yarn-debug.log*
+/superchat-app/yarn-error.log*
+/superchat-app/.firebase/*
