@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-cout<<"Hello World Hacktoberfest2020";
-cout<<"Happy Coding....Happy Contributing";
+cout<<"Hello World Hacktoberfest2020"<<endl;
+cout<<"Happy Coding....Happy Contributing"<<endl;
 return 0;
 }
