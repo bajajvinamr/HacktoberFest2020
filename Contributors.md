@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>Name: [Alexander](https://github.com/ialexanderbrito)<br/>
+Place: Rio de Janeiro, Brazil<br/>
+About: Frontend Developer ReactJS and React Native <br/>
+</br>
