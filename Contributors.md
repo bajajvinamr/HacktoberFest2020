@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>Name: [Taran Kumar](https://github.com/Rico45-Vizil)<br/>
+Place: India<br/>
+About: Student of Computer Science Enginering <br/>
+</br>
