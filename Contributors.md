@@ -618,4 +618,6 @@ About: Student of Bio Technology <br/>
 </br>Name: [Fernanda Ramadhan](https://github.com/fernanda322)<br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
-</br>
+</br> Name: [Nathalia Ohana](https://github.com/Nathalia1234)</br>
+Place: Brazil </br>
+About: Graduating in computer engineering and passionate about games </br>
