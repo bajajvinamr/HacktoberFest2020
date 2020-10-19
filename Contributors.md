@@ -54,6 +54,10 @@ Name: [Amjali Kumari](https://github.com/Anjalikumari15)<br/>
 Place: India<br/>
 About: Android app developer and competitive coding enthusiast<br/>
 <br/>
+Name: [JackTDC](https://github.com/JackTDC)<br/>
+Place: India<br/>
+About: Hey I am a Gamer<br/>
+<br/>
 Name: [Shubham Maurya](https://github.com/codeShaurya)<br/>
 Place: India<br/>
 About: Hacktoberfest<br/>
