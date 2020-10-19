@@ -1,4 +1,7 @@
-
+Name: [Shreya Verma](https://github.com/shreya8384)<br/>
+Place: India<br/>
+About: Computer Science Engineering Student<br/>
+<br/>
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
 About: A passionate frontend developer, programmer and Photographer.
