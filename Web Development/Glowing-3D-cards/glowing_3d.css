@@ -1,0 +1,176 @@
+html {
+    min-height: 100%;
+    cursor: none !important;
+}
+
+body {
+    background: rgb(19, 19, 19) !important;
+    color: white;
+    font-family: 'Bad Script', cursive;
+    overflow: hidden;
+}
+
+.custom_cursor {
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    z-index: 2;
+    transition-timing-function: ease-out;
+    animation: cursorAnim 0.5s infinite alternate;
+}
+
+.custom_cursor::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    border: 7px solid rgb(255, 255, 255);
+    opacity: 0.7;
+    top: -8px;
+    left: -7.5px;
+    animation: cursorAnim2 0.5s infinite alternate;
+}
+
+@keyframes cursorAnim {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(0.8);
+    }
+}
+
+@keyframes cursorAnim2 {
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(0.8);
+    }
+}
+
+@keyframes cursorAnim3 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(3);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.expand {
+    animation: cursorAnim3 .5s forwards;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.personal {
+    position: absolute;
+    top: 23vh;
+    left: 38%;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    height: 400px;
+    width: 340px;
+    box-shadow: 0 0 0 1vw black, 0 0 0 1.2vw white;
+    transition: ease-out 1s;
+}
+
+.personal:hover {
+    box-shadow: 0 0 0 1vw black, 0 0 10px 1.2vw white, 0 0 40px 1.6vw white, 0 0 80px 1.8vw white;
+}
+
+.pic img {
+    height: 100%;
+    width: 100%;
+}
+
+.personal .pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+}
+
+.personal:hover .pic {
+    transform: rotateX(-180deg);
+}
+
+.personal .infos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+}
+
+.personal:hover .infos {
+    transform: rotateX(0deg);
+}
+
+.name {
+    font-size: 5vw;
+    color: black;
+}
+
+.name span {
+    display: table-cell;
+    animation: letters 2.5s linear infinite;
+}
+
+@keyframes letters{
+    0%, 100% {
+        color: white;
+        filter: blur(2px);
+        text-shadow: 0 0 10px white,
+                    0 0 20px white,
+                    0 0 40px white,
+                    0 0 80px white,
+                    0 0 90px white,
+                    0 0 100px white;
+    }
+    5%, 95% {
+        color: black;
+        filter: blur(0px);
+        text-shadow: none;
+    }
+}
+
+.name span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.name span:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.name span:nth-child(3) {
+    animation-delay: 0.55s;
+}
+
+.name span:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+.details {
+    text-align: center;
+}
