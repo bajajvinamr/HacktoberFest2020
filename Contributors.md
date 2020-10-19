@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Vodivanka Putra](https://github.com/MisticJr)<br/>
+Place: Sragen, Indonesia<br/>
+About: Wannabe Full-Stack Developer <br/>
+</br>
