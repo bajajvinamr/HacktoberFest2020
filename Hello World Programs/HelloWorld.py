@@ -1,4 +1,3 @@
-print("Hello World")
+# This program prints Hello, world!
 
-y="Hello World!"
-print(y)
+print("Hello World!")
