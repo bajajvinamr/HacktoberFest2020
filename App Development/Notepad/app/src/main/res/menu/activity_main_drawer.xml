@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/about"
+            android:title="Our Team" />
+    </group>
+
+    <item android:title="OOC Activity">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Saurav Kumar"
+                tools:ignore="DuplicateIds" />
+            <item
+                android:id="@+id/nav_share"
+                android:title="Sittara Promod"
+                tools:ignore="DuplicateIds"/>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Uddeshya Giri"
+                tools:ignore="DuplicateIds"/>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Parthasarthi"
+                tools:ignore="DuplicateIds"/>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Vivek Venketesh"
+                tools:ignore="DuplicateIds"/>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Shahid Akhtar"
+                tools:ignore="DuplicateIds"/>
+        </menu>
+    </item>
+</menu>
