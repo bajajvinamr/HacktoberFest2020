@@ -1,0 +1,42 @@
+.cart {
+  text-align: center;
+}
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.cart-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  padding: 1rem;
+  box-shadow: -1px 1px 15px lightgrey;
+  margin: 1rem;
+}
+
+.cart-item img {
+  height: 10vh;
+}
+
+h4,
+p {
+  margin: 2rem 1rem;
+}
+
+form {
+  padding: 1.4rem;
+}
+
+.cart-delete {
+  padding: 0.3rem 1rem;
+  background: green;
+  color: goldenrod;
+}
+
+.order-btn {
+  background: none;
+  border: 1px solid green;
+  padding: 0.3rem 1rem;
+}
