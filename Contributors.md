@@ -11,6 +11,10 @@ Name: [Anish Kamath](https://github.com/anishkamath)<br/>
 Place: India<br/>
 About: student<br/>
 <br/>
+Name: [vaibhav chandra](https://github.com/vaibhavviking)<br/>
+Place: India<br/>
+About: student<br/>
+<br/>
 Name: [Amrita Singha Roy](https://github.com/uzumakinaruto96)<br/>
 Place: India<br/>
 About: SDET in Infosys and I love learning new things<br/>
