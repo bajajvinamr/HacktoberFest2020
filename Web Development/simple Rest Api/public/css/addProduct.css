@@ -1,0 +1,41 @@
+.add-product-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control label {
+  padding: 1rem 0;
+  font-weight: 800;
+}
+
+.form-control input {
+  width: 50vw;
+  padding: 0.5rem;
+}
+
+.form-add-btn {
+  margin-top: 1rem;
+  background: none;
+  border: 1px solid green;
+  border-radius: 10px;
+  color: green;
+  padding: 0.6rem;
+  width: 10rem;
+}
+
+.form-add-btn:hover {
+  color: white;
+  background: green;
+}
+.errorMsg {
+  color: red;
+  margin: 1rem 0;
+}

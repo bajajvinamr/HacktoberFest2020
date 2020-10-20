@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  width: 100vw;
+  background: green;
+  padding: 1rem;
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.nav-item {
+  color: grey;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.active {
+  color: goldenrod;
+}
+
+.log-out-btn {
+  background: none;
+  color: red;
+  border: none;
+  font-size: 1rem;
+  font-weight: 800;
+}

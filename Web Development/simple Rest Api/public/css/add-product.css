@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+input{
+    width: 50vw;
+    padding: 0.5rem 0.8rem;
+    margin: 0.6rem 0;
+}
+
+textarea{
+    width: 50vw;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+button{
+    color: goldenrod;
+    background: green;
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+}
