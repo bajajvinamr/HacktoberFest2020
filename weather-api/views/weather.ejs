@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href='/css/main.css'>
+</head>
+<body>
+        <div style="text-align: center; margin-top: 15%;">
+            <%if(error){%>
+                <h3><%=error%></h3>
+            <%}else{%>
+                <h1><%=place_name%> Weather Data</h1>
+                <hr>
+                <img src="<%=icon%>">
+                <i><h3>Temperature <%=temperature%></h3></i>
+                <i><h3>Humidity <%=humidity%></h3></i>
+                <i><h3>Wind speed <%=wind_speed%></h3></i>
+            <%}%>  
+        </div>
+            
+</body>
+</html>
+
