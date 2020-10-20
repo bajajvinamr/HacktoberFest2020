@@ -15,6 +15,10 @@ Name: [Amrita Singha Roy](https://github.com/uzumakinaruto96)<br/>
 Place: India<br/>
 About: SDET in Infosys and I love learning new things<br/>
 <br/>
+Name: [Keyul Jain](https://github.com/KeyulJain)<br/>
+Place: India<br/>
+About: I'm learning Web dev<br/>
+<br/>
 Name: [Arshdeep Singh](https://github.com/botarsh)<br/>
 Place: India<br/>
 About: Verto <br/>
