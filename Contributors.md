@@ -7,7 +7,7 @@ Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
 <br/>
-Name: [Luana Gabrielly] (https:github.com/LuanaGP)<br/>
+Name: [Luana Gabrielly](https://github.com/LuanaGP)<br/>
 Place: Brazil<br/>
 About: Student of Information of technology<br/>
 <br/>
