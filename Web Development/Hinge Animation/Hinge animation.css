@@ -1,0 +1,35 @@
+body{
+    margin: auto;
+    margin: 0em;
+    padding: 0em;
+    font-size: 44px;
+    font-weight: 900;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+.hinges{
+    margin: auto;
+    background-image: linear-gradient(skyblue,purple,red);
+    color: white;
+    padding: 10px;
+    animation: hinge 1.5s ease-in-out;
+
+    
+}
+
+@keyframes hinge{
+    20%, 60%{
+        transform: rotate(70deg);
+    }
+    40%, 60%{
+        transform: rotate(55deg);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(100px);
+    }
+}

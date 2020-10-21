@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #031321;
+    font-size: 44px;
+    font-weight: 900;
+    font-family: 'Times new roman' ;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.start{
+    position: relative; 
+    border-radius: 9px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+
+}
+
+a:hover{
+    color: #255784;
+    background-color: #2196f3;
+    box-shadow:  0 0 10px #2196f3, 0 0 40px #2196f3 ,0 0 80px #2196f3 ,0 0 120px #2196f3;
+    transition-delay: 1s;
+}
+
+a span{
+    position: absolute;
+    display: block ;
+}
+
+/* for top */
+
+a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg , transparent , #2196f3);
+}
+a:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+
+/* For right */
+a span:nth-child(2){
+    right: 0;
+    top: -100%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg , transparent , #2196f3);
+}
+a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+/* For bottom */
+
+a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg , transparent , #2196f3);
+}
+a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+/* For left */
+a span:nth-child(4){
+    left: 0;
+    bottom: -100%;
+    height: 100%;
+    width: 2px;
+    background: linear-gradient(0deg , transparent , #2196f3);
+}
+a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
