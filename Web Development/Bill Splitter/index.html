@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bill Splitter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div id="container">
+    <h1 class="heading"> Split Your Bill And Calculate The Tip.</h1>
+
+    <form>
+      <p>Amount of Bill: </p>
+       <input type="text" class="fillBox" id="amtbill" placeholder="Amount Of Bill"> 
+
+      <p> Want To Add a Tip? </p>
+      <p><select id="addTip">
+        <option disabled selected value="0">Select an option</option>
+        <option value="0.4"> 40%</option>
+        <option value="0.3"> 30%</option>
+        <option value="0.2"> 20%</option>
+        <option value="0.1"> 10%</option>
+        <option value="0.05"> 5%</option></select>
+       </p>
+
+       <p>How many people are splitting the bill?</p>
+       <p><input type="text" class="fillBox" id="numpeople" placeholder="Number of People"> </p>
+
+
+<button type="button" id="calculate"> Calculate Totals</button>
+    </form>
+
+    <div id="totalArea">
+<div id="billSplit">
+  <span id="split">0.00</span>
+  <small id="each">per person</small>
+</div>
+
+    <div id="totalTip">
+      <span id="tip">0.00</span>
+      <small id="each2">per person</small>
+    </div>
+
+    <div id="grandTotal">
+      <span id="grand">0.00</span>
+      <small id="each3">per person</small>
+    </div>
+  </div>
+    <script type="text/javascript" src="index.js"></script>
+  </div>
+
+
+</body>
+</html>
