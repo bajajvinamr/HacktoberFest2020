@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>Name: [Jay Patel](https://github.com/jaypatel31)<br/>
+Place: INDIA<br/>
+About: Full Stack Web Dev <br/>
+</br>

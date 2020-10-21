@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DARK MODE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/e55efccdcb.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  	.icon1{
+  		background-color: white;
+  		position: absolute;
+  		border-radius:50%;
+  		padding: 5px;
+  		cursor: pointer;
+  		margin-bottom: 10px;
+  		bottom: 90%;
+  		left:5%;
+  	}
+  	.icon1:hover{
+  		background-color: black;
+  		color:white;
+  		transition: 0.6s ease;
+  	}
+  	.hide{
+  		display:none;
+  	}
+  	#two{
+  		background-color: black;
+  		color: white;
+  	}
+  	#two:hover{
+  		background-color: white;
+  		color:black;
+  		transition: 0.6s ease;
+  	}
+  </style>
+</head>
+<body class ="bg-light ">
+
+<div class="jumbotron text-center">
+  <h1>DUAL MODE</h1>
+  <p>CLick Button To See Effects!</p>
+   <i onclick="change(event)" class="fas fa-moon fa-2x icon1" id="two"></i>
+  	<i onclick="change(event)" class="fas fa-sun fa-2x icon1" ></i>
+ 
+</div>
+  
+<div class="container ">
+  <div class="row ">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+ </div>
+
+  <div class="row  mt-3">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+ </div>
+</div>
+</body>
+<script>
+	function change(event){
+		var a = document.getElementsByClassName('icon1');
+		var x = document.getElementsByTagName("BODY")[0];
+		var y = document.getElementsByClassName("container");
+		var z = document.getElementsByClassName("jumbotron");
+		for(var i=0;i<a.length;i++){
+			if(a[i].classList.remove("hide"));
+		}
+		event.target.classList.toggle("hide");
+		x.classList.toggle("bg-dark");
+		y[0].classList.toggle("text-white");
+		z[0].classList.toggle("bg-info");
+		z[0].classList.toggle("text-white");
+	}
+</script>
+</html>
