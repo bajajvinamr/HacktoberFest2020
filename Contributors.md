@@ -1,3 +1,5 @@
+Name: [Prakhar Sharma](https://github.com/its-prakhar-sharma)</br>
+Place: Agra,India</br>
 
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
