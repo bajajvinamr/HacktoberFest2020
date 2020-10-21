@@ -1,4 +1,7 @@
-
+Name: [Vishwas Ganatra](https://github.com/vishwasganatra)</br>
+Place: Gujarat, India</br>
+About: A passionate programmer.
+<br/>
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
 About: A passionate frontend developer, programmer and Photographer.
