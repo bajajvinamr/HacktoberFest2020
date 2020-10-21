@@ -5,6 +5,8 @@ html {
   p{
     font-size: 1.2em;
   }
+
+
   #container {
     background-color: white;
     width: 600px;
@@ -134,3 +136,4 @@ html {
     display: block;
     text-transform: uppercase;
   }
+  
