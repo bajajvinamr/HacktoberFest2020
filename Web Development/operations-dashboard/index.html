@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="">
+        <title>Operations Dashboard</title>
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    </head>
+    <body class="sb-nav-fixed bg-body-bg">
+        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-primary py-4">
+            <a class="navbar-brand" href="index.html">Operations Dashboard</a>
+            <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
+            
+            
+            <!-- Navbar-->
+            <ul class="navbar-nav ml-auto ml-md-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <a class="dropdown-item" href="#">Activity Log</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="login.html">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark bg-primary" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            
+                            <a class="nav-link" href="index.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-map"></i></div>
+                                Map
+                            </a>
+                            <a class="nav-link" href="index.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-drafting-compass"></i></div>
+                                Telemetry
+                            </a>
+                            <a class="nav-link" href="index.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-traffic-light"></i></div>
+                                Traffic
+                            </a>
+                            <a class="nav-link" href="index.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-hand-holding-water"></i></div>
+                                Distribution
+                            </a>
+                            <a class="nav-link" href="index.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-video"></i></div>
+                                V-Net
+                            </a>
+                            <a class="nav-link" href="index.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-icons"></i></div>
+                                Social
+                            </a>
+                           
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"><i class="fas fa-caravan"></i></div>
+                                Entertainment
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">WiFi Share</a>
+                                    <a class="nav-link" href="#">TV</a>
+                                    <a class="nav-link" href="#">VTube</a>
+                                </nav>
+                            </div>
+                            
+                            <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                                        Authentication
+                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    </a>
+                                    <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="login.html">Login</a>
+                                            <a class="nav-link" href="register.html">Register</a>
+                                            <a class="nav-link" href="password.html">Forgot Password</a>
+                                        </nav>
+                                    </div>
+                                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                                        Error
+                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    </a>
+                                    <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="401.html">401 Page</a>
+                                            <a class="nav-link" href="404.html">404 Page</a>
+                                            <a class="nav-link" href="500.html">500 Page</a>
+                                        </nav>
+                                    </div>
+                                </nav>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="sb-sidenav-footer bg-primary">
+                        <div class="small">Logged in as:</div>
+                        Operations Dashboard
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid">
+                        
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="mb-4">
+                                    <div class="card-body">
+                                        <!----<iframe src="https://www.google.com/maps/d/embed?mid=1Ybcl0CiN1Aqf72csG9jbs0XVEAuAKyfY" width="100%" height="580" ></iframe> ---->
+                                        <div id="map"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="row" id="content">
+                            <div class="col-md-4">
+                                <div class="card mb-4 ">
+                                    <div class="card-header bg-primary text-white text-center">
+                                        <i class="far fa-compass"></i>
+                                        Odometer
+                                    </div>
+                                    <div class="card-body d-flex align-items-center justify-content-center">
+                                        <div class="gauge">
+                                            <div class="gauge-body">
+                                                 <div class="gauge-fill"></div>
+                                                 <div class="gauge-cover"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4">
+                                    <div class="card-header bg-primary text-white text-center">
+                                        <i class="fas fa-chart-bar mr-1"></i>
+                                        Liquids and Gases
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="myChart" width="100%" height="50%"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4">
+                                    <div class="card-header text-center bg-primary text-white">
+                                        <i class="fas fa-camera mr-1"></i>
+                                        Cameras
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="d-flex justify-content-between">
+                                           <p>Front View</p>
+                                           <p>Back View</p>
+                                       </div>
+                                       <div class="row">
+                                        <div class="col-6">
+                                            <div class="card d-flex align-items-center justify-content-center camera-box">
+                                                Cam F
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="card d-flex align-items-center justify-content-center camera-box">
+                                                Cam B
+                                            </div>
+                                        </div>
+                                    </div>
+                                       <div class="row">
+                                        <div class="col-6">
+                                            <div class="card d-flex align-items-center justify-content-center camera-box">
+                                                Cam R
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="card d-flex align-items-center justify-content-center camera-box">
+                                                Cam L
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <p>Right View</p>
+                                        <p>Left View</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="container-fluid">
+                        
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card mb-4 ">
+                                    <div class="card-header bg-primary text-white text-center">
+                                        <i class="fas fa-tachometer-alt"></i>
+                                        Speed
+                                    </div>
+                                    <div class="card-body d-flex align-items-center justify-content-center">
+                                        
+                                        <div class="layout-align">
+                                            <div id="score-meter-6" class="layout-align">
+                                              <div id="scorer-6-main-tick">
+                                              </div>
+                                              <div class="scorer-6-ticks" id="scorer-6-tick-1">
+                                                <p class="scorer-6-text">0</p>
+                                              </div>
+                                              <div class="scorer-6-ticks" id="scorer-6-tick-2">
+                                                <p class="scorer-6-text">30</p>
+                                              </div>
+                                              <div class="scorer-6-ticks" id="scorer-6-tick-3">
+                                                <p class="scorer-6-text">60</p>
+                                              </div>
+                                              <div class="scorer-6-ticks" id="scorer-6-tick-4">
+                                                <p class="scorer-6-text">90</p>
+                                              </div>
+                                              <div class="scorer-6-ticks" id="scorer-6-tick-5">
+                                                <p class="scorer-6-text">120</p>
+                                              </div>
+                                              <div class="scorer-6-ticks" id="scorer-6-tick-6">
+                                                <p class="scorer-6-text">150</p>
+                                              </div>
+                                              <div class="scorer-6-ticks" id="scorer-6-tick-7">
+                                                <p class="scorer-6-text">180</p>
+                                              </div>
+                                              <div class="scorer-6-ticks" id="scorer-6-tick-8">
+                                                <p class="scorer-6-text">210</p>
+                                              </div>
+                                              <div class="scorer-6-ticks" id="scorer-6-tick-9">
+                                                <p class="scorer-6-text">240</p>
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-1">
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-2">
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-3">
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-4">
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-5">
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-6">
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-7">
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-8">
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-9">
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-10">
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-11">
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-12">
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-13">
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-14">
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-15">
+                                              </div>
+                                              <div class="scorer-6-sub-ticks" id="scorer-6-sub-tick-16">
+                                              </div>
+                                              <div id="scorer-6-number">
+                                                <p>200</p>
+                                              </div>
+                                              <div id="scorer-6-fill-div">
+                                              </div>
+                                              <div id="scorer-6-fill-danger-div">
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <div class="col-md-4 offset-md-4">
+                                <div class="card mb-4">
+                                    <div class="card-header text-center bg-primary text-white">
+                                        <i class="fas fa-palette"></i>
+                                        Skin Theme
+                                    </div>
+                                    <div class="card-body">
+                                    <input type="color" class="color-picker" name="" value="#5552ff" id="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Copyright &copy; Operations Dashboard 2020</div>
+                            <div>
+                                <a href="#">Privacy Policy</a>
+                                &middot;
+                                <a href="#">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script>
+            
+
+            const gaugeElement = document.querySelector('.gauge');
+     
+            function setGaugeValue (gauge, value) {
+                if(value<0 || value>1) {
+                    return;
+                }
+     
+                gauge.querySelector('.gauge-fill').style.transform = `rotate(${value / 2}turn)`;
+                gauge.querySelector('.gauge-cover').textContent = `${Math.round(value * 100)}MPH`
+            }
+            setGaugeValue(gaugeElement, 0.7);
+
+            const ctx = document.getElementById('myChart').getContext('2d');
+            const myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+            labels: ['Monday', 'Tuesday', 'Wednesday'],
+            datasets: [{
+            label: 'Liquid and Gas Levels',
+            data: [100, 60, 80],
+            backgroundColor: [
+                'hsl(241, 100%, 90%)',
+                'hsl(241, 100%, 90%)',
+                'hsl(241, 100%, 90%)'
+            ],
+            borderColor: [
+                'hsl(241, 100%, 60%)',
+                'hsl(241, 100%, 60%)',
+                'hsl(241, 100%, 60%)'
+            ],
+            borderWidth: 2
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+
+
+        </script>
+        <script>
+            google.maps.event.addDomListener(window, 'load', initMap);
+            // Initialize and add the map
+            function initMap() {
+                google.maps.event.trigger(marker, 'click');
+                $(document).ready(function(){
+            google.maps.event.trigger(marker, 'click'); //with marker is global validate
+            });
+              // The location of Uluru
+              var bonamoussadi = {lat: 4.0944, lng: 9.7394};
+              var bali = {lat: 4.038410, lng: 9.692220};
+              var rondPoint = {lat: 4.0641, lng: 9.7068};
+              var akwa = {lat: 4.0525, lng: 9.6963};
+              var bonaberi = {lat: 4.0822, lng: 9.6650};
+              // The map, centered at Uluru
+              var map = new google.maps.Map(document.getElementById('map'), {zoom: 13, center: bali});
+            
+              // infowindow content                            
+              var contentBonamoussadi = "<p><b>User <i class='far fa-user'></i></b> Labuh Emerald</p>"+
+                                        "<p><b>Departure <i class='fas fa-car-alt'></i></b> Logbesou</p>"+
+                                        "<p><b>Destination <i class='fas fa-map-pin'></i></b> Bonamoussadi</p>"+
+                                        "<p><b>Price <i class='fas fa-tags'></i></b> 3,000FCFA</p>";
+
+              var contentBali =         "<p><b>User <i class='far fa-user'></i></b> Olouge Eya</p>"+
+                                        "<p><b>Departure <i class='fas fa-car-alt'></i></b> Buea</p>"+
+                                        "<p><b>Destination <i class='fas fa-map-pin'></i></b> Bali</p>"+
+                                        "<p><b>Price <i class='fas fa-tags'></i></b> 5,000FCFA</p>";
+            
+              var contentRondPoint =    "<p><b>User <i class='far fa-user'></i></b> Mukong Jmaes</p>"+
+                                        "<p><b>Departure <i class='fas fa-car-alt'></i></b> Ange Raphael</p>"+
+                                        "<p><b>Destination <i class='fas fa-map-pin'></i></b> Rond-pont Deido</p>"+
+                                        "<p><b>Price <i class='fas fa-tags'></i></b> 4,000FCFA</p>";
+            
+              var contentAkwa =    "<p><b>User <i class='far fa-user'></i></b> Mbong Yolanda</p>"+
+                                   "<p><b>Departure <i class='fas fa-car-alt'></i></b> Bonanjo</p>"+
+                                   "<p><b>Destination <i class='fas fa-map-pin'></i></b> Akwa</p>"+
+                                   "<p><b>Price <i class='fas fa-tags'></i></b> 500FCFA</p>";
+            
+             var contentBonaberi = "<p><b>User <i class='far fa-user'></i></b> Serge Njeng</p>"+
+                  "<p><b>Departure <i class='fas fa-car-alt'></i></b> Souza</p>"+
+                  "<p><b>Destination <i class='fas fa-map-pin'></i></b> Bonaberi</p>"+
+                  "<p><b>Price <i class='fas fa-tags'></i></b> 800FCFA</p>";
+            
+              // A new Info Window is created and set content
+              var infowindow = new google.maps.InfoWindow({
+                content: contentBonamoussadi,
+              });                          
+              // The marker, positioned at Uluru
+              var marker = new google.maps.Marker({position: bonamoussadi,
+                                                   map: map,
+                                                   title: "Bonamoussadi Douala"});
+              infowindow.open(map, marker);
+              google.maps.event.addListener(marker, 'click', function() {
+                infowindow.open(map,marker);
+              });
+            
+              // Event that closes the Info Window with a click on the map
+              /*google.maps.event.addListener(map, 'click', function() {
+                infowindow.close();
+              });*/
+              //Infowindow for Bali
+              google.maps.event.trigger(marker1, 'click');
+                $(document).ready(function(){
+            google.maps.event.trigger(marker1, 'click'); //with marker is global validate
+            });
+              var infowindow2 = new google.maps.InfoWindow({
+                content: contentBali,
+              });                          
+              // The marker, positioned at Bali
+              var marker1 = new google.maps.Marker({position: bali,
+                                                    map: map,
+                                                    title: "Bali Douala"});
+            
+              google.maps.event.addListener(marker1, 'click', function() {
+                infowindow2.open(map,marker1);
+              });
+            
+              // Event that closes the Info Window with a click on the map
+              /*google.maps.event.addListener(map, 'click', function() {
+                infowindow2.close();
+              });*/
+            
+              //Infowindow for Rond-pont
+              google.maps.event.trigger(marker2, 'click');
+                $(document).ready(function(){
+            google.maps.event.trigger(marker2, 'click'); //with marker is global validate
+            });
+              var infowindow3 = new google.maps.InfoWindow({
+                content: contentRondPoint,
+              });                          
+              // The marker, positioned at Rond-point
+              var marker2 = new google.maps.Marker({position: rondPoint,
+                                                    map: map,
+                                                    title: "Rond-point Deido, Douala"});
+            
+              google.maps.event.addListener(marker2, 'click', function() {
+                infowindow3.open(map,marker2);
+              });
+            
+              // Event that closes the Info Window with a click on the map
+             /* google.maps.event.addListener(map, 'click', function() {
+                infowindow3.close();
+              });*/
+            
+            
+              //Infowindow for Akwa
+              google.maps.event.trigger(marker3, 'click');
+                $(document).ready(function(){
+            google.maps.event.trigger(marker3, 'click'); //with marker is global validate
+            });
+              var infowindow4 = new google.maps.InfoWindow({
+                content: contentAkwa,
+              });                          
+              // The marker, positioned at Akwa
+              var marker3 = new google.maps.Marker({position: akwa,
+                                                    map: map,
+                                                    title: "Akwa, Douala"});
+            
+              google.maps.event.addListener(marker3, 'click', function() {
+                infowindow4.open(map,marker3);
+              });
+            
+              // Event that closes the Info Window with a click on the map
+              /*google.maps.event.addListener(map, 'click', function() {
+                infowindow4.close();
+              });*/
+            
+              //Infowindow for Bonaberi
+              google.maps.event.trigger(marker4, 'click');
+                $(document).ready(function(){
+            google.maps.event.trigger(marker4, 'click'); //with marker is global validate
+            });
+              var infowindow5 = new google.maps.InfoWindow({
+                content: contentBonaberi,
+              });                          
+              // The marker, positioned at Bonaberi
+              var marker4 = new google.maps.Marker({position: bonaberi,
+                                                    map: map,
+                                                    title: "Bonaberi, Douala"});
+            
+              google.maps.event.addListener(marker4, 'click', function() {
+                infowindow5.open(map, marker4);
+              });
+            
+              // Event that closes the Info Window with a click on the map
+              /*google.maps.event.addListener(map, 'click', function() {
+                infowindow5.close();
+              });*/
+            
+            }
+                </script>
+        <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvuzLhntBwq-jpDFIv_k58psvF-vG8d5Q&callback=initMap">
+        </script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/chart-area-demo.js"></script>
+        <script src="assets/demo/chart-bar-demo.js"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/datatables-demo.js"></script>
+    </body>
+</html>
