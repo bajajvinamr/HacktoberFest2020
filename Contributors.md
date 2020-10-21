@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Ikko Ashimine](https://github.com/eltociear)<br/>
+Place: Japan<br/>
+About: Web developer<br/>
+<br/>
