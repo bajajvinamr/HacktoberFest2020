@@ -151,5 +151,8 @@ At this point, you are ready to make a pull request to the original repository.
 
 Navigate to your forked repository, and press the “New pull request” button on your left-hand side of your Repo page.
 
+### 9. Quick Tips
+To do a simple pull request, go to the README file and make an edit, then put your comment and propose changes. This will trigger a pull request to submit your first pull request for Hacktoberfest.
+
 # Hurray! You just got closer to completing your Hacktoberfest challenge.
 
