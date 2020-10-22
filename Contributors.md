@@ -1,3 +1,6 @@
+Name: [Kanishka Gupta](https://github.com/Kanishkagupta)
+Place: Jaipur,Rajasthan</br>
+About: Machine Learning aspirat and a competitive coder
 
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
