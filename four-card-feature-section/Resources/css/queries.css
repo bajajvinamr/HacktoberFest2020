@@ -1,0 +1,83 @@
+@media only screen and (max-width:720px){
+    .heading{font-size: 50px; margin-left: 17rem; }
+    .heading1{font-size: 25px;}
+    .heading2{font-size: 25px;}
+    .heading3{text-align: center;line-height: 1;display: inline-block;width: 100%; }
+    .boxes{
+        display: -webkit-box;
+      display: -ms-flexbox;   
+      display: flex;
+      margin: 20px 0 0 40px;
+    }
+    .container{margin: 20px 0 0 0;}
+    .container1{margin-top: 42%; }
+    .container4{ margin-top: 42%;}
+    .middle{margin: 0 10px;}
+    .first{margin-left: -20px;}
+}
+
+@media only screen and (max-width:652px){
+    .heading{font-size: 50px; margin-left: 20rem; }
+    .heading1{font-size: 25px;}
+    .heading2{font-size: 25px;}
+    .heading3{text-align: center;line-height: 1;display: inline-block;width: 80%; }
+    .boxes{
+        display: -webkit-box;
+      display: -ms-flexbox;   
+      display: flex;
+      margin: 20px 0 0 40px;
+    }
+    .container{margin: 20px 0 0 0;}
+    .container1{    margin-top: 42%;}
+    .container4{    margin-top: 42%;}
+    .middle{    margin: 0 10px;}
+}
+
+@media only screen and (max-width:500px){
+    .heading{font-size: 50px; width: 80%; margin-left: 41px;}
+    .heading1{font-size: 25px;}
+    .heading2{font-size: 25px;}
+    .heading3{text-align: center;line-height: 1;width: 80%; }
+    .boxes{
+        display: list-item;
+        list-style: none;
+        margin: 0 0 0 100px;
+    }
+    .container{margin: 0 0 10px 0;}
+    .container1{margin:0 0 10px 20px;}
+    .middle{margin: 0 auto;}
+}
+
+
+@media only screen and (max-width:430px){
+    .heading{font-size: 50px;}
+    .heading1{font-size: 25px;}
+    .heading2{font-size: 25px;}
+    .heading3{text-align: center;line-height: 1;display: inline-block;width: 80%; }
+    .boxes{
+        display: list-item;
+        list-style: none;
+        margin: 0 0 0 60px;
+    }
+    .container{margin: 20px 0 10px 0;}
+    .container1{margin-left: 19px;}
+}
+
+
+@media only screen and (max-width:375px){
+    .heading{font-size: 50px; width: 90%; margin-left: 15px;}
+    .heading1{font-size: 25px;}
+    .heading2{font-size: 25px;}
+    .heading3{text-align: center;line-height: 1;display: inline-block;width: 80%; }
+    .boxes{
+        display: list-item;
+        list-style: none;
+        margin: 0 0 0 30px;
+    }
+    .container{margin: 20px 0 0 0;}
+    .container1{margin-left: 20px;}
+}
+
+
+
+
