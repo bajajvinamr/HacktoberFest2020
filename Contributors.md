@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>Name: [BELLO Adeiza Luqman Ungwaha](https://github.com/ItzAboki)<br/>
+Place: Abuja, Nigeria<br/>
+About: Tech, Art and Design Enthusiast <br/>
+</br>
