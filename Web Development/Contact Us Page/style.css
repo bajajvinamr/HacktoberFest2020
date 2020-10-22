@@ -1,0 +1,125 @@
+/*=============== CONTACT US STYLING START ==========================*/
+.contact {
+  z-index: 10;
+  background-color: white;
+  height: 100vh;
+  padding: 1px;
+}
+
+@media only screen and (max-width: 800px) {
+  .contact {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contact {
+    height: auto;
+  }
+}
+
+.contact-container {
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px 85px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .contact-container {
+    max-width: 1000px;
+    padding: 15px 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-container {
+    width: 95%;
+    padding: 15px 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contact-container {
+    width: 100%;
+    padding: 15px 30px;
+  }
+}
+
+.contact_form {
+  padding: 15px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(360px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.details input {
+  padding: 4px !important;
+  margin: 13px 0 !important;
+  width: 90%;
+}
+
+.details input:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 375px) {
+  .details input {
+    width: 50% !important;
+  }
+}
+
+.message textarea {
+  max-width: 800px;
+  height: 180px;
+  margin-top: 10px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.message textarea:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .message textarea {
+    height: 95px;
+  }
+}
+
+.contact-button {
+  text-align: right;
+}
+
+.contact-button button {
+  padding: 15px 40px;
+  background-color: #047aed;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  -webkit-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contact-button button:hover {
+  background-color: #047aed;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+}
+
+.contact_heading {
+  font-size: 45px;
+}
+
+.para p {
+  font-style: italic;
+}
+
+/*================= CONTACT US STYLING END================*/
