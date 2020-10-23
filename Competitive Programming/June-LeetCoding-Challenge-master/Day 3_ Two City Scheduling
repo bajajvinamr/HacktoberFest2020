@@ -1,0 +1,25 @@
+Input: [[10,20],[30,200],[400,50],[30,20]]
+Output: 110
+Explanation: 
+The first person goes to city A for a cost of 10.
+The second person goes to city A for a cost of 30.
+The third person goes to city B for a cost of 50.
+The fourth person goes to city B for a cost of 20.
+
+The total minimum cost is 10 + 30 + 50 + 20 = 110 to have half the people interviewing in each city.
+
+class Solution {
+    static bool comparator(vector<int>&a,vector<int>&b)
+    {
+        return a[1]-a[0]>b[1]-b[0];
+    }
+public:
+    int twoCitySchedCost(vector<vector<int>>& costs) {
+        int n=costs.size();
+        sort(costs.begin(),costs.end(),comparator);
+        int ans=0;
+        for(int i=0;i<n;i++)
+            ans+=i>=n/2?costs[i][1]:costs[i][0];
+        return ans;
+    }
+};
