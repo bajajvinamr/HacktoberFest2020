@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Ana Julia Zhu](https://github.com/anajuliazhu)</br>
+Place: Brazil</br>
+About: A Petroleum Engineering Student learning to code.</br>
+</br>
