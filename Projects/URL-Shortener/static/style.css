@@ -1,0 +1,56 @@
+*{
+    align: center;
+}
+#url{
+    align: center;
+    size: 100px;
+    height: 50px;
+    width: 600px;
+    font-family: Arial;
+    font-size: 25px;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+.btn {
+    background: #ffd324;
+    background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
+    background-image: -moz-linear-gradient(top, #ffd324, #fab120);
+    background-image: -ms-linear-gradient(top, #ffd324, #fab120);
+    background-image: -o-linear-gradient(top, #ffd324, #fab120);
+    background-image: linear-gradient(to bottom, #ffd324, #fab120);
+    border-radius: 15px;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 29px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: black;
+    margin-top: 2%;
+    margin-left: 43%;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.mydiv{
+    align-self: center;
+    align-items: center;
+    font-family: "American Typewriter";
+    font-size:30px;
+    font-style: inherit;
+    margin-top: 3%;
+    margin-left: 25%;
+    background-color: yellow;
+    width:fit-content;
+
+}
+.center{
+    font-family: "American Typewriter";
+    font-size: 40px;
+}
