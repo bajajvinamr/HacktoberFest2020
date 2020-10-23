@@ -1,3 +1,6 @@
+Name: [JEYASURYA VG](https://github.com/VGJeyasurya)
+Place: INDIA
+About: STUDENT
 
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
