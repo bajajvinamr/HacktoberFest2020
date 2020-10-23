@@ -618,4 +618,7 @@ About: Student of Bio Technology <br/>
 </br>Name: [Fernanda Ramadhan](https://github.com/fernanda322)<br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
+</br>Name: [Ahmad Abu Hasan](https://github.com/eby8zevin)<br/>
+Place: East Java, Indonesia<br/>
+About: Student Android<br/>
 </br>
