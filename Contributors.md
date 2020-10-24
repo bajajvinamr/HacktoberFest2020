@@ -618,4 +618,7 @@ About: Student of Bio Technology <br/>
 </br>Name: [Fernanda Ramadhan](https://github.com/fernanda322)<br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
+</br>Name: [Pete Madis](https://github.com/petemadis)<br/>
+Place: Manila, Philippines<br/>
+About: Newbie <br/>
 </br>
