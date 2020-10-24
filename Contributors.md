@@ -1,7 +1,13 @@
-
+Name: [Tim Smith](https://www.github.com/timscodebase)</br>
+Place: Portland, Oregon, USA<br/><br/>
+About: I am a Web Developer... sure. A damned good one! But there is a lot more to me than my ability to build beautiful responsive websites.<br/><br/>
+I feel the most at home in nature, specifically around water. I am not a religious person pre say. I feel most connected with my higher power, the greater connective force between us, while floating in the ocean or other body of water or while hiking anywhere in nature on a cool day. I love to walk. I find it to be an excellent form of meditation and an efficient way to rid myself of negative feelings and thoughts.<br/><br/>
+My passion in life is meeting new people and learning as much as I can about the many things I love! ❤️ Every day, I find new inspiring things that motivate me to keep moving forward and to continue my search for my purpose. I believe that my Higher Power put me on this Earth to learn and inspire people to love life as I do.
+<br/>
+<br/>
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
-About: A passionate frontend developer, programmer and Photographer.
+About: A passionate frontend developer, programmer and Photographer.<br/>
 <br/>
 Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
@@ -9,7 +15,8 @@ About: Sophomore at IIITL<br/>
 <br/>
 Name: [Anish Kamath](https://github.com/anishkamath)<br/>
 Place: India<br/>
-About: student<br/>
+About: student
+<br/>
 <br/>
 Name: [Amrita Singha Roy](https://github.com/uzumakinaruto96)<br/>
 Place: India<br/>
@@ -24,7 +31,7 @@ About: Project Manager and C++ Enthusiast<br/>
 <br/>
 Name: [Dipan Nama](https://www.github.com/DipanNama)</br>
 Place: India</br>
-About: A passionate frontend developer, programmer, CTF player & student from India.</br>
+About: A passionate frontend developer, programmer, CTF player & student from India.</br><br/>
 <br/>
 Name: [Sujata Mishra](https://github.com/sujata13)<br/>
 Place: India<br/>
@@ -114,7 +121,7 @@ About: Passionate about open-source | Competitive Coder<br/>
 <br/>
 Name: [Adittya Dey](https://github.com/adiXcodr)</br>
 Place: India</br>
-About: Full Stack Developer and Freelancer</br>
+About: Full Stack Developer and Freelancer</br><br/>
 <br/>
 Name: [Kunal Rustagi](https://github.com/kunalrustagi08)<br/>
 Place: India<br/>
@@ -130,7 +137,7 @@ About: Student at Delhi University<br/>
 <br/>
 Name: [Harshil Panwar](https://github.com/HarshilP03)<br/>
 Place: India</br>
-About: Experianced in Web Development and ML enthusiast</br>
+About: Experianced in Web Development and ML enthusiast</br><br/>
 <br/>
 Name: [Emmanuel Ezenwigbo](https://github.com/SkyC0der)<br/>
 Place: Nigeria<br/>
@@ -178,7 +185,7 @@ About: SDET in Infosys and I love learning new things<br/>
 <br/>
 Name: [Dipan Nama](https://www.github.com/DipanNama)</br>
 Place: India</br>
-About: A passionate frontend developer, programmer, CTF player & student from India.</br>
+About: A passionate frontend developer, programmer, CTF player & student from India.</br><br/>
 <br/>
 Name: [Sujata Mishra](https://github.com/sujata13)<br/>
 Place: India<br/>
@@ -264,7 +271,7 @@ About: Passionate about open-source | Competitive Coder<br/>
 <br/>
 Name: [Adittya Dey](https://github.com/adiXcodr)</br>
 Place: India</br>
-About: Full Stack Developer and Freelancer</br>
+About: Full Stack Developer and Freelancer</br><br/>
 <br/>
 Name: [Kunal Rustagi](https://github.com/kunalrustagi08)<br/>
 Place: India<br/>
@@ -276,7 +283,7 @@ About: Student | Passionate about Data structures and algorithms<br/>
 <br/>
 Name: [Juan Andres Fuentes](https://github.com/Juanandresfl)
 Place: Colombia
-About: passionate about technology and sports
+About: passionate about technology and sports<br/>
 <br/>
 Name: [Aliza Hussain](https://github.com/error404-afk)<br/>
 Place: India<br/>
@@ -284,7 +291,7 @@ About: Student at Delhi University<br/>
 <br/>
 Name: [Harshil Panwar](https://github.com/HarshilP03)<br/>
 Place: India</br>
-About: Experianced in Web Development and ML enthusiast</br>
+About: Experianced in Web Development and ML enthusiast</br><br/>
 <br/>
 Name: [Emmanuel Ezenwigbo](https://github.com/SkyC0der)<br/>
 Place: Nigeria<br/>
@@ -424,7 +431,7 @@ About: ML Developer,Google assistant Developer,Alexa Developer.<br/>
 <br/>
 Name: [Akshat Bhardwaj](https://github.com/akshatb622)<br/>
 Place: India<br/>
-About: Sophomore at IIITL<br/> 
+About: Sophomore at IIITL<br/> <br/>
 <br/>
 Name: [Ankur sharma](https://github.com/ankur2825)<br/>
 Place: India<br/>
@@ -483,7 +490,7 @@ About: Software Engineer<br/>
 <br/>
 Name : [Savar Bhasin] (https://github.com/savarbhasin)
 Place : Mumbai, India
-About : just a new coder
+About : just a new coder<br/>
 <br/>
 Name: [Denis Povod](https://github.com/Dj-Denis)<br/>
 Place: Kherson, Ukraine<br/>
@@ -519,7 +526,7 @@ About: Python dev<br/>
 <br/>
 Name: [Murli Maheshwari](https://github.com/0xpurpl3)<br/>
 Place: India
-About: Python Dev
+About: Python Dev<br/>
 <br/>
 Name: [Pasindu Dushan](https://github.com/PasinduDushan)<br>
 Place: Makola, Sri Lanka<br>
@@ -555,7 +562,7 @@ About: Software Developer<br/>
 <br/>
 Name: [Somya Maheshwari](https://github.com/somya22)<br/>
 Place: India<br/>
-About: Learner for Life.
+About: Learner for Life.<br/>
 <br/>
 Name: [Vishiel Outar](https://github.com/VishielOutar)</br>
 Place: USA/NJ</br>
@@ -585,7 +592,7 @@ Place: Indonesia<br/>
 About: Loveyourself <br/>
 Name: [Mahima Sawant](https://github.com/mahimasawant)<br/>
 Place: India
-About: Web developer 
+About: Web developer <br/>
 <br/>
 Name: [Yash Shah](https://github.com/YashShah85)</br>
 Place: Ahmedabad</br>
