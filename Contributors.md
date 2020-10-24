@@ -1,4 +1,10 @@
 
+
+
+Name: [Ido Evergreen](https://www.github.com/evergreen2001)</br>
+Place: Lagos , Nigeria</br>
+About:  A creative thinker with good problem solving ability.
+<br/>
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
 About: A passionate frontend developer, programmer and Photographer.
