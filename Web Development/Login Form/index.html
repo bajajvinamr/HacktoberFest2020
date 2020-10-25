@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login </title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <main>
+    <form class="w-full max-w-md m-auto mt-32 p-8 shadow-md rounded-md bg-white"">
+      <div class="md:items-center mb-6">
+        <div class="md:w-1/4">
+          <label class="block text-gray-600 font-bold mb-1 pr-4" for="inline-full-name">
+            Username
+          </label>
+        </div>
+        <div class="md:w-full">
+          <input class="bg-gray-200 hover:bg-gray-300 hover:border-gray-300 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500" id="inline-full-name" type="text" placeholder="Enter your Username">
+        </div>
+      </div>
+      <div class=" md:items-center mb-6">
+        <div class="md:w-1/4">
+          <label class="block text-gray-600 font-bold mb-1 pr-4" for="inline-password">
+            Password
+          </label>
+        </div>
+        <div class="md:w-full">
+          <input class="bg-gray-200 hover:bg-gray-300 hover:border-gray-300 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500" id="inline-password" type="password" placeholder="Enter your Password">
+        </div>
+      </div>
+      <div class=" md:items-center mb-6">
+        <div class="md:w-1/3"></div>
+        <label class="md:w-2/3 block text-gray-600 font-bold">
+          <input class="mr-2 leading-tight" type="checkbox">
+          <span class="text-sm">
+            Remember Me
+          </span>
+        </label>
+      </div>
+      <div class="md:flex md:items-center">
+        <!-- <div class="md:w-1/3"></div> -->
+        <div class="md:w-2/3">
+          <button class="shadow bg-blue-500 hover:bg-blue-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out bg-blue-500" type="button">
+            Sign In
+          </button>
+        </div>
+      </div>
+    </form>
+  </main>
+  
+</body>
+</html>
