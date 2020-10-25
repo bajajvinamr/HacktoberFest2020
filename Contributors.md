@@ -184,6 +184,10 @@ Name: [Sujata Mishra](https://github.com/sujata13)<br/>
 Place: India<br/>
 About: MERN Stack Developer<br/>
 <br/>
+Name: [Matheus Vinicius](https://github.com/xMcLOVINx)<br/>
+Place: Brazil<br/>
+About: I'm Software Engineer :P<br/>
+<br/>
 Name: [Priyanshu Bajaj](https://github.com/Priyanshuuuu)<br/>
 Place: India<br/>
 About: 11th grade student at BBPS Noida<br/>
