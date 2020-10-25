@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Cirill Dalangin](https://github.com/cdalangin)<br/>
+Place: New York, USA<br/>
+About: Sticker and hackathon enthusiast<br/>
+<br/>
