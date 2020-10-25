@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Issa Covid World</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        h1 {
+            font-family: noto-sans, sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 80px;
+        }
+
+        .aboutPage {
+            background-color: #00c6ae;
+        }
+
+        #landing {
+            height: 100vh;
+        }
+
+        .button {
+            background-color: white;
+            border: solid;
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 20px;
+            font-family: noto-sans, sans-serif;
+            font-weight: 900;
+            font-style: normal;
+        }
+
+        .button:hover {
+            background-color: black;
+            border-color: black;
+            color: white;
+        }
+
+        #titleA {
+            display: initial;
+        }
+
+        #titleB {
+            display: none;
+        }
+
+        #ptp {
+            display: initial;
+            height: 60%;
+            width: 60%;
+        }
+
+        #ptp2 {
+            display: none;
+            height: 60%;
+            width: 60%;
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link rel="icon" href="http://u.cubeupload.com/cdalangin/SPRITE3.png">
+
+</head>
+
+
+<body>
+    <div id="landing" class="container-fluid d-flex align-items-center p-5">
+        <div class="container align-items-center">
+            <div class="row text-center align-items-center">
+                <div class="col-sm-12">
+                    <h1 id="titleA">Wear a got dam mask!!! 😡</h1>
+                    <h1 id="titleB">Thank you 🥰</h1>
+                </div>
+            </div>
+
+            <div class="row text-center align-items-center">
+                <div class="col-sm-6">
+                    <button onclick="change()" class="button">Click!</button>
+                </div>
+                <div class="col-sm-6">
+                    <img id="ptp" src="http://u.cubeupload.com/cdalangin/SPRITE3.png" alt="no mask">
+                    <img id="ptp2" src="http://u.cubeupload.com/cdalangin/SPRITE6.png" alt="mask">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        var a;
+
+        function change() {
+            if (a == 0) {
+                document.getElementById("ptp").style.display = "initial";
+                document.getElementById("ptp2").style.display = "none";
+
+                document.getElementById("titleA").style.display = "initial";
+                document.getElementById("titleB").style.display = "none";
+                return a = 0;
+            }
+            else {
+                document.getElementById("ptp").style.display = "none";
+                document.getElementById("ptp2").style.display = "initial";
+
+                document.getElementById("titleB").style.display = "initial";
+                document.getElementById("titleA").style.display = "none";
+                return a = 1;
+            }
+        };
+    </script>
+
+</body>
+
+</html>
