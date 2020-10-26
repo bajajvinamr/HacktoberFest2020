@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Lefteris] (https://github.com/ioannouE)<br/>
+Place: Cyprus<br/>
+About: Hacktoberfest2020<br/>
+</br>
