@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Penguinhardt](https://github.com/penguinhardt)<br/>
+Place: Japan<br/>
+About: Application Developer<br/>
+<br/>
