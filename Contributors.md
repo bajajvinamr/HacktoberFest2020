@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Liad Yosef](https://github.com/liady)<br/>
+Place: Israel<br/>
+About: Tech Lead <br/>
+<br/>
