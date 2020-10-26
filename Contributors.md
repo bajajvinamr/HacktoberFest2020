@@ -1,4 +1,8 @@
 
+Name: [Harsha Khubwani](https://github.com/Harshakhubwani)<br/>
+place: India <br/>
+About: Painter, writter and frontend developer
+
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
 About: A passionate frontend developer, programmer and Photographer.
