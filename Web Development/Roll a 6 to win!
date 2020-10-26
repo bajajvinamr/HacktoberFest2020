@@ -1,0 +1,25 @@
+<html>
+<body>
+
+<h1>Roll a 6 to win!</h1>
+<button onclick='rollDice()'>Roll the dice!</button>
+<div id="dice" style="font-size: 100px;"></div>
+
+<script>
+var dice = document.getElementById("dice")
+ var faces = ["⚀","⚁","⚂","⚃","⚄","⚅"]
+  function rollDice(){
+   var randomNum =  Math.floor(Math.random() * 6);
+   dice.innerHTML = faces[randomNum];
+    
+     if (randomNum === 6) {
+  console.log("awesome!!!");
+}  else {
+  console.log("Try again");
+}
+  
+  }
+ </script>  
+
+</body>
+</html>
