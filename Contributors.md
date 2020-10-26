@@ -619,3 +619,8 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Selin Sezi](https://github.com/selinsezi)
+Place: Giresun
+About: Industrial Eng. student.
+<br/>
+
