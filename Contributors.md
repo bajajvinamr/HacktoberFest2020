@@ -618,4 +618,7 @@ About: Student of Bio Technology <br/>
 </br>Name: [Fernanda Ramadhan](https://github.com/fernanda322)<br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
+</br>Name: [Anne-Sophie Courveaulle](https://github.com/supersushi86)<br/>
+Place: Paris, France<br/>
+About: Data Manager<br/>
 </br>
