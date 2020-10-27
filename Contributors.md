@@ -7,6 +7,10 @@ Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
 <br/>
+Name: [Deepak Meena](https://github.com/MEMARSAHAB)<br/>
+Place: India<br/>
+About: Sophomore @ IIITL<br/>
+<br/>
 Name: [Anish Kamath](https://github.com/anishkamath)<br/>
 Place: India<br/>
 About: student<br/>
