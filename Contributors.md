@@ -619,6 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
-Name: [Akhil S Babu] (https://github.com/AKHIL-S-BABU)<br/>
+Name: [Akhil S Babu](https://github.com/AKHIL-S-BABU)<br/>
 Place: Kerala <br/>
 About: Student at Adi Shankara Institute of Technology<br/>
+</br>
