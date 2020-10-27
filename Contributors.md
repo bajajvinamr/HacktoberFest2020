@@ -1,7 +1,7 @@
 
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
-About: A passionate frontend developer, programmer and Photographer.
+About: A passionate frontend developer, programmer and Photographer.<br/>
 <br/>
 Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
@@ -615,7 +615,11 @@ About: Python + Digitalocen = Life<br/>
 Name: [Devanshika Jha](https://github.com/error404-afk1)<br/>
 Place: Haryana<br/>
 About: Student of Bio Technology <br/>
-</br>Name: [Fernanda Ramadhan](https://github.com/fernanda322)<br/>
+</br>
+Name: [Fernanda Ramadhan](https://github.com/fernanda322)<br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [H S Sushmitha](https://github.com/Sushmitha004) <br/>
+Place: Bangalore, India <br/>
+<br/>
