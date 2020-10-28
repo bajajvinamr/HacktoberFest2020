@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>Name: [Samir Belaroui](https://github.com/Samir-Belaroui)<br/>
+Place: Oran, Algeria<br/>
+About: Student of Software Enginering, Developer and Designer <br/>
+</br>
