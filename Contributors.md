@@ -1,5 +1,5 @@
-<br/>
-Name : [Aman Upadhayay] (https://github.com/AmanUpadhyay8)<br/>
+
+Name : [Aman Upadhayay](https://github.com/AmanUpadhyay8) </br>
 Place: Jamshedpur,INDIA<br/>
 About: Student,Learner and Passionate Coder.
 <br/>
