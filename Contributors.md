@@ -1,3 +1,8 @@
+<br/>
+Name : [Aman Upadhayay] (https://github.com/AmanUpadhyay8)<br/>
+Place: Jamshedpur,INDIA<br/>
+About: Student,Learner and Passionate Coder.
+<br/>
 
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
