@@ -619,3 +619,6 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Shivam Shekhar](https://github.com/ShivamShekhar1997)<br/>
+Place: Jamshedpur, India<br/>
+About: I'm a Final Year UG student aspiring to build a career in Data Analytics field<br/>
