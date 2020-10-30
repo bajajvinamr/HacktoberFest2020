@@ -619,3 +619,6 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: Oishika C.(https://github.com/OceanicBlue730)
+Place: Kolkata
+About: Newbie at coding
