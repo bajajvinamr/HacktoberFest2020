@@ -1,0 +1,212 @@
+$date
+  Mon Sep  7 18:51:15 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module adder4_tb $end
+$var reg 4 ! a_in[3:0] $end
+$var reg 4 " b_in[3:0] $end
+$var reg 4 # s_out[3:0] $end
+$var reg 1 $ c_out $end
+$scope module dut $end
+$var reg 1 % cin $end
+$var reg 4 & x[3:0] $end
+$var reg 4 ' y[3:0] $end
+$var reg 4 ( sum[3:0] $end
+$var reg 1 ) cout $end
+$var reg 1 * g0 $end
+$var reg 1 + g1 $end
+$var reg 1 , g2 $end
+$var reg 1 - g3 $end
+$var reg 1 . p0 $end
+$var reg 1 / p1 $end
+$var reg 1 0 p2 $end
+$var reg 1 1 p3 $end
+$var reg 1 2 c0 $end
+$var reg 1 3 c1 $end
+$var reg 1 4 c2 $end
+$var reg 1 5 c3 $end
+$var reg 1 6 c4 $end
+$var reg 1 7 x0 $end
+$var reg 1 8 x1 $end
+$var reg 1 9 x2 $end
+$var reg 1 : x3 $end
+$var reg 1 ; y0 $end
+$var reg 1 < y1 $end
+$var reg 1 = y2 $end
+$var reg 1 > y3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000 !
+b0000 "
+b0000 #
+0$
+0%
+b0000 &
+b0000 '
+b0000 (
+0)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+#1000000
+b0001 !
+b0001 "
+b0010 #
+b0001 &
+b0001 '
+b0010 (
+1*
+13
+17
+1;
+#2000000
+b1000 !
+b1000 "
+b0000 #
+1$
+b1000 &
+b1000 '
+b0000 (
+1)
+0*
+1-
+03
+16
+07
+1:
+0;
+1>
+#3000000
+b1111 !
+b0001 "
+b0000 #
+0$
+b1111 &
+b0001 '
+b0000 (
+0)
+1*
+0-
+1/
+10
+11
+13
+14
+15
+06
+17
+18
+19
+1;
+0>
+#4000000
+b1110 !
+b0111 "
+b0101 #
+1$
+b1110 &
+b0111 '
+b0101 (
+1)
+0*
+1+
+1,
+1.
+0/
+00
+03
+16
+07
+1<
+1=
+#5000000
+b0111 !
+b0011 "
+b1010 #
+0$
+b0111 &
+b0011 '
+b1010 (
+0)
+1*
+0,
+0.
+10
+01
+13
+06
+17
+0:
+0=
+#6000000
+b1100 !
+b0101 "
+b0001 #
+1$
+b1100 &
+b0101 '
+b0001 (
+1)
+0*
+0+
+1,
+1.
+00
+11
+03
+04
+16
+07
+08
+1:
+0<
+1=
+#7000000
+b0000 !
+b0000 "
+b0000 #
+0$
+b0000 &
+b0000 '
+b0000 (
+0)
+0,
+0.
+01
+05
+06
+09
+0:
+0;
+0=
