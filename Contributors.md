@@ -1,4 +1,10 @@
 
+
+Name: [Anubhav Mishra](https://www.github.com/Anubhav-developr)</br>
+Place: Uttar pradesh,India</br>
+About: OSS Enthusiast 
+</br>
+
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
 About: A passionate frontend developer, programmer and Photographer.
