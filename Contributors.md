@@ -619,3 +619,6 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Amy Tan](https://github.com/whysogreen)<br/>
+Place: Perth, Australia<br/>
+About: Git some!<br/>
