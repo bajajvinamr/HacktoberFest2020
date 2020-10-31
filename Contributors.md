@@ -34,6 +34,10 @@ Name: [Priyanshu Bajaj](https://github.com/Priyanshuuuu)<br/>
 Place: India<br/>
 About: 11th grade student at BBPS Noida<br/>
 <br/>
+Name: [Chelseyavulu](https://github.com/Chelseykavulu)<br/>
+Place: USA<br/>
+About: 10th grade student sleeping  
+<br/>
 Name: [Anshul Garg](https://github.com/anshul0771)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
