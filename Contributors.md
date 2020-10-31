@@ -1,6 +1,6 @@
 Name: [ARYAN ANAND](https://github.com/aryan-anand-2003)</br>
-Place: INDIA
-About: I love to code and I wanna reverse engineer softwares and create patches
+Place: INDIA</br>
+About: I love to code and I wanna reverse engineer softwares and create patches.
 <br/>
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
