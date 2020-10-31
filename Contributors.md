@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>Name: [Anurag Singh](https://github.com/Godzilla5111)<br/>
+Place: Mumbai, India<br/>
+About: Novice Full Stack Web developer <br/>
+</br>
