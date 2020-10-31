@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{   
+    int t,a,b;
+    cin>>t;
+    while(t--){
+        cin>>a>>b;
+        if(2*min(a,b)>max(a,b)){
+            cout<<min(a,b)*min(a,b)*4<<"\n";
+        }
+        else{
+            cout<<max(a,b)*max(a,b)<<"\n";
+        }
+    }
+}
