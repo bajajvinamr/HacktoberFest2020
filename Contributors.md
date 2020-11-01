@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Bruna Both](https://github.com/bboth) <br/>
+Place: Lajeado, Brazil <br/>
+About: Lifelong Learner, Student, IT lover <br/>
+<br/>
