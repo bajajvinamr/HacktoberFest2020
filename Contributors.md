@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Durosinmi Sikiru](https://github.com/EngineerSk)</br>
+Place: Lagos, Nigeria</br>
+About: Mobile App Developer (Android)<br/>
+<br/>
