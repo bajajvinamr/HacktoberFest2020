@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Prathamesh Borse](https://github.com/prathamesh-borse)<br/>
+Place: Nashik, Maharashtra, India<br/>
+About: Student of Information Technology who is exploring frontend technlogy.<br/>
+<br/>
