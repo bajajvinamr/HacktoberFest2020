@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Hello App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="h1">Enter Your Name</h1>
+    <input id="i1" type="text">
+    <br><br>
+    <button id="b1", onclick="f1()">Submit</button>
+    <br><br><br><br>
+    <h1 id="r1"></h1>
+</body>
+
+<script>
+    function f1(){
+        var x = document.getElementById("i1").value;
+        document.getElementById("h1").style.display = "none";
+        document.getElementById("i1").style.display = "none";
+        document.getElementById("b1").style.display = "none";
+        var y = "Hello ";
+        var z = " !";
+        document.getElementById("r1").innerHTML = y + x + z;
+    }
+</script>

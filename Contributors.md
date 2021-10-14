@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Dev Prajapat](https://github.com/devprajapat02)<br/>
+Place: Rajasthan<br/>
+About: Student of Computer Science <br/>
+</br>

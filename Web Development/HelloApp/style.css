@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(102, 10, 10);
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    color: cornsilk;
+}
+
+i1 {
+    display: block;
+}
+
+b1 {
+    display: block;
+    color: cornsilk;
+}
+r1 {
+    margin-top: 1000px;
+}
