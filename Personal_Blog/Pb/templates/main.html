@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<style>
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn-danger{
+  
+  background: linear-gradient(45deg, rgb(12, 6, 48), rgb(42, 144, 170), #73c218, #f00927);
+    color: white;
+    background-color: indigo;
+    border-color: #ffc107;
+}
+
+
+.btn-success{
+
+  background: linear-gradient(45deg, rgb(2, 161, 182), blue, #0e1538, #d400d4);
+    color: white;
+    border-color: #ffc107;
+}
+
+.btn-dark{
+   background: linear-gradient(45deg, rgb(255, 190, 13), rgb(255, 12, 146), #4e0d50, #ee0e98);
+   color: white;
+    background-color: rgb(9, 0, 130);
+    border-color: #ffc107;
+}
+
+.btn-primary{
+  background: linear-gradient(45deg, rgb(2, 182, 11), rgb(255, 115, 0), #eb14ce, #fa0d0d);
+  width: max-content;
+  color: aliceblue;
+  background-color: rgb(10, 201, 26);
+  border-color: #ffc107;
+}
+
+.btn:hover{
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+  background:rgb(7, 226, 208);
+  border-color: white;
+  box-shadow: 0 0 2em 0.5em #eef3f2;
+}
+.rl{
+  color: rgb(255, 251, 253) ;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+section {
+
+    display: block;
+}
+
+.rowl{
+   margin-left: 26%;
+   margin-top: 5%;
+
+}
+
+.row{
+  margin-left: 5%;
+}
+
+body {
+  background: url("https://dottech76.in/wp-content/uploads/2021/06/dark-wallpapers.jpg") top center no-repeat;  background-size: cover;
+  font-family: "Baloo Bhai", cursive;
+    position: relative;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+}
+
+h1{
+  text-align: center;
+  font-size: 75px;
+color: rgb(255, 253, 253) ;
+}
+
+
+.page-footer{
+          background-color: black;
+          color: white;
+    }
+
+    .navbar {
+      background-color: rgb(231, 28, 89);
+      font-size: 17px;
+    }
+
+    .navbar-brand{
+      font-size: 29px;
+    }
+
+
+</style>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="/">My Blog</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/courses">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Blog/about">About Us</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/chat">Contact Us</a>
+      </li>
+    </ul>
+    <form method='get' action='/main' class="form-inline my-1 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search" id="search">
+     <a href="/main"> <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button></a>
+    </form>
+    <a href="/Blog/Contact"><button id="login" class="btn btn-primary my-2 mx-1 login">Login</button></a>
+
+
+
+  </div>
+</nav>
+  <div class="hd">
+  <h1>Welcome</h1>
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container-fluid aos-init aos-animate" data-aos="zoom-out" data-aos-delay="100">
+      <div class="rl">
+      <h3>Each morning when you wake up, play a few pump up songs before you start your day to get you going. You can listen to productivity music on Spotify to help you get going. By getting your mind in the right mindset, you can inch closer to motivating yourself. </h3>
+      <h5> Be around those who help you feel comfortable being the ambitious, go-getter you are, so you can become the successful person you’re meant to be.</h5>
+    </div>
+      <div class="row justify-content-center">
+        <div class="col-xl-10">
+          <div class="rowl ">
+          
+             <a class="btn  btn-dark mx-1" href="/courses" role="button">Courses</a>
+              
+               <a class="btn  btn-primary mx-1" href="/asd" role="button">Videos</a>
+
+               <a class="btn  btn-success mx-1" href="Blog/about" role="button">About Me</a>
+               <a class="btn  btn-danger mx-1" href="/chat" role="button">Connect Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <footer class="page-footer font-small bg-black darken-3 pt-4">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+          <div class="embed-responsive embed-responsive-16by9 mb-4">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/H15uuDMqDK0"  allowfullscreen></iframe>
+          </div>
+  </div>
+    </div>
+      </div>
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+      <a href="https://google.com/"> Google</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+  
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+  </html>

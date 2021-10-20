@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+</head>
+<style>
+body {
+  margin: 0 auto;
+  background-color: black;
+  background-image: url("https://images.pexels.com/photos/589840/pexels-photo-589840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); top center no-repeat;  background-size: cover;
+  font-family: 'Baloo-Bhai', cursive;
+}
+
+
+.display{
+  background-color: blue;
+  text-align: center;
+  color: #ddd;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: " ";
+  clear: both;
+  display: table;
+ 
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 50%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.btn:hover{
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+  background:rgb(7, 226, 208);
+  border-color: white;
+  box-shadow: 0 0 2em 0.5em #eef3f2;
+}
+
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+.navbar{
+  background-color: #f51055;
+}
+
+.navbar .collapse {
+      background-color: rgb(252, 0, 105);
+      font-size: 17px;
+      margin-left: 1%;
+
+    }
+
+    .navbar .navbar-nav{
+      color: #12e61c;
+    }
+
+    .navbar-brand{
+      font-size: 29px;
+    }
+
+h2{
+    background-color: rgb(25, 0, 255);
+    color: aliceblue;
+    text-align: center;
+}
+    
+</style>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="/">My Blog</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/courses">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Blog/about">About Us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/chat">Contact Us</a>
+        </li>
+      </ul>
+      <form method='get' action='/main' class="form-inline my-1 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search" id="search">
+       <a href="/main"> <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button></a>
+      </form>
+      <a href="/Blog/Contact"><button id="login" class="btn btn-primary my-2 mx-1 login">Login</button></a>
+
+    </div>
+  </nav>
+
+
+
+<h2>{{room}} - BlogChat</h2>
+
+<div id="display">
+
+
+<!--  <b>Tom</b><p>Hello Everyone, How Are You Guys Doing?</p>-->
+<!--  <span class="time-left">20th, April 2021</span>-->
+<!--</div>-->
+
+</div>
+
+<script>
+
+$(document).ready(function(){
+
+setInterval(function(){
+    $.ajax({
+        type: 'GET',
+        url :'{% url 'getMessages' room %}',
+        success: function(response){
+            console.log(response);
+            $("#display").empty();
+            for (var key in response.messages)
+            {
+                var temp="<div class='container darker'> <img src='https://thumbs.dreamstime.com/b/man-icon-person-vector-worker-162495520.jpg' ><b>"+response.messages[key].username+"</b><p>"+response.messages[key].value+"</p><span class='time-left'>"+"</span></div>";
+                $("#display").append(temp);
+                console.log(temp);
+            }
+        },
+        error: function(response){
+            alert('An error occurred')
+        }
+    });
+},1000);
+})
+</script>
+
+
+<div class="container">
+    <style>
+    input[type=text], select {
+    width: 100%;
+    height: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+div {
+    border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.5);
+ color: rgb(0, 0, 0);
+    padding: 0 20px ;
+    padding-top: 20px;
+    margin-left: 12.9%;
+    margin-right: 12.9%;
+    font-size: 15px;
+    
+    }
+    .container::after{
+   content: ' ';
+   position: relative;
+   top: 0;
+   left: -50%;
+   width: 100%;
+   height: 100%;
+   background: rgba(255, 255, 255, 0.2);
+   
+ }
+
+
+    .display .img{
+      width: 10%;
+      height: 10%;
+    }
+
+
+    input[type=submit] {
+    width: 100%;
+    background: linear-gradient(30deg, rgb(6, 202, 6),  rgb(32, 8, 245), rgb(255, 0, 0));
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+input[type=submit]:hover {
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+  background: linear-gradient(30deg, rgb(6, 202, 6),  rgb(32, 8, 245), rgb(255, 0, 0));
+  font-size: 15px;
+  border-color: white;
+  box-shadow: 0 0 2em 0.5em #16ecbe;
+    }
+
+    </style>
+
+    <form id="post-form">
+        {% csrf_token %}
+        <input type="hidden" name="username" id="username" value="{{username}}"/>
+        <input type="hidden" name="room_id" id="room_id" value="{{room_details.id}}"/>
+        <input type="text" name="message" id="message" width="100px" />
+        <input type="submit" value="Send" />
+    </form>
+</div>
+
+
+</body>
+
+<script>
+  $(document).on('submit','#post-form',function(e){
+    e.preventDefault();
+
+    $.ajax({
+      type:'POST',
+      url: '{% url 'send' %}',
+      data:{
+          username:$('#username').val(),
+          room_id:$('#room_id').val(),
+          message:$('#message').val(),
+          csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val(),
+      },
+      success: function(data){
+         alert(data);
+      }
+    });
+    document.getElementById('message').value = ''
+  });
+</script>
+</html>

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: checksum
+Version: 1.0.4
+Summary: Creates checksums for files and directories.
+Home-page: https://github.com/hweickert/checksum
+Author: Henry Weickert
+Author-email: henryweickert@gmail.com
+License: UNKNOWN
+Keywords: checksum,md5,sha1,checksumdir
+Platform: UNKNOWN
+
+UNKNOWN
+
+
