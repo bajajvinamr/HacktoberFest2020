@@ -1,0 +1,14 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Pb.Blog.views.blogpost.objects" />
+          <option value="Pb.chat.models.Message.*" />
+          <option value="bookapp.app.models.Books.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

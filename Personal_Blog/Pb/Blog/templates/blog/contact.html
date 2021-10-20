@@ -1,0 +1,81 @@
+{% extends 'blog/basic.html' %}
+{% block title %} Sign Up {% endblock %}
+
+{% block css %}
+ body{
+   background-image: url("https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=10&w=5000"); top center no-repeat;  background-size: cover;
+  color: white;
+  }
+
+
+
+{% endblock %}
+
+
+{% block body %}
+ <div class="container">
+     <h2 class="text-white">For Contact Register Here</h2>
+     <br>
+     <br>
+     {% for message in messages %}
+        {% if "Exists" in message  %}
+       <h6 class ='text-danger'>{{  message }}</h6>
+       {% else %}
+       <h6 class ='text-success'>{{  message }}</h6>
+     {% endif %}
+{% endfor %}
+
+
+     <form action="/Blog/Contact" method="post">{% csrf_token %}
+  <div class="form-group">
+    <label for="name">Username</label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Username">
+  </div>
+          <div class="form-group">
+    <label for="name">Email</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email">
+  </div>
+  
+  <div class="form-group">
+    <label for="name">Phone</label>
+    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter Your Phone Number">
+  </div>
+
+  <div class="form-group">
+    <label for="name">Password</label>
+    <input type="password" class="form-control" id="password" name="password" placeholder="Enter Your Passowrd">
+  </div>
+  
+  <br>
+  <br>
+  <br>
+
+         <button type="submit" class="btn btn-success">Submit</button>
+         </form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<footer class="page-footer font-small mdb-color darken-3 pt-4">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-6">
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/H15uuDMqDK0"  allowfullscreen></iframe>
+        </div>
+</div>
+  </div>
+    </div>
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="https://google.com/"> Google</a>
+  </div>    
+
+{% endblock %}

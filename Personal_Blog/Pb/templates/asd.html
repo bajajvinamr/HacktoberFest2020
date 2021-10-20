@@ -1,0 +1,262 @@
+{% extends 'blog/basic.html' %}
+{% block css %}
+
+
+   body{
+     font-family: 'Baloo Bhai', cursive;
+     left: 2%;
+     right: 2%;
+     background-image: url("https://images.unsplash.com/photo-1552645265-1d8c244be6f9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGhvdG9zaG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    }
+
+/* Header */
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: rgb(0, 5, 5);
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #b4b2b9;
+}
+
+.position-relative {
+    position: relative!important;
+}
+
+.overflow-hidden {
+    overflow: hidden!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(247, 16, 85)!important;
+    background-image: url("https://hotel-macedon.com/wp-content/uploads/2015/07/video.jpg");
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.p-3 {
+    padding: 1rem!important;
+}
+
+
+    h1{
+        text-align: center;
+        color: rgb(251, 251, 255);
+        font-size: 50px;
+        margin: 0.5px;
+        background-color: rgb(0, 1, 7);
+    }
+    
+
+    .row{
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 2%;
+        height: 95%;
+        width: 99%;
+    }
+    
+    .row .embed-responsive-item:hover{
+        filter: grayscale(0);
+        transition: 0.1s ease-in-out;
+    
+      transform: scale(1.1);
+      
+    }
+
+    .row .embed-responsive-item{
+        
+        box-sizing: inherit;
+        box-shadow: red;
+
+        filter: grayscale(100%);
+      
+        transition: 0.5s ease-in-out;
+        }
+
+        .page-footer{
+          background-color: black;
+          color: white;
+    }
+    .navbar {
+      background-color: rgb(252, 0, 105);
+      font-size: 17px;
+    }
+
+    .navbar-brand{
+      font-size: 29px;
+    }
+
+{% endblock %}
+{% block body %}
+
+      <header>
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+            <div class="col-md-5 p-lg-5 mx-auto my-5">
+              <h1 class="display-4 fw-normal">Video Gallery</h1>
+              <p class="lead fw-normal">The Best Way to learn anything is the only way by Watching Videos.</p>
+    
+            </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+          </div>
+        </header>
+
+
+    <!-- first row -->
+<div class="row">
+    <div class="col-lg-4 col-md-12 mb-4">
+          <div class="modal-content">
+            <div class="modal-body mb-0 p-0">
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UwsrzCVZAb8"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+  </div>
+          </div>
+    
+<div class="col-lg-4 col-md-6 mb-4">
+  
+            <div class="modal-content">
+              <div class="modal-body mb-0 p-0">
+              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/S1jn86eUX0E"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+    </div>
+            </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="modal-content">
+            <div class="modal-body mb-0 p-0">
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oV74Najm6Nc"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+  </div>
+          </div>
+    </div>
+
+<!-- second Row -->
+
+
+    <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lsf060bLH_Y"
+                      allowfullscreen></iframe>
+                  </div>
+                </div>
+      </div>
+              </div>
+        
+    
+    
+        <div class="col-lg-4 col-md-6 mb-4">
+      
+                <div class="modal-content">
+                  <div class="modal-body mb-0 p-0">
+                  <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GwIo3gDZCVQ"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+        </div>
+                </div>
+    
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Tuw8hxrFBH8"
+                      allowfullscreen></iframe>
+                  </div>
+                </div>
+      </div>
+              </div>
+        </div>
+
+<!-- third row -->
+        
+<div class="row">
+    <div class="col-lg-4 col-md-12 mb-4">
+          <div class="modal-content">
+            <div class="modal-body mb-0 p-0">
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JMUxmLyrhSk"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+  </div>
+          </div>
+    
+    <div class="col-lg-4 col-md-6 mb-4">
+  
+            <div class="modal-content">
+              <div class="modal-body mb-0 p-0">
+              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZSPZob_1TOk"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+    </div>
+            </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="modal-content">
+            <div class="modal-body mb-0 p-0">
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MiYFenzWruE"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+  </div>
+          </div>
+    </div>
+
+
+
+
+    <footer class="page-footer font-small mdb-color darken-3 pt-4">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+              <div class="embed-responsive embed-responsive-16by9 mb-4">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/H15uuDMqDK0"  allowfullscreen></iframe>
+              </div>
+      </div>
+        </div>
+          </div>
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+          <a href="https://google.com/"> Google</a>
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+
+
+    {%  endblock %}
