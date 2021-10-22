@@ -619,3 +619,6 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Rohit Chowdhury](https://github.com/Rohit-1706) <br>
+Place: West Bengal, India<br>
+About: Student of Mechanical Engineering<br>
