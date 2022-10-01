@@ -1,6 +1,7 @@
 // Program in C
 #include <stdio.h>
-int main(){
+int main()
+{
   printf("Hello IIITLIANS!");
-  rerurn 0;
+  return 0;
 }
