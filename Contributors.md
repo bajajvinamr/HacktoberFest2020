@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Shreshtha Indoriya ](https://github.com/Shreshtha777)<br/>
+Place: Uttarakhand, India<br/>
+About: Software Enginering <br/>
+</br>
