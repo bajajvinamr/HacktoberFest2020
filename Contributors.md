@@ -30,6 +30,10 @@ Name: [Sujata Mishra](https://github.com/sujata13)<br/>
 Place: India<br/>
 About: MERN Stack Developer<br/>
 <br/>
+Name: [Shaksham Singhal](Github Link)
+Place: India
+About: Cloud Analist<br/>
+<br/>
 Name: [Priyanshu Bajaj](https://github.com/Priyanshuuuu)<br/>
 Place: India<br/>
 About: 11th grade student at BBPS Noida<br/>
