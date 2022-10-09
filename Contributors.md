@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>Name: [Divyanshu Das](https://github.com/divi1501)<br/>
+Place: Bhopal, Madhya Pradesh, India<br/>
+About: Computer Science engineer and a data scientist aspirant <br/>
+</br>
