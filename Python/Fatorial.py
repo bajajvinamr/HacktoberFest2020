@@ -1,5 +1,5 @@
 #MaxwellOliveira01
-num = int(input("Enter a number: "))
+num = int(input("Put the number: "))
 if num == 0 or num == 1: print(1)
 else:
     ans = 1
