@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Guess ME</string>
+    <string name="button">Button</string>
+    <string name="guess_a_number_between_1_100">Guess a number between 1-100</string>
+    <string name="submit">SUBMIT</string>
+    <string name="guess_me">Guess Me</string>
+    <string name="developed_by_nadnan_sameer">Developed by\nAdnan Sameer</string>
+    <string name="number_of_tries">Number of Tries =</string>
+    <string name="button2">Button</string>
+    <string name="button3">Button</string>
+    <string name="play_again">PLAY AGAIN</string>
+    <string name="exit">EXIT</string>
+</resources>
