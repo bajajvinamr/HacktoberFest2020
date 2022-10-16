@@ -11,6 +11,12 @@ Name: [Anish Kamath](https://github.com/anishkamath)<br/>
 Place: India<br/>
 About: student<br/>
 <br/>
+Name: [Jyotishmoy konwar](ok https://github.com/Jyotishmoy365)
+Place: India<br/>
+About: Student<br/>
+
+
+<br/>
 Name: [Amrita Singha Roy](https://github.com/uzumakinaruto96)<br/>
 Place: India<br/>
 About: SDET in Infosys and I love learning new things<br/>
