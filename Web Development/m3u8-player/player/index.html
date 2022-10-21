@@ -1,0 +1,256 @@
+<html>
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script src="mousetrap.min.js" charset="utf-8"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: black;
+    }
+
+    #video {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      margin: auto;
+      max-height: 100%;
+      max-width: 100%;
+    }
+
+    .float {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      bottom: 80px;
+      background-color: #0c9;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      box-shadow: 2px 2px 3px #999;
+    }
+
+    .my-float {
+      margin-top: 20px;
+      right: 40px;
+    }
+
+    .my-float-left {
+      margin-top: 20px;
+      left: 40px;
+    }
+
+    .my-float-mid {
+      margin-top: 20px;
+      left: 180px;
+    }
+  </style>
+  <title>M3U8 Player running...</title>
+</head>
+
+<body>
+  <div class="main">
+
+    <video id="video" style="width: 100vw; height: 100vh;" controls="" autoplay loop></video>
+    <a onclick="sound()" class="float my-float" id="float-btn"><i id="font"
+        class="fa fa-volume-up fa-4x my-float"></i></a>
+
+    <a onclick="next()" class="float my-float-left" id="float-btn"><i id="font"
+        class="fa fa-arrow-right fa-4x my-float"></i></a>
+    <button onclick="load()" class="float my-float-mid" id="float-btn"><i id="font"
+        class="fa fa-download fa-4x my-float"></i></button>
+    <script>
+      var video = document.getElementById("video");
+      var j = 0;
+      var hls_urls = ["https://v.redd.it/0o68nqu420a81/HLSPlaylist.m3u8?a=1644051308%2CMGM3NzViZmE1MzQzMmNjMmIxMDFjM2M5ZWIyNTlkNDg5MDEzMTI4MzZjMjQwZDNkMjllZjQxZjhiZjY4NGUwMw%3D%3D&amp;v=1&amp;f=sd"];
+      var res_url = 'https://xeroxcenter-site-default-rtdb.firebaseio.com/subreddits.json';
+      var res;
+      function playM3u8(url) {
+        if (Hls.isSupported()) {
+          video.volume = 0.3;
+          var hls = new Hls();
+          var m3u8Url = decodeURIComponent(url);
+          hls.loadSource(m3u8Url);
+          hls.attachMedia(video);
+          hls.on(Hls.Events.MANIFEST_PARSED, function () {
+            video.play();
+          });
+          document.title = url;
+        } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+          video.src = url;
+          video.addEventListener("canplay", function () {
+            video.play();
+          });
+          video.volume = 0.3;
+          document.title = url;
+        }
+      }
+
+      function playPause() {
+        video.paused ? video.play() : video.pause();
+      }
+
+      function volumeUp() {
+        if (video.volume <= 0.9) video.volume += 0.1;
+      }
+
+      function volumeDown() {
+        if (video.volume >= 0.1) video.volume -= 0.1;
+      }
+
+      function seekRight() {
+        video.currentTime += 5;
+      }
+
+      function seekLeft() {
+        video.currentTime -= 5;
+      }
+
+      function vidFullscreen() {
+        if (video.requestFullscreen) {
+          video.requestFullscreen();
+        } else if (video.mozRequestFullScreen) {
+          video.mozRequestFullScreen();
+        } else if (video.webkitRequestFullscreen) {
+          video.webkitRequestFullscreen();
+        }
+      }
+
+      playM3u8(window.location.href.split("#")[1]);
+      $(window).on("load", function () {
+        $("#video").on("click", function () {
+          this.paused ? this.play() : this.pause();
+        });
+        Mousetrap.bind("space", playPause);
+        Mousetrap.bind("up", volumeUp);
+        Mousetrap.bind("down", volumeDown);
+        Mousetrap.bind("right", seekRight);
+        Mousetrap.bind("left", seekLeft);
+        Mousetrap.bind("f", vidFullscreen);
+      });
+
+      subreddit = ['IndianDankMemes', 'BikiniBottomTwitter', 'MemeEconomy', 'memes', 'PrequelMemes', 'PewdiepieSubmissions', 'terriblefacebookmemes', 'funny', 'raimimemes', 'historymemes', 'okbuddyretard', 'Community', 'IndianMeyMeys', 'IndiaSpeaks', 'IndianMemeTemplates', 'indiameme', 'MemeChimera', 'memeconvention', 'india', 'funnyindianvideo', 'MemePiece', 'dankvideos', 'PlayItAgainSam', 'gif', 'WastedGifs', 'highqualitygifs', 'combinedgifs', 'mechanical_gifs', 'gifsthatkeepongiving', 'wholesomegifs', 'noisygifs', 'brokengifs', 'loadingicon', 'splitdepthgifs', 'blackpeoplegifs', 'asianpeoplegifs', 'scriptedasiangifs', 'shittyreactiongifs', 'chemicalreactiongifs', 'physicsgifs', 'babyelephantgifs', 'weathergifs', 'ExpectationVSReality', 'FifthWorldPics', 'images', 'screenshots', 'interestingasfuck', 'damnthatsinteresting', 'beamazed', 'reallifeshinies', 'thatsinsane', 'playitagainsam', 'GentlemanBonersGifs', 'asiangirlsbeingcute', 'reallifedoodles', 'colorization', 'nottimanderic', 'praisethecameraman', 'killthecameraman', 'perfectlycutscreams', 'abruptchaos', 'howtonotgiveafuck', 'mechanicadvice', 'whatsthisbug', 'LearnUselessTalents', 'howto', 'GetStudying', 'bulletjournal', 'graffiti', 'pixelart', 'animation', 'illustration', 'streetart', 'chairsunderwater', 'painting', 'minipainting', 'gamedev', 'compsci', 'wallstreetbets', 'historymemes', 'theydidthemath',
+        'medizzy', 'JordanPeterson', 'geology', 'Space', 'SpacePorn', 'astronomy', 'rockets', 'Awwducational', 'chemicalreactiongifs', 'chemistry', 'anime', 'anime_irl', 'animemes', 'animegifs', 'wholesomeanimemes', 'pokemon', 'onepiece', 'naruto', 'dbz', 'onepunchman', 'berserk', 'hunterxhunter', 'tokyoghoul', 'shitpostcrusaders', 'marvelstudios', 'marvelmemes', 'avengers', 'batman', 'spiderman', 'deadpool', 'gameofthrones', 'freefolk', 'gameofthronesmemes',
+        'daeneryswinsthethrone', 'asongofmemesandrage', 'lotrmemes', 'celebs', 'celebhub', 'EmmaWatson', 'kateupton', 'alisonbrie', 'EmilyRatajkowski', 'alexandradaddario', 'onetruegod', 'joerogan', 'keanubeingawesome', 'crewscrew', 'donaldglover', 'elonmusk', 'cosplay', 'cosplaygirls', 'lego', 'DnD', 'dungeonsanddragons', 'dndmemes', 'magicarena', 'zombies', 'cyberpunk', 'starwars', 'prequelmemes', 'empiredidnothingwrong', 'SequelMemes', 'sciencefiction', 'facepalm', 'web_design', 'snaplenses', 'instagramreality', 'tiktokcringe', 'facepalm', 'terriblefacebookmemes', 'twitch', 'scottishpeopletwitter', 'latinopeopletwitter', 'youtube', 'gamegrumps', 'jontron', 'Idubbbz', 'pyrocynical', 'SovietWomble', 'RedLetterMedia', 'videogamedunkey', 'ksi', 'MiniLadd', 'jacksepticeye', 'pewdiepiesubmissions', 'funhaus', 'bollywoodrealism', 'moviedetails', 'moviesinthemaking', 'ghibli', 'cinematography', 'shittymoviedetails', 'moviescirclejerk', 'starwars', 'lotrmemes', 'otmemes', 'marvelstudios', 'batman', 'DC_Cinematic', 'thanosdidnothingwrong', 'inthesoulstone', 'mashups', 'vinyl', 'guitarlessons', 'kanye', 'radiohead', 'KendrickLamar', 'gorillaz', 'frankocean', 'donaldglover', 'eminem', 'brockhampton', 'beatles', 'deathgrips', 'pinkfloyd', 'classicalmusic', 'jazz', 'trap', 'gamemusic', 'outrun', 'vaporwave', 'dubstep', 'electronicmusic', 'EDM', 'piano', 'drums', 'sports', 'bicycling', 'golf', 'fishing', 'skiing', 'sportsarefun', 'rugbyunion', 'discgolf', 'sailing', 'nfl', 'patriots', 'greenbaypackers', 'baseball', 'mlb', 'collegebasketball', 'warriors', 'bostonceltics', 'chicagobulls', 'skateboarding', 'snowboarding', 'longboarding', 'Nascar', 'squaredcircle', 'theocho', 'ufc', 'boxing', 'hockey', 'nhl', 'leafs', 'soccer', 'Bundesliga', 'futbol', 'gunners', 'reddevils', 'LiverpoolFC', 'chelseafc', 'marvelstudios', 'japanesegameshows', 'offlinetv', 'tvdetails', 'GameOfThrones', 'BreakingBad', 'thewalkingdead', 'community', 'firefly', 'PandR', 'DunderMifflin', 'BetterCallSaul', 'FlashTV', 'trailerparkboys', 'mrrobot', 'strangerthings', 'supernatural', 'thegrandtour', 'rupaulsdragrace', 'westworld', 'blackmirror', 'FilthyFrank', 'twinpeaks', 'brooklynninenine', 'howyoudoin', '30rock', 'survivor', 'letterkenny', 'Pokemon', 'AdventureTime', 'TheSimpsons', 'rickandmorty', 'naruto', 'onepunchman', 'BoJackHorseman', 'gravityfalls', 'familyguy', 'kingofthehill', 'spongebob', 'dbz', 'DBZDokkanBattle', 'dragonballfighterz', 'IASIP', 'seinfeld', 'seinfeldgifs', 'cosplay', 'woodworking', 'somethingimade', 'architecture', 'ifyoulikeblank', 'DiWHY', 'crochet', 'digitalnomad', 'FastWorkers', 'accounting', 'redneckengineering', 'gunpla', 'cubers', 'blacksmith', 'toptalent', 'aquariums', 'plantedtank', 'crafts', 'glitch_art', 'restofthefuckingowl', 'illustration', 'fountainpens', 'calligraphy', 'motorcycles', 'justrolledintotheshop', 'idiotsincars', 'projectcar', 'cartalk', 'tiresaretheenemy', 'roadtrip', 'convenientcop', 'subaru', 'bmw', 'jeep', 'CrappyDesign', 'web_design', 'design', 'ATBGE', 'assholedesign', 'actlikeyoubelong', 'military', 'combatfootage', 'justbootthings', 'airsoft', 'piano', 'drums', 'FL_Studio', 'survival', 'camping', 'homestead', 'MTB', 'outdoors', 'wildernessbackpacking', 'bushcraft', 'indoorgarden', 'campingandhiking', 'hiking', 'Filmmakers', 'postprocessing', 'aviation', 'flying', 'compsci', 'programmerhumor', 'mechanicalkeyboards', 'multicopter', 'iiiiiiitttttttttttt', 'knives', 'specializedtools', 'knifeclub', 'lifehacks', 'rainmeter', 'vandwellers', 'vagabond', 'homeautomation', 'teenagers', 'totallynotrobots', 'aliensamongus', 'bipolar', 'vegan', 'tall', 'gaymers', 'bisexual', 'gay_irl', 'daddit', 'drunk', 'cocktails', 'whiskey', 'showerbeer', 'beerporn', 'trees', 'microgrowery', 'see', 'weed', 'stonerengineering', 'LSD', 'vaporents', 'shrooms', 'dmt', 'motivation', 'vegetarian', 'bicycling', 'yoga', 'skateboarding', 'climbing', 'bjj', 'skiing', 'crossfit', 'bodybuilding', 'brogress', 'RedditLaqueristas', 'malehairadvice', 'curlyhair', 'badtattoos', 'tattoo', 'repsneakers', 'foodhacks', 'slowcooking', 'baking', 'breadit', 'castiron', 'vegan', '1200isplenty', 'veganrecipes', 'veganrecipes', 'pizza', 'grilledcheese', 'ramen', 'bbq', 'sushi', 'wallstreetbets', 'Wellworn', 'ineeeedit', 'didntknowiwantedthat', 'Bitcoin', 'dogecoin', 'litecoin', 'btc', 'Vechain', 'Christianity', 'exmormon', 'daddit', 'happy', 'mademesmile', 'humansbeingbros', 'happycrowds', 'sportsarefun', 'GetStudying', 'motivation', 'pcmasterrace', 'gamedev', 'design', 'compsci', 'EngineeringPorn', 'cableporn', 'simulated', 'aboringdystopia', 'virtualreality', '3Dprinting', 'photoshop', 'firefox', 'AndroidGaming', 'AndroidThemes', 'ipad', 'raspberry_pi', 'electronics', 'arduino', 'gopro', 'blender', 'chromecast', 'linux_gaming', 'archlinux', 'windows', 'microsoft', 'dataisbeautiful', 'Bitcoin', 'dogecoin', 'ethtrader', 'btc', 'litecoin', 'cryptomarkets', 'monero', 'unity3d', 'audiophile', 'funny', 'contagiouslaughter', 'standupcomedy', 'ProgrammerHumor', 'prematurecelebration', 'ChildrenFallingOver', 'accidentalcomedy', 'kidsarefuckingstupid', 'stepdadreflexes', 'comedynecromancy', 'comedyhomicide', 'comedynecrophilia', 'punny', 'AnimalsBeingJerks', 'AnimalsBeingBros', 'AnimalsBeingDerps', 'likeus', 'stoppedworking', 'hitmanimals', 'animaltextgifs', 'sneks', 'whatsthisbug', 'zoomies', 'brushybrushy', 'bigboye', 'curledfeetsies', 'mlem', 'animalsthatlovemagic', 'spiderbro', 'properanimalnames', 'reverseanimalrescue', 'animalsdoingstuff', 'sploot', 'birdswitharms', 'birbs', 'partyparrot', 'birdsbeingdicks', 'birdsarentreal', 'babyelephantgifs', 'sloths', 'foxes', 'trashpandas', 'happycowgifs', 'rabbits', 'goatparkour', 'bearsdoinghumanthings', 'cats', 'startledcats', 'catsstandingup', 'holdmycatnip', 'catslaps', 'thecatdimension', 'babybigcatgifs', 'thisismylifemeow', 'cattaps', 'teefies', 'tuckedinkitties', 'catsareassholes', 'catsisuottatfo', 'stuffoncats', 'bigcatgifs', 'jellybeantoes', 'catsareliquid', 'catgifs', 'blackcats', 'chonkers', 'catswithjobs', 'catswhoyell', 'whatswrongwithyourcat', 'illegallysmolcats', 'dogtraining', 'woof_irl', 'WhatsWrongWithYourDog', 'dogberg', 'dogswithjobs', 'masterreturns', 'barkour', 'blop', 'petthedamndog', 'corgi', 'Pitbulls', 'goldenretrievers', 'incorgnito', 'empiredidnothingwrong', 'birdsarentreal', 'instant_regret', 'facepalm', 'publicfreakout', 'actualpublicfreakouts', 'fellowkids', 'sadcringe', 'corporatefacepalm', 'instantbarbarians', 'engrish', 'masterhacker', 'cringetopia', 'holup', 'tiktokcringe', 'facepalm', 'oopsdidntmeanto', 'beholdthemasterrace', 'badfaketexts', 'iamatotalpieceofshit', 'kamikazebywords', 'facingtheirparenting', 'leopardsatemyface', 'confidentlyincorrect', 'mallninjashit', 'whiteknighting', 'notlikeothergirls', 'entitledbitch', 'iamverybadass', 'iamveryrandom', 'justneckbeardthings', 'neckbeardnests', 'aww', 'cats', 'animalsbeingjerks', 'animalsbeingbros', 'Awwducational', 'corgi', 'thisismylifenow', 'blep', 'tippytaps', 'awww', 'WTF', 'awwwtf', 'wellthatsucks', 'yesyesyesyesno', 'yesyesyesno', 'maybemaybemaybe', 'oddlyterrifying', 'thatlookedexpensive', 'Whatthefuckgetitoffme', 'crappydesign', 'gifsthatendtoosoon', 'peoplebeingjerks', 'fuckthesepeople', 'makemesuffer', 'tihi',
+        'blursedimages', 'trashy', 'peopleofwalmart', 'subwaycreatures', 'whatcouldgowrong', 'nononono', 'lastimages', 'peoplefuckingdying', 'WhyWereTheyFilming', 'WinStupidPrizes', 'ghosts', 'creepypasta', 'megalophobia', 'ImaginaryMindscapes', 'imaginarymaps', 'TheDepthsBelow', 'submechanophobia', 'malehairadvice', 'SouthAfrica', 'europe', 'ireland', 'belgium', 'scotland', 'austria', 'france', 'ANormalDayInRussia', 'gtaorrussia', 'SWARJE', 'london', 'casualuk', 'calgary', 'mexico', 'nyc', 'minnesota', 'sandiego', 'waltdisneyworld', 'austin', 'texas', 'seattle', 'SeattleWA', 'melbourne', 'sydney', 'Philippines', 'india', 'china', 'hongkong', 'brasil', 'argentina', 'ithadtobebrazil', 'SecretSanta', 'redditinreddit', 'blog', 'sequence', 'redditmobile', 'DiWHY', 'moviescirclejerk', 'drama', 'redditsings', 'ofcoursethatsathing', 'woahdude', 'frisson', 'VaporwaveAesthetics', 'glitchinthematrix', 'hardcoreaww',
+        'hitmanimals', 'natureisfuckinglit', 'heavyseas', 'succulents', 'mycology', 'bonsai', 'houseplants', 'weathergifs', 'tropicalweather', 'OldSchoolCool',
+        'nostalgia', 'unexpectedthuglife', 'bollywoodrealism', 'irleastereggs', 'JusticePorn', 'SpacePorn', 'penmanshipporn', 'illusionporn', 'powerwashingporn', 'shockwaveporn', 'productporn', 'mineralporn', 'shittyreactiongifs', 'crappydesign', 'shittyrobots', 'shittymoviedetails', 'unexpected', 'UnexpectedThugLife', 'unexpectedjihad', 'blackmagicfuckery', 'OddlySatisfying', 'nonononoyes', 'penmanshipporn', 'perfectfit', 'humansbeingbros', 'powerwashingporn', 'nevertellmetheodds', 'breathinginformation', 'raining', 'unstirredpaint', 'thatpeelingfeeling', 'gtage', 'satisfyingasfuck', 'holdmybeer', 'holdmyjuicebox', 'holdmyfries', 'holdmybeaker', 'holdmycosmo', 'holdmycatnip', 'holdmyredbull', 'holdmyfeedingtube', 'fiftyfifty', 'idiotsfightingthings', 'notinteresting', 'fifthworldpics', 'pussypassdenied', 'UNBGBBIIVCHIDCTIICBG', 'Justfuckmyshitup', 'CatastrophicFailure', 'justiceserved', 'mypeopleneedme', 'onejob', 'sweatypalms', 'therewasanattempt', 'bitchimabus', 'youseeingthisshit', 'hadtohurt', 'mildlypenis', 'instantkarma', '2healthbars', 'slavs_squatting', 'okbuddyretard', 'nextfuckinglevel', 'ooer', 'happycryingdads', 'FullScorpion', 'watchpeoplesurvive', 'dontputyourdickinthat', 'whatintarnation', 'halloween', 'whatcouldgoright', 'inclusiveor', 'kurzgesagt', 'boop', 'fightporn', 'tooktoomuch', 'humansaremetal', 'theyknew', 'fuckyouinparticular',
+        'idiotsnearlydying', 'AAAAAAAAAAAAAAAAA', 'battlefield3']
+
+      var randomInt = Math.floor(Math.random() * subreddit.length);
+      var random = Math.floor(Math.random() * 1000);
+      var sectionInt = Math.floor(Math.random() * 5);
+      sections = ["top", "", "new", "hot", "rising"];
+      console.log(subreddit[randomInt], sections[sectionInt]);
+
+      const api_url = `https://www.reddit.com/r/${subreddit[randomInt]}/${sections[sectionInt]}.json`;
+
+
+      async function getapi(url) {
+        const response = await fetch(url).then((d) => d.json());
+        for (let i = 0; i < response["data"]["children"].length; i++) {
+          try {
+            console.log(
+              response["data"]["children"][i]["data"]["media"]["reddit_video"][
+              "hls_url"
+              ],
+              "hls url"
+            );
+            hls_urls.push(
+              response["data"]["children"][i]["data"]["media"]["reddit_video"][
+              "hls_url"
+              ]
+            );
+            console.log(
+              response["data"]["children"][i]["data"]["permalink"],
+              "permalink"
+            );
+          } catch (error) {
+            const e = new ErrorEvent("error", { message: "my error", error: error });
+            window.dispatchEvent(e);
+          }
+          console.log(i);
+        }
+      }
+      getapi(api_url);
+      // async function getSubreddits(res_url) {
+      //   const response = await fetch(res_url).then((d) => d.json());
+      //   res = Object.values(response);
+      //   for (let index in res) {
+      //     subreddit.push(res[index]);
+      //   }
+      // }
+      // getSubreddits(res_url);
+
+      // if (res.length !== 0) {
+      //   start();
+      //   getapi(api_url);
+      // }
+
+      setTimeout(() => {
+        if (hls_urls.length === 0) {
+          console.log(found);
+          window.location.reload();
+        }
+      }, 2000);
+
+
+
+      function next() {
+        j++;
+        if (j >= hls_urls.length) {
+          window.location.reload();
+        }
+        playM3u8(hls_urls[j]);
+        video.play();
+      }
+
+      function load() {
+        console.log(hls_urls[j], j);
+        navigator.clipboard.writeText(
+          "https://redditsave.com/info?url=" + hls_urls[j]
+        );
+      }
+      function sound() {
+        console.log("found");
+        let sound = $('video').prop('muted');
+        const condition = (sound === true) ? false : true;
+        console.log(condition);
+        $('video').prop('muted', condition);
+        if (condition === true) {
+          $('#font').removeClass('fa-volume-up').addClass('fa-volume-off');
+        }
+        else {
+          $('#font').removeClass('fa-volume-off').addClass('fa-volume-up');
+
+        }
+      }
+      let data = JSON.stringify({ [random]: "IndianDankMemes" });
+      $.ajax({
+        type: 'PATCH',
+        url: 'https://xeroxcenter-site-default-rtdb.firebaseio.com/subreddits.json',
+        data: data,
+        processData: false,
+        contentType: 'application/merge-patch+json',
+      });
+      // const res = $.ajax({
+      //   type: 'GET',
+      //   url: 'https://xeroxcenter-site-default-rtdb.firebaseio.com/subreddits.json',
+      // });
+      // console.log(res.responseText);
+
+      // setTimeout(() => {
+      //   console.log(res);
+
+      // }, 5000);
+      // console.log(res);
+    </script>
+  </div>
+</body>
+
+</html>
