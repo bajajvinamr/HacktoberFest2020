@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Rupayan Roy](https://github.com/Rup-Royofficial)<br/>
+Place: Kalyani<br/>
+About: 3rd Year Student at JISCE<br/>
+</br>
