@@ -615,7 +615,13 @@ About: Python + Digitalocen = Life<br/>
 Name: [Devanshika Jha](https://github.com/error404-afk1)<br/>
 Place: Haryana<br/>
 About: Student of Bio Technology <br/>
-</br>Name: [Fernanda Ramadhan](https://github.com/fernanda322)<br/>
+</br>
+Name: [Fernanda Ramadhan](https://github.com/fernanda322)<br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Pranav Kumar](https://github.com/pranavkumar20)<br/>
+Place: Bihar, India<br/>
+About: Student of Software Enginering <br/>
+</br>
+
