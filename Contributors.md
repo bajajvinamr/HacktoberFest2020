@@ -15,6 +15,10 @@ Name: [Amrita Singha Roy](https://github.com/uzumakinaruto96)<br/>
 Place: India<br/>
 About: SDET in Infosys and I love learning new things<br/>
 <br/>
+Name: [Stella Ewatomi Ladegbaye](https://github.com/LadegbayeStella)<br/>
+Place: Nigeria <br/>
+About: Student <br/>
+<br/>
 Name: [Arshdeep Singh](https://github.com/botarsh)<br/>
 Place: India<br/>
 About: Verto <br/>
