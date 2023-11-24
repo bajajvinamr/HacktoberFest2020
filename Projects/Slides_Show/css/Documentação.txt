@@ -1,0 +1,278 @@
+
+                            Estrutura HTML do slide show
+1 - Organizamos os diretórios e os arquivos
+
+ ° index.html , style.css , images
+
+2- Criar a estrutura básica html
+
+3- Dentro do body criar uma div central que obterá todo o conteúdo , que se fará necessário
+dar um nome de classe para ela. Geralmente a convenção usa o nome class="CONTENT" .
+
+4- Dentro da div central (content), cria-se outra div que envolverá todo o nosso slide.
+
+Esta div também	receberá um class name, e poderá ser o nome que você escolher, a convenção
+
+geralmente sugere class="slides".
+
+5- Dentro da div secundária (slides) , devemos criar o número de inputs correspondente ao
+número de imagens que desejamos por em slide. Cada input deve ter o tipo(type) atributo de valor radio.
+e devem todos sem excessão, ter o mesmo name="valor" , que geralmente sujere a sua categoria ,
+no nosso caso "slide".
+
+Obs : O valor de name , classifica os radios de mesmo nome, sendo de mesmo grupo de radio buttons,o que
+permite que em um mesmo grupo somente um input seja marcado.
+
+Dentro de cada um dos inputs que possuem o type"radio" e name="slide" deve haver um id="NOME-DO-ID".
+
+o id , permitira que o input tenha conexão com a imagens quando selecionado. Cada ID deve ser nomeado e
+
+enumerado com o intuito de uma classificação que permita a interaçao entre o input e a imagem.
+
+6- Ainda dentro da div secundária ,logo á baixo dos inputs , cria-se mais um grupo de divs que terão
+o mesmo número de imagens que desejamos trabalhar em slide. Todas as divs devem ter o atributo class=""
+Com seu devido nome. Obs:a convencção sugere um nome correspondente como (slide).
+
+Obs2 : 	A primeira dive deste grupo de ter uma class a mais, ou seja, ficaria assim : 
+
+class="slide newclass". Então teríamos o número do código à baixo correspondente ao mesmo número de
+imagens : 
+
+<div class="slide">
+
+</div> 
+
+7- Na div secundária dentro de cada div criada que também devem ser em mesmo número dos de imagens,
+colocamos o elemento img , e este deve ter o atributo SRC e o ALT. Um diz ao documento html onde encon-
+trar a imagem e o outro diz um título para a imagem,respectivamente. Oque é uma prática de acessibilidade 
+e de SEO.
+
+O  código se parecerá com isso :
+
+div class="slide s1">
+
+<img src="images/IMG-01.jpg" alt="estrada de madeira ao longo do mar">
+                
+</div>
+
+Obs : O código à cima fica dentro de tudo que construímos até agora e se parece com isso :
+
+<div class="content">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+            <input type="radio" name="slide" id="slide6">
+            <input type="radio" name="slide" id="slide7">
+
+                <div class="slide s1">
+                 <img src="images/IMG-01.jpg" alt="estrada de madeira ao longo do mar">
+                </div>
+
+                <div class="slide">
+                 <img src="..." alt="...">
+                </div>
+
+                <div class="slide">
+                 <img src="..." alt="...">
+                </div>
+
+                <div class="slide">
+                  <img src="..." alt="...">
+                </div>
+
+                <div class="slide">
+                  <img src="..." alt="...">
+                </div>
+
+                <div class="slide">
+                  <img src="..." alt="...">
+                </div>
+
+                <div class="slide">
+                  <img src="..." alt="...">
+                </div>
+            
+
+        </div>
+
+</div>
+
+
+Obs : É necessário que pelomenos um dos slides estejam marcados,para que a página ao ser carregada mostre
+ao menos uma opção.Para isso o primeiro slide deve ter o atributo checked.
+========================================================================================================
+8 - Neste passo nós encerraremos nossa estrutura html. Colocamos um div tereciária(terceira div),entre
+a primeira e a segunda e dentro desta div colocamos as labels, e estas devem ser em mesmo número das
+imagens que desejamos trabalhar em slides. Cada label com o atributo FOR ligado ao ID de cada imagem.
+O código das labels se parecerá com isso :
+
+           <div class="navigation">
+
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+                <label for="slide5"></label>
+                <label for="slide6"></label>
+                <label for="slide7"></label>
+
+            </div>
+
+
+Obs : A div deve ter sua class atributo, para fins de estilização. É uma boa prática colocarmos o nome
+do atributo class relacinado à sua função, que no nosso caso é o navigation (navegação).	
+===========================================================================================================
+
+                        Estrutura CSS do slide show
+1- Começamos essa seção zerando as estiliazações padrão do navegador que coloca automaticamente margens prede
+finidas então zeramos a margem.
+° Em seguida retiramos o preechimento interno , que são os peddings.
+° Logo após incerimos a altura maxima da view port através da propriedade height, e a largura máxima da janela 
+da janela do navegador também e isso fazemos por meio da propriedade width.
+O código fica parecido com isso :
+                        body{
+    margin: 0%;
+    padding: 0% ;
+    height:100vh;
+    width:100vw;
+}
+
+2- Em seguida podemos definir a cor de fundo de nosso slide que nos adiantaria e muito nossa arte.
+aplicamos entaão nosso background com o valor linear-gradient com os graus e cores desejadas,
+e em nosso exemplo terá o seguinte valor : (90deg,#973debc7 1%,#f3c956 99%); . O código se pare-
+cerá com isso :
+
+body{
+    margin: 0%;
+    padding: 0% ;
+    height:100vh;
+    width:100vw;
+
+    background: linear-gradient(90deg,#973debc7 1%,#f3c956 99%);
+}
+
+================================================================================================
+2- Continuamos a nossa estiliazação trabalhando com no nosso content, no qual está contido todo
+o nosso conteúdo e que recebe uma classe com este nome contido em nossa div priparia.
+
+nosso content receberá um atributo de altura (height) com a altura de 520px, sua largura (width) 
+de 935px e  um border-radius de 20px. Logo em serguida colocamos um atributo chamado overflow com
+seu valor hidden e também um atributo position com o seu valor absolute;
+
+Explicando os atributos e seus valorres :
+
+O atributo height determina a altura , seu valor é dado em pixels, onde o número inteiro é utili
+zado. Quanto maior o número maior a altura, e quanto menor o número menor a altura.
+
+O atributo width determina a largura, onde seu valor também pode ser dade em pixels e onde o 
+número inteiro é utilizado. Quanto maior o número maior a largura, e quanto menor o número menor 
+a largura.
+
+O atributo border radius determina o quando a borda de um elemento será arredondada,seus valorres
+também são em pixels e seguem as mesmas especificações anteriores.
+
+O atributo overflow determina  que um elemento não deve ultrapassar um determinado limite
+e seu valor hidden oculta tudo o que tenta ultrapassar um limite especificado.
+
+O atributo position ele permite que você posicione um elemento aonde você quiser na tela. Ele deve vir
+seguido do atributo top que vai coloca-lo uma posição ao topo que no nosso caso 50%, e também deverá
+ser seguido do atributo left que vai dimencionalo à esquerda que nosso caso também é 50%
+
+
+Obs  : Nessa configuração definida, a div conten está à 5% abaixo do topo e 50% à esquerda oque deixa ela 
+descentralizada. Para que isso seja corrigido devemos utilizar a propriedade :
+
+Transnform e seu atributo translate(). E esse atributo move o elemento em seu próprio eixo.
+
+ela deve ser declarada nese caso da seguinte maneira : 
+
+Transnform : translate(-50% , -50%).
+
+Isso significa que ela será posicionada em seu próprio eixo , e em nosso caso queremos que seja:
+ -50% do eixo X e -50% do eixo Y.
+
+
+Obs : minutos 20:22 do vídeo , como fazer uma slide show
+==========================================================================================================
+
+3 - Mudança de navegação 
+
+O código da classe navigation seria especifimente esse : 
+
+.navigation  {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform:translate(-50%) ;
+    display: flex   ;
+}
+
+.bar {
+    width: 20px;
+    height: 17px;
+    border: 2px solid #ffff; 
+    margin: 6px;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: .7s;
+}
+
+.bar:hover{
+    background-color: white;
+}
+
+input{
+    display:none;
+}
+
+.slides{
+    display: flex;
+    width:700%;
+    height:100%;
+}
+
+.slide{
+    width: 15%;
+    transition: .7s;
+}
+
+.slide img {
+
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+ #slide2:checked ~ .s1 {
+     margin-left: -15%;
+ }
+
+ #slide3:checked ~ .s1 {
+    margin-left: -30%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -45%;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+#slide6:checked ~ .s1 {
+    margin-left: -75%;
+}
+
+#slide7:checked ~ .s1 {
+    margin-left: -90%;
+}
+
+
+
+
+
