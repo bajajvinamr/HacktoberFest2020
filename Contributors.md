@@ -1,4 +1,7 @@
-
+Name: [Santhosh Reddy](https://github.com/Santosh1608)<br/>
+Place: Kadiri,Andhra Pradesh,India<br/>
+About: Coding Enthusiast,Web developer<br/>
+<br/>
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
 About: A passionate frontend developer, programmer and Photographer.
