@@ -1,8 +1,8 @@
-# Hacktoberfest-2020
-https://hacktoberfest.digitalocean.com/
+# Hacktoberfest-2023
+https://hacktoberfest.com/
 
 ## How to contribute
-Submit your pull request here for Hacktoberfest-2020 in any language you prefer, if language folder not present, create one as a part of it, after script add your name and GitHub profile into Contributors.md file.
+Submit your pull request here for Hacktoberfest-2023 in any language you prefer, if language folder not present, create one as a part of it, after script add your name and GitHub profile into Contributors.md file.
 
 Hacktoberfest is a month long virtual festival event to celebrate open source contributions presented by DigitalOcean and DEV. It is the easiest way to get into open source!
 
@@ -32,7 +32,7 @@ About: Short Intro (Optional)
 *Make sure you have a GitHub account. In case you don't have one, you can create your account by visiting https://github.com/ and clicking on ``Sign up`` option at the top right corner.*
 
 ### 1. Register yourself for Hacktoberfest
-###### Link to register: https://hacktoberfest.digitalocean.com/
+###### Link to register: https://hacktoberfest.com/
 Click on "Start Hacking" and add your GitHub account.
 
 ![Screenshot-HFST](https://github.com/bajajvinamr/HacktoberFest2020/blob/master/1.png)
