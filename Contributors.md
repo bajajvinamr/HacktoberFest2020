@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Aaditya](https://github.com/aadityasethi)
+Place: Pune
+About: High school student, interested in web development and game developement. 
+</br>
