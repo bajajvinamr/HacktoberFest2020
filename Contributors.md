@@ -619,3 +619,6 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Jainesh Jain](https://github.com/Jainesh18) <br/>
+Place: Gujarat,India <br/>
+About: Final year C.S.E student.Techthusiast + Python + React + Bibliophile <br/>
