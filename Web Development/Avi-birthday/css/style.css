@@ -100,3 +100,12 @@ aside.kfc img {
   width: 40%;
   margin-bottom: 30px;
 }
+h1 {
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from { text-shadow: 0 0 3px #ff4da6; }
+  to { text-shadow: 0 0 20px #26bfe9; }
+}
+
