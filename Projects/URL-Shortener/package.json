@@ -1,0 +1,28 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "convert-radix64": "^0.2.0",
+    "express": "^4.15.2",
+    "firebase": "^3.7.0",
+    "hasha": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishz/URL-Shortener.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rishz/URL-Shortener/issues"
+  },
+  "homepage": "https://github.com/rishz/URL-Shortener#readme",
+  "description": ""
+}
