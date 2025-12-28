@@ -619,3 +619,6 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Parth Cheulkar](https://github.com/ParthCheulkar)<br/>
+Place: Mumbai<br/>
+About: A computer engineering student as well as aspiring front end developer <br/>
