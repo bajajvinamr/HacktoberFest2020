@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Prastab Ghimire](https://github.com/Prastab)<br/>
+Place: Nepal<br/>
+About: Student and tech enthusiast<br/>
+<br/>
