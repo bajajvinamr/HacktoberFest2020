@@ -1,0 +1,20 @@
+class Temperature:
+    def __init__(self,temp):
+        self.temp = temp
+        
+    def convertFahrenheit(self):
+        return ((self.temp*(9/5))+32)
+    
+    def convertCelsius(self):
+        return ((5/9)*(self.temp-32))
+    
+t = input('Enter the temperature')
+c = int(t[:-1])
+abre = t[-1]
+a = Temperature(c)
+if abre.upper()=='C':
+    print('Temperature in Fahrenheit:',a.convertFahrenheit())
+elif abre.upper()=='F':
+    print('Temperature in Fahrenheit:',a.convertCelisus())
+else:
+    print('Error')
