@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>Name: [Brennen Lilya] (https://github.com/LarsTheHacker)<br/>
+Place: Spokane, WA, USA<br/>
+About: I want to speak fluent computer. :)<br/>
+</br>
