@@ -1,0 +1,94 @@
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+.displayflex{
+    display: flex;
+}
+.verticalcenter{
+    align-items: center;
+    align-content: center;
+}
+
+.navbar{
+    width: 100vw;
+    height: 50px;
+    /* color: orangered; */
+    background-color: grey;
+}
+
+
+.searchbar{
+    border: 1px solid black;
+    height: 30px;
+    width: 400px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    /* justify-content: center; */
+    
+
+}
+.searchinput:focus{
+    outline: none;
+}
+.searchinput{
+    border: none;
+    margin-left: 5px;
+    width: 230px;
+
+}
+.classlogo{
+    margin-left: 7px;
+    
+}
+.logo{
+    font-size: 30px;
+    /* margin-left: 30px; */
+    margin-top: 9px;
+    font-weight: bold;
+    
+}
+.topbarCenter{
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    margin-right: 22px;
+}
+
+.spacebetween{
+    justify-content: space-between;
+
+}
+.topbarLeft{
+    /* background-color: blue; */
+    width: 150px;
+    justify-content: center;
+    margin-right: 240px;
+}
+.topbarRight{
+    /* background-color: green; */
+    width: 350px;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-top: 7px;
+}
+
+.hometime{
+    justify-content: space-between;
+    
+}
+.topbarimg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.m-10{
+    margin-right: 10px;
+}
+.logosize{
+    font-size: 22px;
+}

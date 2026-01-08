@@ -1,0 +1,101 @@
+.rightbar{
+    flex: 4;
+    /* border: 2px solid red; */
+    position: sticky;
+    height: 500px;
+    /* overflow-y: scroll; */
+    overflow-block: visible;
+
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+::-webkit-scrollbar-track{
+    background-color: transparent
+}
+::-webkit-scrollbar-thumb{
+    /* background-color: rgb(158, 157, 157); */
+    background-color: transparent
+
+}
+
+.giftlogo{
+    width: 50px;
+    height: 50px;
+
+}
+.rightwrappertop{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.rightwrappercenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adphoto{
+    width: 350px;
+    border-radius: 14px;
+    margin-top: 15px;
+    height: 240px;
+}
+.profilelogosize{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profilename{
+    display: flex;
+    align-items: center;
+}
+.heading{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.profilelogosize{
+    
+    /* position: relative; */
+}
+.greendot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    top: -2px;
+    right: 0;
+    border: 2px solid white;
+    
+
+}
+.rightbarfriendlist{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.rightbarfriend{
+    display: flex;
+    align-items: center;
+}
+.rightbarprofilecontainer{
+    margin: 12px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
