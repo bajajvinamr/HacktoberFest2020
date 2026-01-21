@@ -1,0 +1,48 @@
+package de.vogella.algorithm.quicksort;
+
+public class QuickSort {
+    private int[] numbers;
+    private int number;
+
+    public void sort(int[] values) {
+        this.numbers = values;
+        number = values.length;
+        quicksort(0, number - 1);
+    }
+
+    private void quickSort(int low, int high) {
+        int i = low, j = high;
+        
+        int pivot = numbers[(low + high) / 2];
+
+        // Divide into two lists
+        while (i <= j) {
+           
+            while (numbers[i] < pivot) {
+                i++;
+            }
+           
+            while (numbers[j] > pivot) {
+                j--;
+            }
+
+            
+            if (i <= j) {
+                exchange(i, j);
+                i++;
+                j--;
+            }
+        }
+        // Recursion
+        if (low < j)
+            quickSort(low, j);
+        if (i < high)
+            quicksort(i, high);
+    }
+
+    private void exchange(int i, int j) {
+        int temp = numbers[i];
+        numbers[i] = numbers[j];
+        numbers[j] = temp;
+    }
+}
