@@ -7,6 +7,11 @@ Name: [Vinamr Bajaj](https://github.com/bajajvinamr)<br/>
 Place: India<br/>
 About: Sophomore at IIITL<br/>
 <br/>
+Name: [Manasi Saiba](https://github.com/manasisaiba)<br/>
+Place: India<br/>
+About: BACKEND DEVELOPER<br/>
+<br/>
+
 Name: [Anish Kamath](https://github.com/anishkamath)<br/>
 Place: India<br/>
 About: student<br/>
