@@ -78,6 +78,13 @@ Name: [Niharika Kabra](https://github.com/feyre-2001)<br/>
 Place: India<br/>
 About: A developer rookie and machine learning enthusiast from Indian Institute of Information Technology, Lucknow.<br/>
 <br/>
+Name: Lakshit
+Place: India
+About: computer applications student
+<br />
+Name: Prastab
+Place: Nigeria
+About: Project Manager and C++ Enthusiast
 Name: [Prastab Ghimire](https://github.com/Prastab)<br/>
 Place: Nepal<br/>
 About: Student and tech enthusiast<br/>
