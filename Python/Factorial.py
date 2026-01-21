@@ -1,5 +1,8 @@
 
-
+def fact(n):
+   if n==0:
+      return 1
+   return n*fact(n-1)
 
 
 
@@ -14,6 +17,8 @@ if n < 0:
 elif n == 0:
    print("The factorial of 0 is 1")
 else:
-   for i in range(1,num + 1):
-       factorial = factorial*i
-   print("The factorial of",n,"is",factorial)
+#    for i in range(1,num + 1):
+#        factorial = factorial*i
+#    print("The factorial of",n,"is",factorial)
+
+     print("factorial of the number is :"+fact(n))
