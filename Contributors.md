@@ -1,4 +1,7 @@
-
+Name: [Pallav Dubey](https://github.com/Pallav221b)</br>
+Place: Varanasi,India</br>
+About: CSE at IIIT Kalyani.
+<br/>
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
 About: A passionate frontend developer, programmer and Photographer.
