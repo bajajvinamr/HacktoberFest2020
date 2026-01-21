@@ -1,0 +1,119 @@
+body{
+    font-family: 'Muli', sans-serif;
+    background-color: lightskyblue;
+    font-size: 18px;
+    background: url(wallp.jpg);
+    background-size: contain;
+}
+i{
+    color: aliceblue;
+}
+.news{
+    margin: 100px;
+    padding:30px;
+    background-color: darkcyan;
+    color: #0085d8;
+    width: 85%;
+    display: none;
+    border-radius: 10px;
+    background-color:rgba(255,255,255,0.91);
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+}
+.news ul{
+    padding:0px 500px;
+    align-content: flex-end;
+}
+h2{
+    color: aliceblue;
+    background-color: #0085d8;
+    border-radius: 7px;
+    padding:12px 25px;
+}
+button{
+    padding:12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: chocolate;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+ .floating-menu {
+    font-family: sans-serif;
+    background-image: linear-gradient(#000,#4d4d4d);
+    padding: 5px;
+    z-index: 100;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+  }
+  .floating-menu a, 
+  .floating-menu h3 {
+    font-size: 0.9em;
+    display: block;
+    margin: 0 0.5em;
+    color: white;
+    text-decoration: none;
+  }
+.floating-menu ul{
+    display: inline-flex;
+    margin:25px auto;
+    text-align: center;
+}   
+.floating-menu ul li{
+    list-style: none;
+    margin:0 50px;
+    cursor: pointer;
+}
+.floating-menu ul li p{
+    margin-top: 15px;
+    font-size: 10px;
+    color:#fff;
+}
+
+#slideshow {
+  overflow: hidden;
+  height:200px;
+  width:200px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width:800px;
+  -webkit-animation: slide 8s ease infinite;
+}
+
+.slide {
+  float: left;
+  width:200px;
+  height: 200px;
+}
+
+.slide:nth-child(1) {
+  background: #D93B65;
+}
+
+.slide:nth-child(2) {
+  background: #037E8C;
+}
+
+.slide:nth-child(3) {
+  background: #36BF66;
+}
+
+.slide:nth-child(4) {
+  background: #D9D055;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -200;}
+  50% {margin-left: -200px;}
+  60% {margin-left: -400px;}
+  70% {margin-left: -400px;}
+  80% {margin-left: -600px;}
+  90% {margin-left: -600px;}
+}
