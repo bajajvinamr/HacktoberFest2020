@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>Name: [Diogo Bruno Rondão](https://github.com/diogobruno91)<br/>
+Place: Brazil <br/>
+About: Web Developer <br/>
+</br>
