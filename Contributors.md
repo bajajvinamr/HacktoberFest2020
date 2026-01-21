@@ -1,4 +1,7 @@
-
+Name: [Kameron Bui](https://www.github.com/kameronbui)</br>
+Place: Washington, United States</br>
+About: Student</br>
+</br>
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
 About: A passionate frontend developer, programmer and Photographer.
