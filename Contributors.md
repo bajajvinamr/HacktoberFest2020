@@ -619,3 +619,8 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>
+Name: [Parikshit Rathore](https://github.com/parikshitrath)
+Place: India<br/>
+About: A passionate developer.<br/>
+</br>
