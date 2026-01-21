@@ -1,0 +1,250 @@
+<html>
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script src="mousetrap.min.js" charset="utf-8"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: black;
+    }
+
+    #video {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      margin: auto;
+      max-height: 100%;
+      max-width: 100%;
+    }
+
+    .float {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      bottom: 80px;
+      background-color: #0c9;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      box-shadow: 2px 2px 3px #999;
+    }
+
+    .my-float {
+      margin-top: 20px;
+      right: 40px;
+    }
+
+    .my-float-left {
+      margin-top: 20px;
+      left: 40px;
+    }
+
+    .my-float-mid {
+      margin-top: 20px;
+      left: 180px;
+    }
+  </style>
+  <title>M3U8 Player running...</title>
+</head>
+
+<body>
+  <div class="main">
+
+    <video id="video" style="width: 100vw; height: 100vh;" controls="" autoplay loop></video>
+    <a onclick="sound()" class="float my-float" id="float-btn"><i id="font"
+        class="fa fa-volume-up fa-4x my-float"></i></a>
+
+    <a onclick="next()" class="float my-float-left" id="float-btn"><i id="font"
+        class="fa fa-arrow-right fa-4x my-float"></i></a>
+    <button onclick="load()" class="float my-float-mid" id="float-btn"><i id="font"
+        class="fa fa-download fa-4x my-float"></i></button>
+    <script>
+      var video = document.getElementById("video");
+      var j = 0;
+      var hls_urls = ["https://v.redd.it/0o68nqu420a81/HLSPlaylist.m3u8?a=1644051308%2CMGM3NzViZmE1MzQzMmNjMmIxMDFjM2M5ZWIyNTlkNDg5MDEzMTI4MzZjMjQwZDNkMjllZjQxZjhiZjY4NGUwMw%3D%3D&amp;v=1&amp;f=sd"];
+      var res_url = 'https://xeroxcenter-site-default-rtdb.firebaseio.com/subreddits.json';
+      var res;
+      function playM3u8(url) {
+        if (Hls.isSupported()) {
+          video.volume = 0.3;
+          var hls = new Hls();
+          var m3u8Url = decodeURIComponent(url);
+          hls.loadSource(m3u8Url);
+          hls.attachMedia(video);
+          hls.on(Hls.Events.MANIFEST_PARSED, function () {
+            video.play();
+          });
+          document.title = url;
+        } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+          video.src = url;
+          video.addEventListener("canplay", function () {
+            video.play();
+          });
+          video.volume = 0.3;
+          document.title = url;
+        }
+      }
+
+      function playPause() {
+        video.paused ? video.play() : video.pause();
+      }
+
+      function volumeUp() {
+        if (video.volume <= 0.9) video.volume += 0.1;
+      }
+
+      function volumeDown() {
+        if (video.volume >= 0.1) video.volume -= 0.1;
+      }
+
+      function seekRight() {
+        video.currentTime += 5;
+      }
+
+      function seekLeft() {
+        video.currentTime -= 5;
+      }
+
+      function vidFullscreen() {
+        if (video.requestFullscreen) {
+          video.requestFullscreen();
+        } else if (video.mozRequestFullScreen) {
+          video.mozRequestFullScreen();
+        } else if (video.webkitRequestFullscreen) {
+          video.webkitRequestFullscreen();
+        }
+      }
+
+      playM3u8(window.location.href.split("#")[1]);
+      $(window).on("load", function () {
+        $("#video").on("click", function () {
+          this.paused ? this.play() : this.pause();
+        });
+        Mousetrap.bind("space", playPause);
+        Mousetrap.bind("up", volumeUp);
+        Mousetrap.bind("down", volumeDown);
+        Mousetrap.bind("right", seekRight);
+        Mousetrap.bind("left", seekLeft);
+        Mousetrap.bind("f", vidFullscreen);
+      });
+
+      subreddit = ["IndianDankMemes", "BikiniBottomTwitter", "AdviceAnimals", "MemeEconomy",
+        "ComedyCemetery", "memes", "PrequelMemes", "PewdiepieSubmissions",
+        "terriblefacebookmemes", "funny", "wholesomememes", "raimimemes",
+        "historymemes", "okbuddyretard", "im14andthisisdeep", "puns", "nnn",
+        "Community", "Puns", "IndianMeyMeys", "IndiaSpeaks", "IndianMemeTemplates", "indiameme",
+        "MemeAlleyway", "MemeChimera", "memeconvention", "india", "funnyindianvideo"
+        , "Indiafunny", "meme", "MemePiece", "dankvideos", "PlayItAgainSam",
+
+      ];
+      var randomInt = Math.floor(Math.random() * subreddit.length);
+      var random = Math.floor(Math.random() * 1000);
+      var sectionInt = Math.floor(Math.random() * 5);
+      sections = ["top", "", "new", "hot", "rising"];
+      console.log(subreddit[randomInt], sections[sectionInt]);
+
+      const api_url = `https://www.reddit.com/r/${subreddit[randomInt]}/${sections[sectionInt]}.json`;
+
+
+      async function getapi(url) {
+        const response = await fetch(url).then((d) => d.json());
+        for (let i = 0; i < response["data"]["children"].length; i++) {
+          try {
+            console.log(
+              response["data"]["children"][i]["data"]["media"]["reddit_video"][
+              "hls_url"
+              ],
+              "hls url"
+            );
+            hls_urls.push(
+              response["data"]["children"][i]["data"]["media"]["reddit_video"][
+              "hls_url"
+              ]
+            );
+            console.log(
+              response["data"]["children"][i]["data"]["permalink"],
+              "permalink"
+            );
+          } catch (error) {
+            const e = new ErrorEvent("error", { message: "my error", error: error });
+            window.dispatchEvent(e);
+          }
+          console.log(i);
+        }
+      }
+      getapi(api_url);
+      // async function getSubreddits(res_url) {
+      //   const response = await fetch(res_url).then((d) => d.json());
+      //   res = Object.values(response);
+      //   for (let index in res) {
+      //     subreddit.push(res[index]);
+      //   }
+      // }
+      // getSubreddits(res_url);
+
+      // if (res.length !== 0) {
+      //   start();
+      //   getapi(api_url);
+      // }
+
+      setTimeout(() => {
+        if (hls_urls.length === 0) {
+          console.log(found);
+          window.location.reload();
+        }
+      }, 2000);
+
+
+
+      function next() {
+        j++;
+        if (j >= hls_urls.length) {
+          window.location.reload();
+        }
+        playM3u8(hls_urls[j]);
+        video.play();
+      }
+
+      function load() {
+        console.log(hls_urls[j], j);
+        navigator.clipboard.writeText(
+          "https://redditsave.com/info?url=" + hls_urls[j]
+        );
+      }
+      function sound() {
+        console.log("found");
+        let sound = $('video').prop('muted');
+        const condition = (sound === true) ? false : true;
+        console.log(condition);
+        $('video').prop('muted', condition);
+        if (condition === true) {
+          $('#font').removeClass('fa-volume-up').addClass('fa-volume-off');
+        }
+        else {
+          $('#font').removeClass('fa-volume-off').addClass('fa-volume-up');
+
+        }
+      }
+
+      // const res = $.ajax({
+      //   type: 'GET',
+      //   url: 'https://xeroxcenter-site-default-rtdb.firebaseio.com/subreddits.json',
+      // });
+      // console.log(res.responseText);
+
+      // setTimeout(() => {
+      //   console.log(res);
+
+      // }, 5000);
+      // console.log(res);
+    </script>
+  </div>
+</body>
+
+</html>
