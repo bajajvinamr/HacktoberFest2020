@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Maniteja Pratha](https://github.com/Manitej66)<br/>
+Place: India<br/>
+About: Hacktoberfest<br/>
+<br/>
