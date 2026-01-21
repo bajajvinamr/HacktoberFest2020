@@ -1,4 +1,3 @@
-
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
 About: A passionate frontend developer, programmer and Photographer.
@@ -44,7 +43,11 @@ About: This a month for HacktoberFest<br/>
 <br/>
 Name: [Mansha Kaur](https://github.com/error400-del)<br/>
 Place: Canada<br/>
-About: I love open source <3 <br/>
+About: I love open source &lt;3 <br/>
+<br/>
+Name: [Nabeel Khan](https://github.com/n4beel)<br/>
+Place: Pakistan<br/>
+About: Passionate Full Stack Engineer <br/>
 <br/>
 Name: [Venkata Raman](https://github.com/venkataraman123)<br/>
 Place: India<br/>
@@ -424,7 +427,7 @@ About: ML Developer,Google assistant Developer,Alexa Developer.<br/>
 <br/>
 Name: [Akshat Bhardwaj](https://github.com/akshatb622)<br/>
 Place: India<br/>
-About: Sophomore at IIITL<br/> 
+About: Sophomore at IIITL<br/>
 <br/>
 Name: [Ankur sharma](https://github.com/ankur2825)<br/>
 Place: India<br/>
@@ -432,7 +435,7 @@ About: aspiring flutter developer<br/>
 <br/>
 Name: [Akshat Bhardwaj](https://github.com/akshatb622)<br/>
 Place: India<br/>
-About: Sophomore at IIITL<br/> 
+About: Sophomore at IIITL<br/>
 Name: [Rohit Kumar](https://github.com/RohitKumar-200)<br/>
 Place: India<br/>
 About: Web Developer<br/>
@@ -585,7 +588,7 @@ Place: Indonesia<br/>
 About: Loveyourself <br/>
 Name: [Mahima Sawant](https://github.com/mahimasawant)<br/>
 Place: India
-About: Web developer 
+About: Web developer
 <br/>
 Name: [Yash Shah](https://github.com/YashShah85)</br>
 Place: Ahmedabad</br>
