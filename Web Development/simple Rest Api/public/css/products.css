@@ -1,0 +1,58 @@
+.products {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.product__card {
+  width: 20rem;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  text-align: center;
+  margin: 1rem;
+}
+
+.product__card-image {
+  width: 19.85rem;
+  object-fit: contain;
+}
+
+.product__card-title {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.product__card-price {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.product__card-desc {
+  padding: 0.5rem;
+  text-transform: capitalize;
+}
+
+.product__card-author {
+  color: grey;
+  text-transform: capitalize;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+.product__card-actions {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.product__details-btn {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid goldenrod;
+}
+
+.product__add-btn {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid green;
+}
