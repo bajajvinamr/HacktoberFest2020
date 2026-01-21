@@ -1,0 +1,142 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-y: hidden;
+}
+p.title {
+  font-size: 4vh;
+  margin: 0 0;
+}
+.img {
+  height: 30vh;
+  width: 100vw;
+}
+p.content {
+  margin: 5px 0 28px 0;
+  font-size: 2.6vh;
+}
+@import "{{ site.theme }}";
+
+header {
+  display: none;
+}
+.btn,
+btn1 {
+  margin-top: 0px;
+  margin-bottom: 127px;
+  height: 67px;
+  width: 67px;
+  border-radius: 110%;
+  border: none;
+  background-color: dodgerblue;
+}
+
+.fa,
+.fas {
+  font-weight: 900;
+  font-size: 40px;
+  color: black;
+}
+a.next {
+  float: right;
+  margin-top: 0px;
+  margin-bottom: 127px;
+  margin-left: 20px;
+  height: 67px;
+  width: 67px;
+  border-radius: 110%;
+  border: none;
+  background-color: dodgerblue;
+}
+
+span {
+  margin-top: 12px;
+  margin-left: 13px;
+}
+#dis {
+  display: none;
+  height: 100vh;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-y: hidden;
+  }
+  p.title,
+  .img,
+  p.content,
+  .btn,
+  btn1,
+  .fa,
+  .fas,
+  a.next,
+  span {
+    display: none;
+  }
+  p.title {
+    font-size: 4vh;
+    margin: 0 0;
+  }
+  .img {
+    height: 30vh;
+    width: 100vw;
+  }
+  p.content {
+    margin: 5px 0 28px 0;
+    font-size: 2.6vh;
+  }
+
+  .btn,
+  btn1 {
+    margin-top: 0px;
+    margin-bottom: 127px;
+    height: 67px;
+    width: 67px;
+    border-radius: 110%;
+    border: none;
+    background-color: dodgerblue;
+  }
+
+  .fa,
+  .fas {
+    font-weight: 900;
+    font-size: 40px;
+    color: black;
+  }
+  a.next {
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 127px;
+    margin-left: 20px;
+    height: 67px;
+    width: 67px;
+    border-radius: 110%;
+    border: none;
+    background-color: dodgerblue;
+  }
+
+  span {
+    margin-top: 12px;
+    margin-left: 13px;
+  }
+
+  #dis {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/*hi*/
