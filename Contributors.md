@@ -619,3 +619,6 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Mitarth Jain](https://github.com/mitarthjain)<br/>
+Place: India<br/>
+About: Competitive Coder<br/>
