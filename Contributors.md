@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Meghna Singh](https://github.com/Meghna2080)<br/>
+Place: Chandigarh, India<br/>
+About: Sophomore at UIET,Panjab University, Graphic Designer, Coder and tech enthusiast<br/>
+<br/>
