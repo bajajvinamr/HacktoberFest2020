@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Kunal Rustagi](https://github.com/kunalrustagi08)<br/>
+Place: India<br/>
+About: E&TC engineer <br/>
+<br/>
