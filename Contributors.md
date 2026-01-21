@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Ganesh Majhi](https://github.com/ganeshmajhi)<br/>
+Place: Sambalpur, Odisha<br/>
+About: Software Developer at Vueken <br/>
+</br>
