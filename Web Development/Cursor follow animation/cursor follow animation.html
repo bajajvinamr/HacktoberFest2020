@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cursor follow animation.css">
+</head>
+<!-- Add the whole code in body to your code in code body -->
+<body>
+    <div class="content">
+    <h1>Cursor follow on Mouse Move</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat repellendus dolor ea nihil optio corporis suscipit illum vitae quos error facere itaque in maiores, aliquid dignissimos deleniti perferendis, mollitia rerum.</p>
+    </div>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <script>
+        var cursor =document.querySelector(".cursor");
+        var cursor2 =document.querySelector(".cursor2");
+        document.addEventListener("mousemove" , function(e){
+            cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top:" + e.clientY + "px;";
+        })
+    </script>
+
+</body>
+</html>
