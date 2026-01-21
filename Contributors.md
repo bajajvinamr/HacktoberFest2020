@@ -1,3 +1,7 @@
+Name: [Dr.Neha Tuli](https://github.com/nehatuli11)</br>
+Place: Rajpura,Punjab,India</br>
+About: AR/VR Developer 
+<br/>
 
 Name: [Haseeb Khan](https://www.github.com/mhkasif)</br>
 Place: Karachi,Pakistan</br>
