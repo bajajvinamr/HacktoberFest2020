@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Simple Circuit</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Simple Circuits</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            All Circuits
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#first">Resistance circuit</a></li>
+                            <li><a class="dropdown-item" href="#">Circuit 2</a></li>
+                            <!-- <li><hr class="dropdown-divider"></li> -->
+                            <li><a class="dropdown-item" href="#">Citcuit 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container d-flex mt-2 w-100 border border-3 rounded">
+        <div id="first" class="container m-2">
+            <h1>Calculate</h1>
+            <h3>Resistance, Voltage , current</h3>
+            <div class="alert alert-warning" role="alert">
+                Enter Each Data in SI units!
+            </div>
+            <div class="container">
+                <div class="col-md-4 m-2">
+                    <label for="inputState" class="form-label h5">First Data</label>
+                    <select id="data1" class="form-select">
+                        <option selected>Resistance</option>
+                        <option>Voltage</option>
+                        <option>Current</option>
+                    </select>
+
+
+                </div>
+                <div class="mb-2">
+                    <label for="exampleFormControlInput1" class="form-label">Enter First Data</label>
+                    <input type="number" class="form-control" id="value-1" placeholder="00">
+                </div>
+
+                <hr class="dropdown-divider">
+
+                <div class="col-md-4 m-2">
+                    <label for="inputState" class="form-label h5">Second Data</label>
+                    <select id="data2" class="form-select">
+                        <option selected>Voltage</option>
+                        <option>Current</option>
+                        <option>Resistance</option>
+                    </select>
+                </div>
+                <div class="mb-2">
+                    <label for="exampleFormControlInput1" class="form-label">Enter Second Data</label>
+                    <input type="number" class="form-control" id="value-2" placeholder="00">
+                </div>
+                <button type="button" onclick="calculate()" id="btn" class="btn btn-success mb-3">Calculate</button>
+                <div class="container m-2 border bg-light rounded">
+                    <h3>Ans:</h3>
+                    <div id="ans" class="mb-2 h2">
+                        00
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <footer class="page-footer font-small mt-5 bg-light">
+        <div class="footer-copyright text-center py-3">
+            © 2021 Copyright: Rohit Gupta
+        </div>
+    </footer>
+
+
+    <script>
+        document.getElementById('btn').addEventListener("click", calculate);
+
+
+
+
+        function calculate() {
+            const a = document.getElementById('data1').value;
+            const b = document.getElementById('data2').value;
+            const x = document.getElementById('value-1').value;
+            const y = document.getElementById('value-2').value;
+            ans = document.getElementById('ans');
+            const re = "Resistance";
+            const cu = "Current";
+            const vo = "Voltage";
+
+
+            if (a == b) {
+                ans.innerHTML = "Both the datatype are same can Claculate.";
+                return;
+            }
+
+            if(x==0 && y==0){
+                ans.innerHTML = "Enter atleast 1 data.";
+                return;
+            }
+
+            
+
+            if (a == re && b == vo) {
+                let an = y / x;
+                if (x == 0) {
+                    an = "Short Circuit (Infinite Current)";
+                    ans.innerHTML = `Current = ${an}`;
+                    return;
+                }
+                ans.innerHTML = `Current = ${an} <i> Ampere</i>`;
+                return;
+            }
+            if (a == vo && b == re) {
+                let an = x / y;
+                if (y == 0) {
+                    an = "Short Circuit (Infinite Current)";
+                    return;
+                }
+                ans.innerHTML = `Current = ${an} <i>Amperes</i>`;
+                return;
+            }
+            if (a == re && b == cu || a == cu && b == re) {
+                let an = x * y;
+                ans.innerHTML = `Voltage = ${an} <i> Volts</i>`;
+                return;
+            }
+            if (a == vo && b == cu) {
+                let an = x / y;
+                if (y == 0) {
+                    ans.innerHTML = "Open Circuit"
+                    return;
+                }
+                ans.innerHTML = `Resistance = ${an} <i> Ohms</i>`;
+                return;
+            }
+            if (a == cu && b == vo) {
+                let an = y / x;
+                if (x == 0) {
+                    ans.innerHTML = "Open Circuit"
+                    return;
+                }
+                ans.innerHTML = `Resistance = ${an} <i> Ohms</i>`;
+                return;
+            }
+            // console.log(ans);
+
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
