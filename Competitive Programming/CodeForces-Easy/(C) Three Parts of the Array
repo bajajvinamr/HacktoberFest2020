@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main()
+{
+	long long n;
+	cin>>n;
+	long long a[n];
+	for(long long i=0;i<n;i++)
+		cin>>a[i];
+		
+	long long i=0,j=n-1,ls=0,rs=0,mx=0;
+	
+	while(i<=j)
+	{
+		(ls<rs)?ls+=a[i++]:rs+=a[j--];
+		if(ls==rs)
+			mx=max(ls,rs);
+	}
+	cout<<mx<<endl;
+	return 0;
+}
