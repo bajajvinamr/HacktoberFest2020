@@ -618,4 +618,7 @@ About: Student of Bio Technology <br/>
 </br>Name: [Fernanda Ramadhan](https://github.com/fernanda322)<br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
+</br>Name: [Yash Agarwal](https://github.com/yash170106065)<br/>
+Place: IIT Guwahati<br/>
+About: Student of Software Enginering <br/>
 </br>
