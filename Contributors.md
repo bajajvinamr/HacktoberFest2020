@@ -619,3 +619,8 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+</br>
+Name: [Syd645](https://github.com/syd645)<br/>
+Place: United States<br/>
+About: Learning 24/7 <br/>
+</br>
