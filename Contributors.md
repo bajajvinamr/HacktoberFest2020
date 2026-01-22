@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name: [Damue Brandon Bawe] (https://github.com/brandonbawe)</br>
+Place: Douala, Cameroon.</br>
+About: Fullstack web Development student who loves playing with code.</br>
+</br>
