@@ -1,0 +1,112 @@
+{% extends 'blog/basic.html' %}
+{% block css %}
+body{
+      color: white;
+      width: 100%;
+      height: 100%;
+      background-color:  rgb(214, 238, 200);
+}
+
+.card-title{
+    color: black;
+}
+
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: black;
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #b4b2b9;
+}
+
+
+.position-relative {
+    position: relative!important;
+}
+
+.overflow-hidden {
+    overflow: hidden!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(247, 16, 85)!important;
+    background-image: url("https://i.ytimg.com/vi/i-0GoZZS2qw/maxresdefault.jpg");
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.p-3 {
+    padding: 1rem!important;
+}
+.card-title{
+    color: black;
+}
+
+
+{% endblock %}
+{% block body %}
+<header>
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+          <h1 class="display-4 fw-normal">App Development</h1>
+          <p class="lead fw-normal">The rich and interactive experiences we have come to expect on mobile apps have created new standards and expectations for all digital media including the web. The result is websites are evolving to become more app-like in their rich functionality.</p>
+          <a class="btn btn-success" href="/Blog/Contact">Sign Up</a>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+      </div>
+    </header>
+<div class="container ">
+
+<div class="row my-3 mx-5">
+    {% for item in appposts %}
+    <div class="card my-5 mx-3" style="width: 18rem;">
+  <img src="https://www.freecodecamp.org/news/content/images/2021/05/android-app-coding-security.jpg" class="bd-placeholder-img"/>
+  <div class="card-body">
+    <h3 class="card-title">{{item.title}}</h3>
+    <a href="{{item.file.url}}" download class="btn btn-danger mx-2">Download</a><br>
+    
+        <a href="appt/{{item.app_id}}" class="btn btn-primary my-2 ">Go to details</a>
+</div>
+</div>
+    {% endfor %}
+</div>
+</div>
+
+
+<footer class="page-footer font-small mdb-color darken-3 pt-4">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+          <div class="embed-responsive embed-responsive-16by9 mb-4">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/H15uuDMqDK0"  allowfullscreen></iframe>
+          </div>
+  </div>
+    </div>
+      </div>
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+      <a href="https://google.com/"> Google</a>
+    </div>
+
+{% endblock %}

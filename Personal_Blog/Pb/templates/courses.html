@@ -1,0 +1,192 @@
+{% extends 'blog/basic.html' %}
+{% block css %}
+
+
+body {
+    margin: 0;
+    font-family: 'Baloo-Bhai', cursive;
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: white;
+    background-color:  rgb(185, 185, 185) ;
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: rgb(0, 5, 5);
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #b4b2b9;
+}
+
+.position-relative {
+    position: relative!important;
+}
+
+.overflow-hidden {
+    overflow: hidden!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(247, 16, 85)!important;
+    background-image: url("https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxvZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.p-3 {
+    padding: 1rem!important;
+}
+
+
+    .row{
+       color: rgb(0, 0, 0);
+    }
+
+/* main */
+
+.main{
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 2px;
+    
+}
+.card-deck{
+     height: 110%;
+     width: 75%;
+     color: black;
+}
+
+.page-footer{
+          background-color: black;
+          color: white;
+    }
+
+
+.img{
+    width: 50%;
+    height: 100%;
+}
+
+
+
+{% endblock %}
+
+{% block body %}
+    <header>
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+          <h1 class="display-4 fw-normal">Welcome</h1>
+          <p class="lead fw-normal">The Best Way to learn anything is the only way by reading Blogs.</p>
+
+
+        </div>
+
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+      </div>
+    </header>
+
+    <div class="main">
+        
+        <div class="card-deck my-2 mx-5">
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.britannica.com/30/199930-131-B3D1D347/computer.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title">Programming Languages</h3>
+                <p class="card-text">Programming can be done using a variety of computer programming languages, such as JavaScript, Python, and C++. So we will learn programming languages. </p>
+                <a class = "btn btn-success" href ="/Blog/p" role="button">Learn Here</a>
+              </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="https://blog.integral-system.fr/wp-content/uploads/2020/02/000000069038.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">Machine learning </h3>
+                  <p class="card-text">Machine learning is the study of computer algorithms that improve automatically through experience and by the use of data. It is seen as a part of artificial intelligence. So we will learn Machine Learning. </p>
+                  <a class = "btn btn-success" href ="/Blog/mlindex" role="button">Learn Here</a>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="https://image.shutterstock.com/image-photo/business-technology-internet-network-concept-260nw-559460119.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">Web Development</h3>
+                  <p class="card-text">Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.So we will learn Web Dev. </p>
+                  <a class = "btn btn-success" href ="/Blog/webindex" role="button">Learn Here</a>
+                </div>
+              </div>
+              
+              </div>
+
+          <div class="card-deck my-4 mx-5">
+            <div class="card">
+                <img class="card-img-top" src="https://i0.wp.com/www.westagilelabs.com/blog/wp-content/uploads/2021/05/denny-muller-HfWA-Axq6Ek-unsplash.jpg?resize=1200%2C675&ssl=1" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">App Development</h3>
+                  <p class="card-text">Android software development is the process by which applications are created for devices running the Android operating system. Google states that "Android apps can be written using Kotlin, Java, and C++ languages" using the Android software development kit, while using other languages is also possible. </p>
+                  <a class = "btn btn-success" href ="/Blog/appindex" role="button">Learn Here</a>
+                </div>
+              </div>
+            
+              <div class="card">
+                <img class="card-img-top" src="https://s3.amazonaws.com/codechef_shared/download/blog/Data+Structures+and+Algorithms.png" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">Data Structures and Algorithms</h3>
+                  <p class="card-text">A data structure is a named location that can be used to store and organize data. And, an algorithm is a collection of steps to solve a particular problem. Learning data structures and algorithms allow us to write efficient and optimized computer programs.</p>
+                  <a class = "btn btn-success" href ="/Blog/dsaindex" role="button">Learn Here</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="https://assets.entrepreneur.com/content/3x2/2000/1617656858-inteligencia-artificial1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">Artifical Intelligence</h3>
+                  <p class="card-text">Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. Specific applications of AI include expert systems, natural language processing, speech recognition and machine vision.</p>
+                  <a class = "btn btn-success" href ="/Blog/aindex" role="button">Learn Here</a>
+                </div>
+              </div>
+
+
+            </div>
+
+
+    </div>
+
+
+      <footer class="page-footer font-small mdb-color darken-3 pt-4">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-6">
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/H15uuDMqDK0"  allowfullscreen></iframe>
+        </div>
+</div>
+  </div>
+    </div>
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="https://google.com/"> Google</a>
+  </div>
+
+{% endblock %}
