@@ -1,0 +1,12 @@
+import random
+tup=('[-----------]\n[           ]\n[     0     ]\n[           ]\n[-----------]',
+     '[-----------]\n[           ]\n[   0   0   ]\n[           ]\n[-----------]',
+     '[-----------]\n[     0     ]\n[     0     ]\n[     0     ]\n[-----------]',
+     '[-----------]\n[   0   0   ]\n[           ]\n[   0   0   ]\n[-----------]',
+     '[-----------]\n[   0   0   ]\n[     0     ]\n[   0   0   ]\n[-----------]',
+     '[-----------]\n[   0   0   ]\n[   0   0   ]\n[   0   0   ]\n[-----------]',)
+print('THIS IS A DICE SIMULATOR')
+inp='Y'
+while inp:
+    print(tup[random.randint(0,5)])
+    inp=input("Enter ANY KEY to ROLL AGAIN/ or press ENTER to STOP:     ")
