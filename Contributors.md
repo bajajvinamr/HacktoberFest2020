@@ -619,3 +619,7 @@ About: Student of Bio Technology <br/>
 Place: West Jakarta, Indonesia<br/>
 About: Student of Software Enginering <br/>
 </br>
+Name:[Max Burdett](https://github.com/lollygagger)<br/>
+Place: Rochester, NY, USA<br/>
+About: Software Engineering Student at the Rochester Institute of Technology<br/>
+</br>
