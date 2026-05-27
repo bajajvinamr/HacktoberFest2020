@@ -1,0 +1,34 @@
+class Solution {
+
+    static Boolean isSubsetSum(int arr[], int sum) {
+
+        int n = arr.length;
+        Boolean[][] dp = new Boolean[n][sum+1];
+        
+        return solve(n-1,arr , sum , dp);
+        
+    }
+    
+    public static boolean solve(int i , int[] arr , int sum , Boolean[][] dp){
+        if(sum == 0) return true;
+        if(i == 0){
+            if (arr[i] == sum){
+                return true;
+            }
+            return false;
+        }
+        
+        if(dp[i][sum] != null){
+            return dp[i][sum];
+        }
+        
+        boolean nottake = solve(i-1 , arr, sum , dp);
+        
+        boolean take = false;
+        if(arr[i] <= sum){
+            take = solve(i-1, arr , sum-arr[i] , dp);
+        }
+        
+        return dp[i][sum] = nottake||take;
+    }
+}
